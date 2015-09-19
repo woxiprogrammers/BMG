@@ -530,6 +530,7 @@
     width: 20%;
     margin: 0;
     height: 60px;
+    float: left;
 }
 
 .widget-menu .navbar-nav > li a{
