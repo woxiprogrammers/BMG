@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>myBMG Dashboard</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bmg/styles.css" rel="stylesheet">
+<link href="css/bmg/ct-navbar.css" rel="stylesheet">
+<link href="css/MyFontsWebfontsOrderM3684884.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div id="wrapper" class="container col-md-12 col-sm-12 col-xs-12 nofloat clearpadding">
+  <div class="topMenu navbar col-md-12 col-sm-12 col-xs-12 clearpadding">
+    <div id="brand" class="col-md-3 col-sm-4 col-xs-12 ">
+      <div id="hamburger" class="pull-left"><img src="images/hamburger_icon.png" alt="Side Menu"/> </div>
+      <div class="pull-left"><img src="images/BMG_logo.png" alt="BMG Logo"/></div>
+    </div>
+    <!-- brand end -->
+    <div id="rightMenu" class="col-lg-4 col-lg-offset-5 col-md-4 col-md-offset-5 col-sm-offset-2 col-sm-6 col-sm-offset-5 col-xs-12" >
+      <div class="menu-item col-lg-2 col-md-2 col-sm-2 col-xs-2 border-style-right blank">&nbsp;</div>
+	        <div class="menu-item col-lg-3 col-md-3 col-sm-3 col-xs-3 border-style-left border-style-left border-style-right"><img src="images/Message_Envelope_Icon.png" alt="Messages"/></div>
+
+      <div class="menu-item col-lg-3 col-md-3 col-sm-3 col-xs-3 border-style-left border-style-right"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <img src="images/bell.png" width="30px" alt="Notification"><span class="notificationBadge badge">3</span> </a>
+        <ul class="dropdown-menu2">
+          <div class="drop_heading">NOTIFICATION</div>
+		  
+		    <ul class="dropdown-menu">
+              <li><a href="#" class="select">Profile</a></li>
+              <li><a href="#" class="select">Sign Out</a></li>
+            </ul>
+			
+          <ul class="notification_box">
+            <li>
+              <label>Statement</label>
+              <br>
+              your statement for period 06/2015 is ready now check now</li>
+            <li>
+              <label>Warning</label>
+              <br>
+              There is a prediction of storm in Austin-Texas on 15th of September. Please be careful, if you are travelling in that region during this time.</li>
+            <li>
+              <label>Maintenance window</label>
+              <br>
+              There is a outage planned for myBMG on 31st Aug 2015. So the system won’t be available from 18:00 CEST to 21:00 CEST. Please plan your work accordingly.</li>
+            <li>
+              <label>VAT self billing</label>
+              <br>
+              If you are VAT registered but haven’t completed VAT self billing agreement, please3 download it from <a href="#" class="link_color">http://my.bmg.com/mybmg/user/forms/5</a> here and return the completed and signed form to us.</li>
+            <li>
+              <label>New centralized e-mail account for song registration</label>
+              <br>
+              Please send all new song deliveries to this new central email <a href="#" class="link_color">mySongs@bmg.com</a></li>
+          </ul>
+        </ul>
+      </div>
+      <div class="menu-item user-name col-lg-4 col-md-4 col-sm-4 col-xs-4 border-style-left">
+        <ul>
+          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span id="userName">Nick Drake</span><img  src="images/arrow.png" alt="User"/></a>
+            <ul class="dropdown-menu">
+              <li><a href="#" class="select">Profile</a></li>
+              <li><a href="#" class="select">Sign Out</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div id="mainContent"  class="col-md-12 col-sm-12 col-xs-12 nofloat clearpadding" >
+    <div class="col-md-12 col-sm-12 col-xs-12 clearpadding">
+      <div id="sidebar-wrapper"> <a class="menuLink" href="#">
+        <div class="sideMenuItem active"><img src="images/home_active.png">
+          <div class="menutext">Home</div>
+        </div>
+        </a> <a class="menuLink" href="#">
+        <div class="sideMenuItem"><img  src="images/analytics_normal.png">
+          <div class="menutext">Financial Analytics</div>
+        </div>
+        </a> <a class="menuLink" href="#">
+        <div class="sideMenuItem"><img  src="images/my_work_normal.png">
+          <div class="menutext">My Work</div>
+        </div>
+        </a> <a class="menuLink" href="#">
+        <div class="sideMenuItem"><img  src="images/statement_normal.png">
+          <div class="menutext">Statements</div>
+        </div>
+        </a> </div>
+      <!-- sidebar-wrapper end -->
+      <div id="container" class="container-fluid">
+        <div id="clientSelection" class="col-md-12 col-sm-12 col-xs-12 clearfix clearpadding">
+          <div id="clientSelectionImage" class="col-md-1 col-sm-2 col-xs-3 vertically-centered clearpadding"><img src="images/all.png"></div>
+          <div id="clientSelectionText" class="col-md-5 col-sm-4 col-xs-9 vertically-centered clearpadding">Clients/Payees Selection</div>
+          <div id="clientSelectionTextDiv" class="col-md-6  col-lg-6 col-sm-6 col-xs-12 vertically-centered clearpadding">
+            <div class=""> <span id="clientSelectionDisplayText" class="col-md-8 col-lg-8 col-sm-8 col-xs-8 clearpadding">All 30 Clients Selected</span>
+              <div id="clientSelectionButtonSpan" class="col-md-4 col-lg-4 col-sm-4 col-xs-4 clearpadding">
+                <div class="btn-group">
+                  <button id="clientListButton" type="button" class="btn btn-default dropdown-toggle col-lg-12" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Select <img src="images/arrow.png" alt="User"> </button>
+                  <ul class="dropdown-menu clearpadding">
+                    <li class="clientSelectionLink"><a href="#" class="select">All</a></li>
+                    <li class="clientSelectionLink"><a href="#" class="select">Specific</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- clientSelectionTextDiv end --> 
+        </div>
+        <!-- clientSelection end -->
+        <div id="panelWrapper" class="col-md-12 col-sm-12 col-xs-12 clearpadding clearfix">
+          <div id="earningsPanel" class="left-clear-panel col-md-4 col-sm-4 col-xs-12">
+            <div class="panel panel-gray">
+              <div class="col-md-12 clearpadding clearfix">
+                <div class="col-xs-12 clearpadding">
+                  <div class="panel-top-text">&nbsp;</div>
+                  <div class="panel-top-value">&nbsp;</div>
+                </div>
+              </div>
+              <div class="panel-bottom-div col-md-12 clearpadding">
+                <div class="col-md-3 col-xs-3  clearpadding"> <img src="images/last_payment.png" /> </div>
+                <div class="col-md-9 col-xs-9 clearpadding">
+                  <div class="panel-bottom-text text-right">Last Statement Balance</div>
+                  <div class="panel-bottom-value text-right" >120.000&nbsp;<span class="glyphicon glyphicon-euro" aria-hidden="true"></span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="paymentCyclePanel" class="col-md-4 col-sm-4 col-xs-12  clearpadding">
+            <div class="panel panel-gray">
+              <div class="col-md-12 clearpadding clearfix">
+                <div class="col-xs-12 clearpadding">
+                  <div class="panel-top-text">Payment Cycle</div>
+                  <div class="panel-top-value">6 Months</div>
+                </div>
+              </div>
+              <div class="panel-bottom-div col-md-12 clearpadding">
+                <div class="col-md-3 col-xs-3 clearpadding"> <img src="images/payment_due.png"/> </div>
+                <div class="col-md-9 col-xs-9 clearpadding">
+                  <div class="panel-bottom-text text-right">Next Statement Due in</div>
+                  <div class="panel-bottom-value text-right">4 days</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="pipelinePanel" class= "col-md-4 col-sm-4 col-xs-12 clearpadding">
+            <div class="panel panel-red">
+              <div class="col-md-12 clearpadding clearfix">
+                <div class="col-md-3 col-xs-3 clearpadding"> <img src="images/current_pipeline.png" /> </div>
+                <div class="col-md-9 col-xs-9 clearpadding">
+                  <div class="panel-bottom-text text-right">Current Pipeline</div>
+                  <div class="panel-bottom-value text-right"></span>315.000&nbsp;<span class="glyphicon glyphicon-euro" aria-hidden="true"></div>
+                </div>
+              </div>
+              <div class="panel-bottom-div col-md-12 col-xs-12 clearpadding">
+                <div class="col-xs-12 clearpadding">
+                  <div class="bottom-text-value">* This is a pipeline income, and is created from the raw data. This might change as more data updates are done.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Timeline -->
+        <div id="timeLine" class="col-md-12 col-xs-12 clearpadding clearfix">
+          <div id="allTimeLineLink" class="col-md-3 col-xs-3 clearpadding active border-style-right text-center"><a class="timeLineLink" href="#"><img src="images/time_all.png"/><span>All</span></a></div>
+          <div class="col-md-3 col-xs-3 clearpadding border-style-left border-style-right text-center"><a class="timeLineLink" href="#"><img src="images/time_2014.png"/><span>2014</span></a></div>
+          <div class="col-md-3 col-xs-3 clearpadding border-style-left border-style-right text-center"><a class="timeLineLink" href="#"><img src="images/time_2013.png" /><span>2013</span></a></div>
+          <div class="col-md-3 col-xs-3 clearpadding border-style-left text-center"><a class="timeLineLink" href="#"><img src="images/time_2012.png"/><span>2012</span></a></div>
+        </div>
+        <!-- Timeline end --> 
+        <!-- Charts -->
+        <div id="isMobileDevice" class="visible-xs hidden-sm hidden-md hidden-lg"></div>
+        <div id="royaltiesChartDiv" class="col-md-12 col-xs-12 chartWrapper clearfix">
+          <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-6 pull-left">
+              <div class="col-md-12 col-sm-12 col-xs-12 chartTitle">ROYALTIES</div>
+            </div>
+            <div class="chartButtons col-md-6  pull-right clearfix"> <a id="royaltiesBarButton" href="#royaltiesChartDiv"><img class="royaltiesChartIcon" src="images/bar_active.png"/></a> <a id="royaltiesLineButton" href="#"><img class="royaltiesChartIcon" src="images/line_normal.png"/></a> <a id="royaltiesTableButton" href="#"><img class="royaltiesChartIcon" src="images/tab_normal.png"/></a> </div>
+            <div id="royaltiesChartSubtitle" class="col-md-12 col-sm-12 col-xs-12 chartSubTitle">TRENDS</div>
+          </div>
+          <div id="royaltiesTableDiv" class="col-md-12">
+            <table id="royaltiesTable"  class="table table-responsive">
+              <thead>
+                <tr>
+                  <td class="border-style-right">&nbsp;</td>
+                  <td class="border-style-right">2012-06</td>
+                  <td class="border-style-left border-style-right">2012-12</td>
+                  <td class="border-style-left border-style-right">2013-06</td>
+                  <td class="border-style-left border-style-right">2013-12</td>
+                  <td class="border-style-left border-style-right">2014-06</td>
+                  <td class="border-style-left border-style-right">2014-12</td>
+                  <td class="border-style-left">2015-06</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="tableKey">Stage Performance</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                </tr>
+                <tr>
+                  <td class="tableKey">Digital Sales</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                </tr>
+                <tr>
+                  <td class="tableKey">Mech. Royalties</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                </tr>
+                <tr>
+                  <td class="tableKey">Retail Sales</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                </tr>
+                <tr>
+                  <td class="tableKey">Albums Downloads</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td class="tableKey">Total Amount</td>
+                  <td class="tableValue">550.000 €</td>
+                  <td class="tableValue">550.000 €</td>
+                  <td class="tableValue">550.000 €</td>
+                  <td class="tableValue">550.000 €</td>
+                  <td class="tableValue">550.000 €</td>
+                  <td class="tableValue">550.000 €</td>
+                  <td class="tableValue">550.000 €</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+          <div id="royaltiesChart" class="clearfix"></div>
+          <div class="exportDiv pull-right clearfix">
+            <div class="exportText">Export</div>
+            <div class="exportImage"> <a class="exportButtonClass" href="#"> <img src="images/export.png"/> </a> </div>
+          </div>
+        </div>
+        <div id="bestSongsDiv" class="col-md-6 col-xs-12 clearpadding">
+          <div class="chartWrapper clearfix">
+            <div class="row">
+              <div class="col-md-6 col-sm-6 col-xs-6 pull-left">
+                <div class="col-md-12 col-sm-12 col-xs-12 chartTitle">TOP 5</div>
+              </div>
+              <div class="chartButtons col-md-6 pull-right clearfix"> <a id="bestSongsBarButton" href="#"><img class="bestSongsChartIcon" src="images/bar_active.png"/></a> <a id="bestSongsDonutButton" href="#"><img class="bestSongsChartIcon" src="images/donut_normal.png"/></a> <a id="bestSongsTableButton" href="#"><img class="bestSongsChartIcon" src="images/tab_normal.png"/></a> </div>
+              <div id="bestSongsChartSubtitle" class="col-md-12 col-sm-12 col-xs-12 chartSubTitle">SONGS</div>
+            </div>
+            <div id="bestSongsTableDiv" class="col-md-6">
+              <table id="bestSongsTable"  class="table table-responsive">
+                <thead>
+                  <tr>
+                    <td class="border-style-right">&nbsp;</td>
+                    <td class="border-style-right">2012-06</td>
+                    <td class="border-style-left border-style-right">2012-12</td>
+                    <td class="border-style-left border-style-right">2013-06</td>
+                    <td class="border-style-left border-style-right">2013-12</td>
+                    <td class="border-style-left border-style-right">2014-06</td>
+                    <td class="border-style-left border-style-right">2014-12</td>
+                    <td class="border-style-left">2015-06</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="tableKey">Stage Performance</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                  </tr>
+                  <tr>
+                    <td class="tableKey">Digital Sales</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                  </tr>
+                  <tr>
+                    <td class="tableKey">Mech. Royalties</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                  </tr>
+                  <tr>
+                    <td class="tableKey">Retail Sales</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                  </tr>
+                  <tr>
+                    <td class="tableKey">Albums Downloads</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td class="tableKey">Total Amount</td>
+                    <td class="tableValue">550.000 €</td>
+                    <td class="tableValue">550.000 €</td>
+                    <td class="tableValue">550.000 €</td>
+                    <td class="tableValue">550.000 €</td>
+                    <td class="tableValue">550.000 €</td>
+                    <td class="tableValue">550.000 €</td>
+                    <td class="tableValue">550.000 €</td>
+                  </tr>
+                </tfoot>
+              </table>
+            </div>
+            <div id="bestSongsChart"></div>
+            <div class="exportDiv pull-right clearfix">
+              <div class="exportText">Export</div>
+              <div class="exportImage"> <a class="exportButtonClass" href="#"> <img src="images/export.png"/> </a> </div>
+            </div>
+          </div>
+        </div>
+        <div id="topSourcesDiv" class="col-md-6 col-xs-12 pull-right clearpadding">
+          <div class="chartWrapper clearfix">
+            <div class="row">
+              <div class="col-md-6 col-sm-6 col-xs-6 pull-left">
+                <div class="col-md-12 col-sm-12 col-xs-12 chartTitle">TOP 3</div>
+              </div>
+              <div class="chartButtons col-md-6 pull-right clearfix"> <a id="topSourcesBarButton" href="#"><img class="topSourcesChartIcon" src="images/bar_active.png"/></a> <a id="topSourcesDonutButton" href="#"><img class="topSourcesChartIcon" src="images/donut_normal.png"/></a> <a id="topSourcesTableButton" href="#"><img class="topSourcesChartIcon" src="images/tab_normal.png"/></a> </div>
+              <div id="topSourcesChartSubtitle" class="col-md-12 col-sm-12 col-xs-12 chartSubTitle">SOURCES</div>
+            </div>
+            <div id="topSourcesTableDiv" class="col-md-12">
+              <table id="topSourcesTable"  class="table table-responsive">
+                <thead>
+                  <tr>
+                    <td class="border-style-right">&nbsp;</td>
+                    <td class="border-style-right">2012-06</td>
+                    <td class="border-style-left border-style-right">2012-12</td>
+                    <td class="border-style-left border-style-right">2013-06</td>
+                    <td class="border-style-left border-style-right">2013-12</td>
+                    <td class="border-style-left border-style-right">2014-06</td>
+                    <td class="border-style-left border-style-right">2014-12</td>
+                    <td class="border-style-left">2015-06</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="tableKey">Stage Performance</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                  </tr>
+                  <tr>
+                    <td class="tableKey">Digital Sales</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                  </tr>
+                  <tr>
+                    <td class="tableKey">Mech. Royalties</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                  </tr>
+                  <tr>
+                    <td class="tableKey">Retail Sales</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                  </tr>
+                  <tr>
+                    <td class="tableKey">Albums Downloads</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                    <td class="tableValue">110.000 €</td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td class="tableKey">Total Amount</td>
+                    <td class="tableValue">550.000 €</td>
+                    <td class="tableValue">550.000 €</td>
+                    <td class="tableValue">550.000 €</td>
+                    <td class="tableValue">550.000 €</td>
+                    <td class="tableValue">550.000 €</td>
+                    <td class="tableValue">550.000 €</td>
+                    <td class="tableValue">550.000 €</td>
+                  </tr>
+                </tfoot>
+              </table>
+            </div>
+            <div id="topSourcesChart" ></div>
+            <div class="exportDiv pull-right clearfix">
+              <div class="exportText">Export</div>
+              <div class="exportImage"> <a class="exportButtonClass" href="#"> <img  src="images/export.png"/> </a> </div>
+            </div>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="col-md-12 copyrightBox clearpadding">
+          <div  class="copyrightContact border-style-right border-style-bottom col-md-4 col-sm-12 col-xs-12 clearpadding"><img class="contactIcon" src="images/contact.png"/>Contact Copyright: Peter Kremp (030 300133-133)</div>
+          <div class="copyrightContact border-style-left border-style-right border-style-bottom border-style-top col-md-4 col-sm-12 col-xs-12 clearpadding"><img class="contactIcon" src="images/contact.png"/>Contact Royalties: Dirk Luthje (030 300133-414)</div>
+          <div class="copyrightContact border-style-left border-style-top col-md-4 col-sm-12 col-xs-12 clearpadding"><img class="contactIcon" src="images/contact.png"/>Contact Creative: Julian Romano (030 300133-254)</div>
+        </div>
+        <div class="clearfix"></div>
+        <footer>
+          <div class="row clearpadding"> <a href="#" class="dash_text"><span>Request &amp; Contact</span></a> | <a href="terms_of_Use_English.html" class="dash_text"><span>Terms of Use</span> </a>| <a href="privacy_policy.html" class="dash_text"><span style="color:#ce0f42">Privacy Policy</span></a> | <a href="disclaimer.html" class="dash_text"><span>Disclaimer</span></a> |<a href="#" class="dash_text"> <span>Help</span></a> |<a href="#" class="dash_text"> <span>Copyright BMG</span></a> </div>
+        </footer>
+      </div>
+    </div>
+  </div>
+  <!-- main Content --> 
+  
+  <!-- Client List Modal -->
+  <div class="modal fade col-md-12 col-sm-12 col-xs-12" id="clientListModal" tabindex="-1" role="dialog" aria-labelledby="clientListModal">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><img  src="images/close.png"/></span></button>
+          <h4 class="modal-title" id="myModalLabel">Clients/Payees Selection</h4>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-1 col-sm-1 col-xs-1"><span></span><img class="modalImage" src="images/reduce.png"></div>
+            <div id="selectAllText" class="col-md-4 col-sm-4 col-xs-10">SELECT ALL</div>
+            <div class="col-md-6 col-sm-6 col-xs-12 pull-right">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search Clients/Payees"  aria-describedby="basic-addon1">
+                <span class="input-group-addon" id="basic-addon1" ><span class="glyphicon glyphicon-search" aria-hidden="true"></span></span> </div>
+            </div>
+          </div>
+          <div class="row" style="padding:10px"> <span id="clientSelectionModalCount">17/30</span><span id="clientSelectionModalText">Clients / Payees selected </span> </div>
+          <div id="clientModalDiv" class="row">
+            <table id="clientsTable" class="table table-condensed table-striped">
+              <thead>
+                <tr>
+                  <td class="col-md-2 col-sm-2 align-centered">ID</td>
+                  <td class="col-md-1 col-sm-1 hidden-xs" >NAME</td>
+                  <td class="col-md-8 hidden-xs"></td>
+                  <td class="col-md-1 align-centered">CURRENCY</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="dark">
+                  <td class="col-md-2 align-centered">20472</td>
+                  <td class="col-md-1 align-centered  hidden-xs" ><img src="images/currency.png"/></td>
+                  <td class="col-md-8  hidden-xs">"A" Slide Music LLC d/b/a Modern Works Music Publ.</td>
+                  <td class="col-md-1 align-centered"><span class="glyphicon glyphicon-euro" aria-hidden="true"></span></td>
+                </tr>
+                <tr class="dark">
+                  <td class="col-md-2 align-centered">29185</td>
+                  <td class="col-md-1 align-right  hidden-xs" ><img src="images/man_white.png"/></td>
+                  <td class="col-md-8  hidden-xs">"A" Slide Music LLC "Max Hart" (exp.31.12.2014)</td>
+                  <td class="col-md-1 align-centered"><span class="glyphicon glyphicon-euro" aria-hidden="true"></span></td>
+                </tr>
+                <tr class="dark">
+                  <td class="col-md-2 align-centered">30254</td>
+                  <td class="col-md-1 align-right  hidden-xs" ><img src="images/man_white.png"/></td>
+                  <td class="col-md-8  hidden-xs">"A" Slide Music LLC d/b/a Modern Works Music Publ.</td>
+                  <td class="col-md-1 align-centered"><span class="glyphicon glyphicon-euro" aria-hidden="true"></span></td>
+                </tr>
+                <tr class="dark">
+                  <td class="col-md-2 align-centered">45874</td>
+                  <td class="col-md-1 align-right  hidden-xs" ><img src="images/man_white.png"/></td>
+                  <td class="col-md-8  hidden-xs">A Side Music Bootsy Collins Titles (exp.31.12.2014)</td>
+                  <td class="col-md-1 align-centered"><span class="glyphicon glyphicon-euro" aria-hidden="true"></span></td>
+                </tr>
+                <tr class="dark">
+                  <td class="col-md-2 align-centered">25417</td>
+                  <td class="col-md-1 align-right  hidden-xs" ><img src="images/man_white.png"/></td>
+                  <td class="col-md-8  hidden-xs">Bridge Of Singhs</td>
+                  <td class="col-md-1 align-centered"><span class="glyphicon glyphicon-euro" aria-hidden="true"></span></td>
+                </tr>
+                <tr class="dark">
+                  <td class="col-md-2 align-centered">12548</td>
+                  <td class="col-md-1 align-right  hidden-xs" ><img src="images/man_white.png"/></td>
+                  <td class="col-md-8  hidden-xs">Jazz Eyes Publishing Company</td>
+                  <td class="col-md-1 align-centered"><span class="glyphicon glyphicon-euro" aria-hidden="true"></span></td>
+                </tr>
+                <tr class="dark">
+                  <td class="col-md-2 align-centered">99874</td>
+                  <td class="col-md-1 align-right  hidden-xs" ><img src="images/man_white.png"/></td>
+                  <td class="col-md-8  hidden-xs">"A" Slide Music LLC "Max Hart" (exp.31.12.2014)</td>
+                  <td class="col-md-1 align-centered"><span class="glyphicon glyphicon-euro" aria-hidden="true"></span></td>
+                </tr>
+                <tr>
+                  <td class="col-md-2 align-centered">25414</td>
+                  <td class="col-md-1 align-right  hidden-xs"><img src="images/man_gray.png"/></td>
+                  <td class="col-md-8  hidden-xs">More Cut Music</td>
+                  <td class="col-md-1 align-centered"><span class="glyphicon glyphicon-euro" aria-hidden="true"></span></td>
+                </tr>
+                <tr class="dark">
+                  <td class="col-md-2 align-centered">33254</td>
+                  <td class="col-md-1 align-centered  hidden-xs"><img src="images/currency.png"/></td>
+                  <td class="col-md-8  hidden-xs">"C" Vic Music (Writer Shares)</td>
+                  <td class="col-md-1 align-centered"><span class="glyphicon glyphicon-euro" aria-hidden="true"></span></td>
+                </tr>
+                <tr>
+                  <td class="col-md-2 align-centered">32547</td>
+                  <td class="col-md-1 align-right  hidden-xs"><img src="images/man_gray.png"/></td>
+                  <td class="col-md-8  hidden-xs">"C" Vic Music (Writer Shares)</td>
+                  <td class="col-md-1 align-centered"><span class="glyphicon glyphicon-euro" aria-hidden="true"></span></td>
+                </tr>
+                <tr>
+                  <td class="col-md-2 align-centered">35695</td>
+                  <td class="col-md-1 align-right  hidden-xs"><img src="images/man_gray.png"/></td>
+                  <td class="col-md-8  hidden-xs">Sharon Moore ("C" Vic Music)</td>
+                  <td class="col-md-1 align-centered"><span class="glyphicon glyphicon-usd" aria-hidden="true"></span></td>
+                </tr>
+                <tr>
+                  <td class="col-md-2 align-centered">11445</td>
+                  <td class="col-md-1 align-right  hidden-xs"><img src="images/man_gray.png"/></td>
+                  <td class="col-md-8  hidden-xs">"A" Slide Music LLC "Max Hart" (exp.31.12.2014)</td>
+                  <td class="col-md-1 align-centered"><span class="glyphicon glyphicon-usd" aria-hidden="true"></span></td>
+                </tr>
+                <tr>
+                  <td class="col-md-2 align-centered">58743</td>
+                  <td class="col-md-1 align-right  hidden-xs"><img src="images/man_gray.png"/></td>
+                  <td class="col-md-8  hidden-xs">"A" Slide Music LLC "Max Hart" (exp.31.12.2014)</td>
+                  <td class="col-md-1 align-centered"><span class="glyphicon glyphicon-usd" aria-hidden="true"></span></td>
+                </tr>
+                <tr>
+                  <td class="col-md-2 align-centered">66584</td>
+                  <td class="col-md-1 align-right  hidden-xs"><img src="images/man_gray.png"/></td>
+                  <td class="col-md-8  hidden-xs">"A" Slide Music LLC "Max Hart" (exp.31.12.2014)</td>
+                  <td class="col-md-1 align-centered"><span class="glyphicon glyphicon-usd" aria-hidden="true"></span></td>
+                </tr>
+                <tr>
+                  <td class="col-md-2 align-centered">99685</td>
+                  <td class="col-md-1 align-right  hidden-xs"><img src="images/man_gray.png"/></td>
+                  <td class="col-md-8  hidden-xs">"A" Slide Music LLC "Max Hart" (exp.31.12.2014)</td>
+                  <td class="col-md-1 align-centered"><span class="glyphicon glyphicon-usd" aria-hidden="true"></span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer" style="text-align:center">
+          <div id="topIconDiv" class="col-md-1 col-xs-1 pull-right clearfix"><img src="images/top.png"/></div>
+          <button id="applyClientSelection" type="button" class="btn btn-lg btn-sm" >Apply Clients/Payees Selection</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Export Modal -->
+  <div class="modal fade col-sm-12 col-md-12 col-xs-12" id="exportModal" tabindex="-1" role="dialog" aria-labelledby="exportModal">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><img src="images/close.png"/></span></button>
+          <div class="modal-title">
+            <div class="chartTitle">CHART TITLE</div>
+            <div class="chartSubTitle">Chart SubTitle</div>
+          </div>
+        </div>
+        <div class="modal-body">
+          <div id="reportFormat" class="row" >Report Format</div>
+          <div class="row" style="text-align:center">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img id="exportAsXL" src="images/xlsx_normal.png"/></div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img id="exportAsPDF" src="images/pdf_normal.png"/></div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img id="exportAsCSV" src="images/csv_normal.png"/></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div  class="warning1" >
+  
+  <div class="col-lg-2 col-sm-3 col-md-2 col-xs-2 left_red_icon closeWarning" > <img src="images/info.png" class="img-responsive" ></div>
+  <div class="col-md-10 col-sm-9 col-xs-9 col-lg-10 ">
+    <h4 class="warning_head">Warning</h4>
+    There is a prediction of storm in austin-texas on 15 th of september.please be careful,if you travelling in that region during this time <a href="#"><img src="images/close_grey.png" class="grey_cls"></a></div>
+</div>
+ 
+
+<script src="js/jquery.js"></script> 
+<script src="js/highcharts_new.js"></script> 
+<script src="js/map.js"></script> 
+<script src="js/world.js"></script> 
+<script src="js/drilldown_new.js"></script> 
+<!-- Bootstrap Core JavaScript --> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/bmg/homepage.js"></script> 
+<script src="js/bmg/backendFunctions.js"></script> 
+<script type="text/javascript" src="js/jquery-ui.min.js"></script> 
+<script type="text/javascript">
+	    $(document).ready(function(){
+	    	$("body").click(function(e){
+	    		$(".song-selection-box.box").fadeOut();
+	    	});
+	    	$(".song-selection-box.box").click(function(e){
+	    		e.stopPropagation()
+	    	});
+	    	$("#SpecificsSongSelection").click(function(e){
+	    		e.stopPropagation()
+	    		$(this).addClass("active");
+	    		$("#SelectAllSongs").removeClass("active")
+	    		$(".song-selection-box.box").fadeIn();
+	    		$("#songlist").html("10/540 SONGS SELECTED")
+	    	});
+	    	$("#SelectAllSongs").click(function(e){
+	    		e.stopPropagation()
+	    		$(this).addClass("active");
+	    		$("#SpecificsSongSelection").removeClass("active");
+	    		$(".song-selection-box.box").fadeOut();
+	    		$("#songlist").html("540/540 SONGS SELECTED")
+	    	});
+	    	$(".songs-model-popup-btn").click(function(e){
+	    		$(".song-selection-box.box").fadeOut();
+	    		$('#songSelectionModal').modal();
+	    	});
+	    	$("#songSelectionModal #topIconDiv").click(function(e){
+	    		$( "#songSelectionModal").scrollTop(0);
+	    	});
+	    	 $(function() {
+			    $( "#slider-range" ).slider({
+					min: 1,
+					max: 7,
+					range: true,
+					values: [ 1, 6 ],
+					stop: function( event, ui ) {
+						var len = $(".slider-data-wrap ul li").length;
+						var values = $("#slider-range").slider("values");
+			    		$(".slider-data-wrap ul li").removeClass("active");
+			    		for(var i=0; i<len; i++){
+			    			if(i>=values[0]-1 && i<values[1])
+			    				$(".slider-data-wrap ul li").eq(i).addClass("active");
+			    		}
+					}
+			    });
+			});
+	    	
+	    	var sliderDataAlign = function(){
+
+	    		var len = $(".slider-data-wrap ul li").length;
+	    		var slideWidth = $("#slider-range").width() / (len-1); 
+	    		var pos;
+	    		for(var i=0; i<len; i++){
+	    			pos = (i * slideWidth );
+	    			$(".slider-data-wrap ul li").eq(i).css("left",pos-15);
+	    		}
+	    		setTimeout(function(){
+		    		var values = $("#slider-range").slider("values");
+		    		$(".slider-data-wrap ul li").removeClass("active");
+		    		for(var i=0; i<len; i++){
+		    			if(i>=values[0]-1 && i<values[1])
+		    				$(".slider-data-wrap ul li").eq(i).addClass("active");
+		    		}
+		    		
+		    	},100)
+	    	}
+	    	sliderDataAlign();
+	    	$("#hamburger").click(function(e) {
+	    		setTimeout(function(){
+	    			sliderDataAlign();	
+	    		},600)
+				
+	    	});
+	    	$(window).resize(function(){
+	    		sliderDataAlign();
+	    	})
+	    	/*var sliderTooltipInit = function(){
+	    		$(document).on("mouseover",".ui-widget-content .ui-state-default",function(){
+	    			var leftPos = $(this).offset().left;
+	    			$(".slider-tooltip").fadeIn();
+	    			console.log(($(".slider-tooltip").width)/2);
+	    			$(".slider-tooltip").css("left",leftPos - ($(".slider-tooltip").width())/2);
+		    	});
+		    	$(document).on("mouseout",".ui-widget-content .ui-state-default",function(){
+					$(".slider-tooltip").fadeOut();
+		    	})
+	    	}
+	    	sliderTooltipInit();*/
+	    	$(".slider-tooltip .item").click(function(){
+	    		$(this).toggleClass("active");
+	    	});
+	    	$(".widget-menu .navbar-nav li").click(function(e){
+	    		e.stopPropagation();
+	    		$(".widget-menu .navbar-nav li").removeClass("active");
+	    		$(this).addClass("active");
+	    	});
+	    	$(".period-selection .expand-btn").click(function(){
+    			$(this).toggleClass("active");
+    			if($(".period-selection").height()==200){
+    				$(".period-selection").animate({"height":68},500);
+    			}else{
+    				$(".period-selection").animate({"height":200},500);
+    			}
+			});
+
+	    });
+
+	 
+    </script> 
+<script src="js/jquery.notifyBar.js"></script> 
+<script>
+    $(function() {
+      var html = $(".warning1").html();
+      $.notifyBar({
+        html: html
+		
+      });
+  
+
+      
+    });
+	
+    
+    </script>
+	
+	<script>
+</script>
+	
+
+
+</body>
+</html>

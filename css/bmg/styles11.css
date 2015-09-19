@@ -1,0 +1,3152 @@
+body {
+    background-color: #D9D9D9;
+	font-family: Geogrotesque-Regular;
+	font-weight: normal;
+	font-style: normal;  
+	height:100%;  
+	padding:auto;
+}
+.chartButtons{
+margin-top: 5px;
+}
+
+footer{
+	text-align:center;
+}
+
+#container{
+	overflow:hidden;
+	float:none;
+	border-left:1px solid #AAAAAA;
+}
+
+a:link {
+    color:white;
+    text-decoration: none;
+    outline:0;    
+}
+
+a:visited {
+	color:white;
+    text-decoration: none;
+    outline:0;
+}
+
+a:hover {
+	color:white;
+    text-decoration: none;
+    outline:0;
+}
+
+a:active {
+	color:white;
+    text-decoration: none;
+    outline:0;
+}
+
+.modal-header{
+	background-color: #ce0f42;
+}
+
+.close{
+	opacity:1;
+}
+
+table.table.table-striped tr.dark td {
+    background-color:#888888;
+    color:white;
+}
+
+.align-centered{
+	text-align:center;
+}
+
+.align-right{
+	text-align:right;
+}
+
+
+tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td{
+	border-top:0px;
+}
+
+#wrapper {
+    width: 100%;
+}
+
+.nofloat{
+	float:none;
+}
+
+.clearpadding{
+	padding: 0px;
+}
+.navbar {
+    margin-bottom: 0px;
+}
+
+.dropdown-menu > li > a{
+	color:#ce0f42;
+}
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
+
+
+.border-style-right{
+	border-right-width: 1px;
+	border-right-style:solid;
+	border-right-color: #2e2e2e;
+}
+
+.border-style-bottom{
+	border-bottom-width: 1px;
+	border-bottom-style:solid;
+	border-bottom-color: #767676;
+}
+
+.border-style-top{
+	border-top-width: 1px;
+	border-top-style:solid;
+	border-top-color: #2e2e2e;
+}
+
+.border-style-left{
+		border-left-width: 1px;
+		border-left-style:solid;
+		border-left-color: #767676;
+}
+	
+		
+#brand div img{
+	display:inline-block;
+	vertical-align:middle;
+}
+
+#wrapper {
+    width: 100%;
+}
+#container{
+	overflow:hidden;
+	float:none;
+	border-left:1px solid #AAAAAA;
+}
+
+.topMenu{
+		background-color:#555555;
+		border-radius:0px;
+	}
+
+	#rightMenu span{
+		text-align: center;
+	}
+	#rightMenu div{
+		text-align: center;
+	}
+	
+	#rightMenu div img{
+		display:inline-block;
+		vertical-align:middle;
+	}
+	
+	#rightMenu ul
+	{
+	    list-style-type: none;
+	    padding:0px 0px 0px 0px;
+		position:relative;
+	}
+	
+	#rightMenu .dropdown{
+		position: absolute;
+		top: 60%;
+		left: 9%;
+		height: 40%;
+		width: 100%;
+		margin: 3% 0%;
+		    font-family: 'Geogrotesque-Regular';
+	}
+	
+	.notificationBadge{
+		position:relative;
+		z-index:10;
+		margin-left:-14px;
+		background-color:#ce0f42;
+		overflow:visible;
+	}
+	#userName{
+		color:white;
+		padding-right:5px;
+		font-family: Geogrotesque-Medium;
+	}
+	.dropdown-menu{
+		font-size:16px;
+		margin-top:-20px;
+		min-width:0px;
+		width:100%;
+	}
+	.sideMenuItem{
+	    display: table-cell;
+	    vertical-align:middle;
+	}	
+	
+	#sidebar-wrapper .active{
+		background-color:#ce0f42;
+	}
+	
+	#sidebar-wrapper .active .menutext{
+		color:white;
+		font-size:12px;
+		font-family: Geogrotesque-Medium;
+	}
+	
+	.sideMenuItem img{
+		display:block;
+		margin:auto;
+	}
+	
+	.sideMenuItem .menutext{
+		color:#ce0f42;
+		text-align:center;
+		font-size:12px;
+		font-family: Geogrotesque-Medium;	
+	}
+	
+	.sideMenuItem{
+		border-left: 1px solid #AAAAAA; 
+		border-right: 0px solid #BBBBBB;
+	    border-bottom: 1px solid #AAAAAA;
+	}
+	
+	#clientSelectionImage{
+		text-align:center;
+	}
+	
+	#clientSelection{
+		background-color:#555555;
+		padding:0px 10px 0px 0px;
+		border-radius:10px;
+	}
+
+
+	#clientSelectionText{
+		color:white;
+	}
+	
+	#clientSelectionTextDiv{
+		background-color:white;
+		border-radius:10px;
+	}
+	
+	#clientSelectionButtonSpan{
+		text-align:right;
+	}
+	
+	#clientListButton{
+		background-color:#ce0f42;
+		color:white;
+		border-radius:10px;
+		margin-right:0px;
+	}
+	
+	#clientSelectionDisplayText{
+		text-align:center;
+	}
+	.dropdown-menu {
+		margin-top:-5px;
+		width:100%;
+	}
+	#panelWrapper{
+		margin-top:30px;
+	}
+	
+	#earningsPanel{
+		padding:0px 15px 0px 10px;
+	}
+	
+	#paymentCyclePanel{
+		padding:0px 15px 0px 15px;
+	}
+	
+	#pipelinePanel{
+		padding:0px 0px 0px 15px;
+	}
+
+	#pipelinePanel img{
+		width: 80%;
+	}
+
+	
+	.panel-top-text{
+		font-size:20px;
+	}
+	
+	.panel-top-value{
+		font-size:24px;
+	}
+	
+	.panel-bottom-text{
+		font-size:28px;
+	}
+	.panel-bottom-value{
+		font-size:32px;
+	}
+	
+	.panel-gray .panel-bottom-div{
+		margin-top:100px;
+	}
+	.panel-bottom-div{
+		margin-top:60px;
+	}
+	
+	.panel{
+		border-radius:10px;
+		color:white;
+		margin-bottom:0px;
+	}
+	
+	.panel-gray{
+		background-color:#555555;
+	}
+	.panel-red{
+		background-color:#ce0f42;
+	}
+	
+	.bottom-text-value{
+		font-size:12px;
+	}
+	.bottom-pipeline-text-value{
+		font-size:12px;
+	}
+	#timeLine{
+		color:white;
+		background-color:#555555;
+		border-radius:5px;
+		padding-left:0px;
+		margin-top:10px;
+	}
+	
+	#timeLine .active{
+		border-bottom: solid 3px;
+		border-bottom-color:#ce0f42;
+	}
+	
+	#timeLine img{
+		padding:0px;
+	}
+
+	#royaltiesChart{
+		width:auto;
+		padding-top:20px;
+		padding-bottom:10px; 
+		border-bottom:solid 2px #CCCCCC;
+	}
+	
+	#royaltiesTableDiv, #bestSongsTableDiv, #topSourcesTableDiv, #topCountriesTableDiv{
+		padding-bottom:10px;
+		border-bottom:solid 2px #CCCCCC;
+		overflow-x:scroll;
+		width:100%;
+		}
+	
+	#royaltiesTable, #bestSongsTable, #topSourcesTable, #topCountriesTable  {
+		border: 1px solid #555555;
+		margin-top:10px;
+	}
+	#royaltiesTable .tableValue , #bestSongsTable .tableValue, #topSourcesTable .tableValue,  #topCountriesTable .tableValue{
+		border-left: none;
+		text-align:right;	
+	}
+	
+	
+	#royaltiesTable tbody td, #bestSongsTable tbody td,  #topSourcesTable tbody td,  #topCountriesTable tbody td{
+		text-align:left;
+		font-family: Geogrotesque-Medium;
+		padding:5px;
+		border: 1px solid #D9D9D9;
+	}
+	
+	#royaltiesTable thead, #bestSongsTable thead, #topSourcesTable thead, #topCountriesTable thead{
+		background-color: #555555;
+		text-align:center;
+		color:white;
+	}
+	
+	
+	#royaltiesTable tfoot td, #bestSongsTable tfoot td, #topSourcesTable tfoot td, #topCountriesTable tfoot td{
+		color:#ce0f42;
+		font-family: Geogrotesque-Medium;
+		padding:5px;
+		border: 1px solid #D9D9D9;
+	}
+	
+	
+	#bestSongsChart{
+		width:auto;
+		padding-top:20px;
+		padding-bottom:10px; 
+		border-bottom:solid 2px #CCCCCC;
+		
+	}
+	
+	#topSourcesChart{
+		width:auto;
+		padding-top:20px;
+		padding-bottom:10px; 
+		border-bottom:solid 2px #CCCCCC;	
+	}
+	
+	
+	.bestSongsBarLabel{
+		font-family:Geogrotesque-Medium;
+		font-weight:normal;
+		color: #ce0f42;
+	}
+	
+	.tooltipKey{
+		color:#ce0f42;
+		padding-right: 0px;
+	}
+	.tooltipValue{
+		padding-left: 10px;
+	}
+	
+	.exportText{
+		float:left;
+		padding-right:5px;
+	}
+	
+	.exportImage{
+		float:left;
+		padding:0px;
+		background-color:#939393;
+		height:100%;
+	}
+	
+	.exportButtonClass img{
+		padding:5px;
+	}
+	
+	.chartWrapper{
+		background-color:white;
+		overflow:hidden;
+		margin-top:10px;
+		padding:20px 0px 0px 0px;
+		border-radius:5px;
+	}
+	.chartTitle{
+		font-family: Geogrotesque-Medium;
+	}
+	
+
+
+	.copyrightBox{
+		background-color:#555555;
+		color:white;
+		height:50px;
+		font-size:16px;
+		line-height:50px;
+		text-align:center;
+		border-radius:5px;
+		margin-top:30px;
+		margin-right:0px;
+	}
+
+	footer {
+	  margin-top: 20px; /* negative value of footer height */
+	  height: 100px;
+	  clear:both;
+	  padding:20px;
+	  background-color:#D9D9D9;
+	  font-size:14px;	
+	}
+
+@media screen and (orientation:landscape) and (min-width:1920px){
+	.topMenu{
+		min-height:108px;
+	}
+	#brand div{
+		line-height:108px;
+	}
+	
+	#brand div img{
+		width:100%;
+	}
+	#hamburger{
+		padding: 0px 20px 0px 20px;
+	}
+	#rightMenu span{
+		line-height:108px;
+	}
+	#rightMenu div{
+		line-height:108px;
+	}		
+	
+	#rightMenu ul
+	{
+	    line-height:108px;
+	}
+	.notificationBadge{
+		font-size:14px;
+		line-height:14px!important;	
+	}
+	#userName{
+		height:108px;
+		font-size:18px;
+	}
+	
+	#rightMenu .dropdown{
+		margin: 1% 0%;
+	}
+	.sideMenuItem{
+		width:170px;
+		height:170px;
+	}	
+	#sidebar-wrapper{
+		width:170px;
+		float:left;
+	}
+	
+	#clientSelection{
+		margin-top:30px;
+		margin-left:10px;
+	}
+		
+	#clientSelectionText{
+		font-size:24px;
+	}
+	
+	#clientSelectionTextDiv{
+		height:80px;
+		line-height:100px;
+		margin-top:10px;
+	}
+	
+	#clientSelectionButtonSpan .btn-group{
+		margin-right:10px;
+		margin-top:-30px;
+	}
+	#clientListButton{
+		font-size:24px;
+		margin-top:10px;
+		margin-right:0px;
+		height:60px;
+	}
+	
+	#clientSelectionDisplayText{
+		line-height:80px;
+		font-size:24px;
+	}
+	.vertically-centered {
+	 		line-height: 100px;
+	}
+	#clientSelectionButtonSpan .dropdown-menu {
+		margin-top:-5px;
+	}
+	.dropdown-menu{
+		margin-top:-30px;
+	}
+	#panelWrapper{
+		margin-top:30px;
+	}
+	
+	#earningsPanel{
+		padding:0px 15px 0px 10px;
+	}
+	
+	#paymentCyclePanel{
+		padding:0px 15px 0px 15px;
+	}
+	
+	#pipelinePanel{
+		padding:0px 0px 0px 15px;
+	}
+
+	#pipelinePanel img{
+		width: 80%;
+	}
+
+	#panelWrapper .glyphicon-euro{
+	font-size:24px;
+}
+	.panel-top-text{
+		font-size:20px;
+	}
+	
+	.panel-top-value{
+		font-size:24px;
+	}
+	
+	.panel-bottom-text{
+		font-size:28px;
+	}
+	.panel-bottom-value{
+		font-size:32px;
+	}
+	
+	.panel-gray .panel-bottom-div{
+		margin-top:100px;
+	}
+	.panel-bottom-div{
+		margin-top:60px;
+	}
+	
+	.panel{
+		padding:20px;
+		height:305px;
+		margin-bottom:0px;
+	}
+		
+	.bottom-text-value{
+		font-size:16px;
+	}
+	.bottom-pipeline-text-value{
+		font-size:12px;
+	}
+	#timeLine{
+		font-size:20px;
+		margin: 30px 0px 0px 10px;
+		line-height:60px;
+	}
+	.timeLineLink span{
+		margin-left:10px;
+	}
+	.chartWrapper{
+		margin-top:30px;
+		margin-left:10px;
+	}
+	
+	.chartTitle{
+		font-size:32px;
+		font-family: Geogrotesque-Medium;
+	}
+	
+	.chartSubTitle{
+		font-size:24px;
+		color:#ce0f42;
+		font-family: Geogrotesque-Medium;
+		margin-left:20px;
+	}
+	
+	#royaltiesChart{
+		height:650px;
+	}
+	
+	
+	#royaltiesTable, #bestSongsTable, #topSourcesTable, #topCountriesTable  {
+		font-size:20px;
+	}
+	#royaltiesTable .tableValue , #bestSongsTable .tableValue, #topSourcesTable .tableValue,  #topCountriesTable .tableValue{
+		font-size:16px;
+	}
+	
+	#royaltiesTable .tableKey, #bestSongsTable .tableKey, #topSourcesTable .tableKey, #topCountriesTable .tableKey  {
+		font-size:16px;
+	}
+	
+	#royaltiesTable tbody td, #bestSongsTable tbody td,  #topSourcesTable tbody td,  #topCountriesTable tbody td{
+		font-size:12px;
+	}
+	
+	#royaltiesTable thead, #bestSongsTable thead, #topSourcesTable thead, #topCountriesTable thead{
+		font-size:20px;
+	}
+	
+	.chartDataLabel{
+		font-size:20px;
+	}	
+	
+	#royaltiesTable tfoot td, #bestSongsTable tfoot td, #topSourcesTable tfoot td, #topCountriesTable tfoot td{
+		font-size:12px;
+	}	
+	
+	#bestSongsChart{
+		height:650px;
+	}
+	
+	#topSourcesChart{
+		height:650px;
+	}
+	
+	
+	.bestSongsBarLabel{
+		font-size:16px;
+	}
+	
+	.chartButtons{
+		padding-right:30px;
+		text-align:right;
+	}
+	.exportText{
+		float:left;
+		padding-right:5px;
+		line-height:37px;
+	}
+	
+	.exportImage{
+		float:left;
+		padding:0px;
+		background-color:#939393;
+		height:100%;
+	}
+	
+	.exportButtonClass img{
+		padding:5px;
+	}
+	
+	.xAxisLabel{
+		font-size:14px;
+	}
+	
+	.yAxisLabel{
+		font-size:14px;
+	}
+	
+	.stackLabel{
+		font-size:14px;
+		color:#777777;
+	}
+	
+	.dataLabel{
+		font-size:14px;
+	}
+	
+	.donutDataLabelValue{
+		font-size:32px;
+	}
+	
+	.donutDataLabelKey{
+		font-size:12px;
+	}
+		
+	#topSourcesDiv{
+		padding-left:10px;
+	}
+	#bestSongsDiv{
+		padding-right:10px;
+	}	
+	
+	
+	.modal-dialog{
+		width:1200px;
+		height:1000px;
+	}
+	.modal-header{
+		color:white;
+		text-align:center;
+	}
+	.modal-header img{
+		 width:30px;
+	}
+	.modal-title{
+		font-size: 24px;
+	}
+	
+	.modal-body .row{
+		border-bottom: 1px solid #ccc;
+		padding-bottom:10px;
+		line-height:40px;
+	}
+	
+	#applyClientSelection{
+		background-color:#ce0f42;
+		color:white;
+		font-size:20px;
+		
+	}
+	#clientsTable{
+		border:0px;
+		font-size:20px;
+	}
+	
+	#clientsTable thead{
+		background-color:#555555;
+		color:white;
+	}
+	#clientSelectionModalCount{
+		color:#ce0f42;
+		font-size:20px;
+	}
+	#clientSelectionModalText{
+		padding-left:10px;
+		font-size:20px;
+	}
+	
+	#basic-addon{
+		background-color:white;
+		border-left:0px;
+	}
+	
+	#selectAllText{
+		line-height:45px;
+		font-size:20px;
+	}
+	
+	.form-control{
+		height:40px;
+	}
+	
+	#reportFormat{
+		margin-top:-20px;
+		height:40px;
+		font-size:24px;
+		background-color:#CCCCCC;
+		padding-left:20px;
+		line-height:40px;
+	}
+	
+	.modal-title .chartTitle{
+		padding-left:30px;
+	}
+	.modal-title .chartSubTitle{
+		color:#FFF;
+		padding-left:0px;
+	
+	}
+	
+	#exportAsXL, #exportAsPDF, #exportAsCSV{
+		width:100px;
+		margin-top:20px;
+	}
+	#exportModal .modal-dialog{
+		margin:auto;
+		width:400px;
+		margin-top:400px;
+	}
+	.border-style-bottom{
+		border-bottom-width:0px;
+	}
+	.border-style-top{
+		border-top-width:0px;
+	}
+	
+	#clientModalDiv{
+		padding:10px;
+		height:480px;
+		overflow:auto;
+	}
+	
+	
+}
+
+
+
+@media screen and (orientation:landscape) and (min-width:1280px) and (max-width:1919px){
+	.topMenu{
+		min-height:72px;
+	}
+	#brand div{
+		line-height:72px;
+	}
+	
+	#brand div img{
+		width:67%;
+	}
+	#hamburger{
+		padding: 0px 5px 0px 5px;
+	}
+	#rightMenu span{
+		line-height:72px;
+	}
+	#rightMenu div{
+		line-height:80px;
+	}		
+	#rightMenu > div > img{
+		width:35px;
+	}		
+	
+	#rightMenu ul
+	{
+	    line-height:72px;
+	}
+	.notificationBadge{
+		font-size:12px;
+		line-height:12px!important;	
+	}
+	#userName{
+		height:72px;
+		font-size:14px;
+	}
+	.sideMenuItem{
+		width:114px;
+		height:114px;
+	}	
+	#sidebar-wrapper{
+		width:114px;
+		float:left;
+	}
+	
+	#clientSelection{
+		margin-top:20px;
+		margin-left:0px;
+		height:67px;
+	}
+		
+	#clientSelectionText{
+		line-height:67px;
+		font-size:20px;
+	}
+	
+	#clientSelectionTextDiv{
+		height:50px;
+		line-height:50px;
+		margin-top:8px;
+	}
+	
+	#clientListButton{
+		font-size:16px;
+		margin-top:2px;
+		margin-right:0px;
+		height:40px;
+		/* line-height:30px; */
+	}
+	
+	#clientSelectionButtonSpan .btn-group{
+		margin-right:5px;
+		margin-top:-5px;
+	}
+	
+	#clientSelectionImage img{
+		width:30%;
+	}
+	
+	#clientSelectionDisplayText{
+		line-height:50px;
+		font-size:20px;
+	}
+	.vertically-centered {
+	 		line-height: 60px;
+	}
+	#clientSelectionButtonSpan .dropdown-menu {
+		margin-top:-5px;
+	}
+	.dropdown-menu{
+		margin-top:-25px;
+	}
+	#panelWrapper{
+		margin-top:20px;
+	}
+	
+	#earningsPanel{
+		padding:0px 10px 0px 0px;
+	}
+	
+	#panelWrapper .glyphicon-euro{
+	font-size:20px;
+	}
+
+	#paymentCyclePanel{
+		padding:0px 10px 0px 10px;
+	}
+	
+	#pipelinePanel{
+		padding:0px 0px 0px 10px;
+	}
+
+	#pipelinePanel img{
+		width: 60%;
+	}
+	
+	#earningsPanel img{
+		width:70%;
+	}
+	#paymentCyclePanel img{
+		width:70%;
+	}
+	
+	.panel-top-text{
+		font-size:16px;
+	}
+	
+	.panel-top-value{
+		font-size:20px;
+	}
+	
+	.panel-bottom-text{
+		font-size:24px;
+	}
+	.panel-bottom-value{
+		font-size:28px;
+	}
+	
+	.panel-gray .panel-bottom-div{
+		margin-top:40px;
+	}
+	.panel-bottom-div{
+		margin-top:20px;
+	}
+	
+	.panel{
+		padding:20px;
+		height:200px;
+		margin-bottom:0px;
+	}
+		
+	.bottom-text-value{
+		font-size:14px;
+	}
+	.bottom-pipeline-text-value{
+		font-size:12px;
+	}
+	#timeLine{
+		font-size:16px;
+		margin: 20px 0px 0px 0px;
+		line-height:40px;
+	}
+	.timeLineLink span{
+		margin-left:10px;
+	}
+	.timeLineLink img{
+		width:8%;
+	}
+	.chartWrapper{
+		margin-top:20px;
+		margin-left:0px;
+	}
+	
+	.chartTitle{
+		font-size:28px;
+	}
+	
+	.chartSubTitle{
+		font-size:16px;
+		color:#ce0f42;
+		padding-left:30px;
+	}
+	
+	#royaltiesChart{
+		height:450px;
+	}
+	
+	#royaltiesTable, #bestSongsTable, #topSourcesTable, #topCountriesTable  {
+		font-size:12px;
+	}
+	#royaltiesTable .tableValue , #bestSongsTable .tableValue, #topSourcesTable .tableValue,  #topCountriesTable .tableValue{
+		font-size:12px;
+	}
+	
+	#royaltiesTable .tableKey, #bestSongsTable .tableKey, #topSourcesTable .tableKey, #topCountriesTable .tableKey  {
+		font-size:12px;
+	}
+	
+	#royaltiesTable tbody td, #bestSongsTable tbody td,  #topSourcesTable tbody td,  #topCountriesTable tbody td{
+		font-size:12px;
+	}
+	
+	#royaltiesTable thead, #bestSongsTable thead, #topSourcesTable thead, #topCountriesTable thead{
+		font-size:14px;
+	}
+	
+	.chartDataLabel{
+		font-size:20px;
+	}	
+	
+	#royaltiesTable tfoot td, #bestSongsTable tfoot td, #topSourcesTable tfoot td, #topCountriesTable tfoot td{
+		font-size:12px;
+	}	
+	
+	#bestSongsChart{
+		height:450px;
+	}
+	
+	#topSourcesChart{
+		height:450px;
+	}
+	
+	
+	.bestSongsBarLabel{
+		font-size:14px;
+	}
+	
+	.chartButtons{
+		padding-right:30px;
+		text-align:right;
+	}
+	.chartButtons img{
+		width:25px;
+	}
+	
+	.exportText{
+		float:left;
+		padding-right:5px;
+		line-height:24px;
+	}
+	
+	.exportImage{
+		float:left;
+		padding:0px;
+		background-color:#939393;
+		text-align:center;
+	}
+	
+	.exportButtonClass img{
+		padding:5px;
+		width:25px;
+	}
+	
+	.xAxisLabel{
+		font-size:12px;
+	}
+	
+	.yAxisLabel{
+		font-size:12px;
+	}
+	
+	.stackLabel{
+		font-size:16px;
+		color:#777777;
+	}
+	
+	.dataLabel{
+		font-size:16px;
+	}
+	
+	.donutDataLabelValue{
+		font-size:32px;
+	}
+	
+	.donutDataLabelKey{
+		font-size:12px;
+	}
+		
+	#topSourcesDiv{
+		padding-left:10px;
+	}
+	#bestSongsDiv{
+		padding-right:10px;
+	}	
+	
+	.copyrightBox{
+		height:50px;
+		font-size:14px;
+	}
+	.copyrightContact{
+		text-align:left;
+		padding-left:10px;
+	}
+	.contactIcon{
+		padding-right:10px;
+	}
+	.border-style-bottom{
+		border-bottom-width:0px;
+		    text-align: center;
+	}
+	.border-style-top{
+		border-top-width:0px;
+	}
+	
+	.modal-dialog{
+		width:800px;
+		height:300px;
+	}
+	.modal-header{
+		color:white;
+		text-align:center;
+		height:60px;
+	}
+	
+	.modal-title{
+		font-size: 20px;
+	}
+	
+	.modal-body .row{
+		border-bottom: 1px solid #ccc;
+		padding-bottom:10px;
+		line-height:40px;
+	}
+	
+	#applyClientSelection{
+		background-color:#ce0f42;
+		color:white;
+		font-size:16px;
+	}
+	#clientsTable{
+		border:0px;
+		font-size:12px;
+	}
+	
+	#clientsTable thead{
+		background-color:#555555;
+		color:white;
+	}
+	#clientSelectionModalCount{
+		color:#ce0f42;
+		font-size:16px;
+	}
+	#clientSelectionModalText{
+		padding-left:10px;
+		font-size:16px;
+	}
+	#selectAllText{
+		line-height:40px;
+	}
+	
+	#basic-addon{
+		background-color:white;
+		border-left:0px;
+	}
+	
+	#selectAllText{
+		line-height:40px;
+		font-size:16px;
+	}
+	#reportFormat{
+		margin-top:-20px;
+		height:40px;
+		font-size:20px;
+		background-color:#CCCCCC;
+		padding-left:20px;
+		line-height:40px;
+	}
+	
+	.modal-title .chartTitle{
+		padding-left:30px;
+	}
+	.modal-title .chartSubTitle{
+		color:#FFF;
+		padding-left:0px;
+	
+	}
+	#exportModal .modal-header{
+		height:100px;
+	}
+	
+	#exportAsXL, #exportAsPDF, #exportAsCSV{
+		width:100px;
+		margin-top:20px;
+	}
+	
+	#clientModalDiv{
+		padding:10px;
+		height:300px;
+		overflow:auto;
+	}
+	.modalImage{
+		width:15px;
+	}
+	.modal-header .close img {
+		width:30px;
+	}
+	#topIconDiv img{
+		width:30px;
+	}
+	#exportModal .modal-dialog{
+		margin:auto;
+		width:400px;
+		margin-top:100px;
+	}
+	
+}
+
+@media screen and (orientation:landscape) and (min-width:768px) and (max-width:1279px){
+	.topMenu{
+		min-height:42px;
+	}
+	#brand div{
+		line-height:42px;
+	}
+	.menu-item{
+		padding: 0
+	}
+	#brand div img{
+		width:60%;
+	}
+	#hamburger{
+		padding: 0px 5px 0px 5px;
+	}
+	#rightMenu span{
+		line-height:76px;
+		font-size: 16px;
+	}
+	#rightMenu div{
+		line-height:80px;
+	}		
+	#rightMenu > div > img{
+		width:25px;
+	}		
+	
+	#rightMenu ul
+	{
+	    line-height:42px;
+	}
+	.notificationBadge{
+		font-size:10px;
+		line-height:10px!important;	
+	}
+	#userName{
+		height:72px;
+		font-size:18px;
+	}
+	.sideMenuItem{
+		width:114px;
+		height:114px;
+	}	
+	#sidebar-wrapper{
+		width:114px;
+		float:left;
+	}
+	
+	#clientSelectionButtonSpan .btn-group{
+		margin-right:5px;
+		margin-top:-5px;
+	}
+	
+	#clientSelection{
+		margin-top:16px;
+		margin-left:0px;
+		height:67px;
+	}
+		
+	#clientSelectionText{
+		line-height:67px;
+		font-size:16px;
+	}
+	
+	#clientSelectionTextDiv{
+		height:50px;
+		line-height:50px;
+		margin-top:8px;
+	}
+	
+	#clientListButton{
+		font-size:16px;
+		margin-top:5px;
+		margin-right:0px;
+		height:40px;
+		line-height:30px;
+	}
+	#clientSelectionImage img{
+		width:30px;
+	}
+	
+	#clientSelectionDisplayText{
+		line-height:50px;
+		font-size:16px;
+	}
+	.vertically-centered {
+	 		line-height: 67px;
+	}
+	
+	.dropdown-menu {
+		margin-top:-5px;
+	}
+	
+	#panelWrapper{
+		margin-top:20px;
+	}
+	
+	#earningsPanel{
+		padding:0px 10px 0px 0px;
+	}
+	
+	#paymentCyclePanel{
+		padding:0px 10px 0px 10px;
+	}
+	#panelWrapper .glyphicon-euro{
+	font-size:18px;
+}
+	#pipelinePanel{
+		padding:0px 0px 0px 0px;
+	}
+
+	#pipelinePanel img{
+		width: 80%;
+	}
+	
+	#earningsPanel img{
+		width:100%;
+	}
+	#paymentCyclePanel img{
+		width:100%;
+	}
+	
+	.panel-top-text{
+		font-size:12px;
+	}
+	
+	.panel-top-value{
+		font-size:14px;
+	}
+	
+	.panel-bottom-text{
+		font-size:16px;
+	}
+	.panel-bottom-value{
+		font-size:24px;
+	}
+	
+	.panel-gray .panel-bottom-div{
+		margin-top:60px;
+	}
+	.panel-bottom-div{
+		margin-top:40px;
+	}
+	
+	.panel{
+		padding:20px;
+		height:200px;
+		margin-bottom:0px;
+	}
+		
+	.bottom-text-value{
+		font-size:12px;
+	}
+	.bottom-pipeline-text-value{
+		font-size:12px;
+	}
+	#timeLine{
+		font-size:16px;
+		margin: 20px 0px 0px 0px;
+		line-height:40px;
+	}
+	.timeLineLink span{
+		margin-left:10px;
+	}
+	.timeLineLink img{
+		width:10%;
+	}
+	.chartWrapper{
+		margin-top:20px;
+		margin-left:0px;
+	}
+	
+	.chartTitle{
+		font-size:28px;
+	}
+	
+	.chartSubTitle{
+		font-size:16px;
+		color:#CE0F42;
+		padding-left:30px;
+	}
+	
+	#royaltiesChart{
+		height:450px;
+	}
+	
+	#royaltiesTable, #bestSongsTable, #topSourcesTable, #topCountriesTable  {
+		font-size:12px;
+	}
+	#royaltiesTable .tableValue , #bestSongsTable .tableValue, #topSourcesTable .tableValue,  #topCountriesTable .tableValue{
+		font-size:12px;
+	}
+	
+	#royaltiesTable .tableKey, #bestSongsTable .tableKey, #topSourcesTable .tableKey, #topCountriesTable .tableKey  {
+		font-size:12px;
+	}
+	
+	#royaltiesTable tbody td, #bestSongsTable tbody td,  #topSourcesTable tbody td,  #topCountriesTable tbody td{
+		font-size:10px;
+	}
+	
+	#royaltiesTable thead, #bestSongsTable thead, #topSourcesTable thead, #topCountriesTable thead{
+		font-size:16px;
+	}
+	
+	.chartDataLabel{
+		font-size:20px;
+	}	
+	
+	#royaltiesTable tfoot td, #bestSongsTable tfoot td, #topSourcesTable tfoot td, #topCountriesTable tfoot td{
+		font-size:12px;
+	}	
+	
+	#bestSongsChart{
+		height:450px;
+	}
+	
+	#topSourcesChart{
+		height:450px;
+	}
+	
+	
+	.bestSongsBarLabel{
+		font-size:14px;
+	}
+	
+	.chartButtons{
+		padding-right:30px;
+		text-align:right;
+	}
+	.chartButtons img{
+		width:25px;
+	}
+	
+	.bestSongsChartIcon, .topSourcesChartIcon{
+		width:12%;
+	}
+	.exportText{
+		float:left;
+		padding-right:5px;
+		line-height:25px;
+	}
+	
+	.exportImage{
+		float:left;
+		padding:0px;
+		background-color:#939393;
+		height:100%;
+	}
+	.exportImage img{
+		width:25px;
+	}
+	.exportButtonClass img{
+		padding:5px;
+	}
+	
+	.xAxisLabel{
+		font-size:14px;
+	}
+	
+	.yAxisLabel{
+		font-size:14px;
+	}
+	
+	.stackLabel{
+		font-size:16px;
+		color:#777777;
+	}
+	
+	.dataLabel{
+		font-size:16px;
+	}
+	
+	.donutDataLabelValue{
+		font-size:20px;
+	}
+	
+	.donutDataLabelKey{
+		font-size:10px;
+	}
+		
+	#topSourcesDiv{
+		padding-left:10px;
+		padding-right:0px;
+	}
+	#bestSongsDiv{
+		padding-right:10px;
+	}	
+.copyrightBox{
+	/* 	height:150px; */
+		font-size:10px;
+	}
+	.copyrightContact{
+		text-align:left;
+		padding-left:10px;
+		    font-size: 14px;
+	}
+	.contactIcon{
+		padding-right:10px;
+	}
+	
+	.border-style-bottom{
+		border-bottom-width:0px;
+	}
+	.border-style-top{
+		    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #767676;
+	}
+	.modal-dialog{
+		width:500px;
+		height:300px;
+	}
+	.modal-header{
+		color:white;
+		text-align:center;
+	}
+	.modal-header img{
+		 width:20px;
+	}
+	.modal-title{
+		font-size: 20px;
+	}
+	.modal-title .chartTitle{
+		padding-left:50px;
+	}
+	.modal-title .chartSubTitle{
+		color:#FFF;
+		padding-left:30px;
+	
+	}
+	.modal-body .row{
+		border-bottom: 1px solid #ccc;
+		padding-bottom:10px;
+		line-height:40px;
+	}
+	
+	#topIconDiv img{
+		width:30px;
+	}
+	#applyClientSelection{
+		background-color:#ce0f42;
+		color:white;
+		font-size:16px;
+		margin-left: 55px;
+	}
+	#clientsTable{
+		border:0px;
+		font-size:12px;
+	}
+	.modalImage{
+		width:20px;
+	}
+	#clientsTable thead{
+		background-color:#555555;
+		color:white;
+	}
+	#clientSelectionModalCount{
+		color:#ce0f42;
+		font-size:16px;
+	}
+	#clientSelectionModalText{
+		padding-left:10px;
+		font-size:16px;
+	}
+	
+	#basic-addon{
+		background-color:white;
+		border-left:0px;
+	}
+	.modal-body .row{
+		line-height:40px;
+	}
+	#selectAllText{
+		line-height:40px;
+		font-size:16px;
+	}
+	#topIconDiv{
+		margin-right:30px;
+	}
+	#reportFormat{
+		margin-top:-20px;
+		height:40px;
+		font-size:16px;
+		background-color:#CCCCCC;
+		padding-left:20px;
+		line-height:40px;
+	}
+	#exportModal{
+		margin:auto;
+		margin-left:20px;
+	}
+	#exportModal img{
+		width:60%;
+		padding:10px;
+	}
+	
+	#clientModalDiv{
+		padding:10px;
+		height:300px;
+		overflow:auto;
+	}
+}
+
+@media screen and (orientation:portrait) and (min-width:768px) and (max-width:1279px){
+	.topMenu{
+		min-height:42px;
+	}
+	#brand div{
+		line-height:42px;
+	}
+	
+	#brand div img{
+		width:60%;
+	}
+	#hamburger{
+		padding: 0px 5px 0px 5px;
+	}
+	#rightMenu span{
+		line-height:42px;
+	}
+	#rightMenu div{
+		line-height:50px;
+	}		
+	#rightMenu > div > img{
+		width:25px;
+	}		
+	
+	#rightMenu ul
+	{
+	    line-height:42px;
+		font-size:12px;
+	}
+	.notificationBadge{
+		font-size:10px;
+		line-height:10px!important;	
+	}
+	#userName{
+		height:72px;
+		font-size:12px;
+	}
+	.sideMenuItem{
+		width:114px;
+		height:114px;
+	}	
+	#sidebar-wrapper{
+		width:114px;
+		float:left;
+	}
+	
+	#clientSelection{
+		margin-top:16px;
+		margin-left:0px;
+		height:67px;
+	}
+	
+	#clientSelectionButtonSpan .btn-group{
+		margin-right:-15px;
+		margin-top:-5px;
+	}
+	
+	#clientSelectionText{
+		line-height:67px;
+		font-size:16px;
+	}
+	
+	#clientSelectionTextDiv{
+		height:50px;
+		line-height:50px;
+		margin-top:8px;
+		padding-right:10px;
+	}
+	
+	#clientListButton{
+		font-size:16px;
+		margin-top:5px;
+		margin-right:10px;
+		height:40px;
+		line-height:30px;
+	}
+	#clientSelectionImage img{
+		width:25px;
+	}
+	
+	#clientSelectionDisplayText{
+		line-height:50px;
+		font-size:16px;
+	}
+	.vertically-centered {
+	 		line-height: 67px;
+	}
+	
+	.dropdown-menu {
+		margin-top:-5px;
+		width:90%;
+	}
+	
+	#panelWrapper{
+		margin-top:20px;
+	}
+	
+	#earningsPanel{
+		padding:0px 10px 0px 0px;
+	}
+	
+	#paymentCyclePanel{
+		padding:0px 10px 0px 10px;
+	}
+	
+	#panelWrapper .glyphicon-euro{
+		font-size:18px;
+	}
+	#pipelinePanel{
+		padding:0px 0px 0px 10px;
+	}
+
+	#pipelinePanel img{
+		width: 80%;
+	}
+	
+	#earningsPanel img{
+		width:100%;
+	}
+	#paymentCyclePanel img{
+		width:100%;
+	}
+	
+	.panel-top-text{
+		font-size:12px;
+	}
+	
+	.panel-top-value{
+		font-size:14px;
+	}
+	
+	.panel-bottom-text{
+		font-size:16px;
+	}
+	.panel-bottom-value{
+		font-size:24px;
+	}
+	
+	.panel-gray .panel-bottom-div{
+		margin-top:70px;
+	}
+	.panel-bottom-div{
+		margin-top:50px;
+	}
+	
+	.panel{
+		padding:10px;
+		height:200px;
+		margin-bottom:0px;
+	}
+		
+	.bottom-text-value{
+		font-size:12px;
+	}
+	.bottom-pipeline-text-value{
+		font-size:12px;
+	}
+	#timeLine{
+		font-size:12px;
+		margin: 20px 0px 0px 0px;
+		line-height:40px;
+	}
+	.timeLineLink span{
+		margin-left:10px;
+	}
+	.timeLineLink img{
+		width:10%;
+	}
+	.chartWrapper{
+		margin-top:20px;
+		margin-left:0px;
+	}
+	
+	.chartTitle{
+		font-size:28px;
+	}
+	
+	.chartSubTitle{
+		font-size:14px;
+		padding-left:30px;
+		color:#ce0f42;
+	}
+	
+	#royaltiesChart{
+		height:450px;
+	}
+	
+	#royaltiesTable, #bestSongsTable, #topSourcesTable, #topCountriesTable  {
+		font-size:12px;
+	}
+	#royaltiesTable .tableValue , #bestSongsTable .tableValue, #topSourcesTable .tableValue,  #topCountriesTable .tableValue{
+		font-size:12px;
+	}
+	
+	#royaltiesTable .tableKey, #bestSongsTable .tableKey, #topSourcesTable .tableKey, #topCountriesTable .tableKey  {
+		font-size:12px;
+	}
+	
+	#royaltiesTable tbody td, #bestSongsTable tbody td,  #topSourcesTable tbody td,  #topCountriesTable tbody td{
+		font-size:10px;
+	}
+	
+	#royaltiesTable thead, #bestSongsTable thead, #topSourcesTable thead, #topCountriesTable thead{
+		font-size:16px;
+	}
+	
+	.chartDataLabel{
+		font-size:20px;
+	}	
+	
+	#royaltiesTable tfoot td, #bestSongsTable tfoot td, #topSourcesTable tfoot td, #topCountriesTable tfoot td{
+		font-size:12px;
+	}	
+	
+	#bestSongsChart{
+		height:450px;
+	}
+	
+	#topSourcesChart{
+		height:450px;
+	}
+	
+	
+	.bestSongsBarLabel{
+		font-size:14px;
+	}
+	
+	.chartButtons{
+		padding-right:30px;
+		text-align:right;
+	}
+	
+	.chartButtons img{
+		width:25px;
+	}
+	
+	.exportText{
+		float:left;
+		padding-right:5px;
+		line-height:24px;
+	}
+	
+	.exportImage{
+		float:left;
+		padding:0px;
+		background-color:#939393;
+		text-align:center;
+	}
+	
+	.exportButtonClass img{
+		padding:5px;
+		width:25px;
+	}
+	
+	.xAxisLabel{
+		font-size:14px;
+	}
+	
+	.yAxisLabel{
+		font-size:14px;
+	}
+	
+	.stackLabel{
+		font-size:14px;
+		color:#777777;
+	}
+	
+	.dataLabel{
+		font-size:14px;
+	}
+	
+	.donutDataLabelValue{
+		font-size:20px;
+	}
+	
+	.donutDataLabelKey{
+		font-size:10px;
+	}
+		
+	#topSourcesDiv{
+		padding-left:0px;
+		padding-right:0px;
+	}
+	#bestSongsDiv{
+		padding-right:0px;
+	}
+	
+	.copyrightBox{
+		height:150px;
+		font-size:12px;
+	}
+	.copyrightContact{
+		text-align:left;
+		padding-left:20px;
+	}
+	.contactIcon{
+		padding-right:10px;
+	}
+	.modal-dialog{
+		width:500px;
+		height:300px;
+	}
+	.modal-header{
+		color:white;
+		text-align:center;
+		height:80px;
+	}
+	
+
+	.modal-title{
+		font-size: 20px;
+	}
+	
+	.modal-body .row{
+		border-bottom: 1px solid #ccc;
+		padding-bottom:10px;
+		line-height:40px;
+	}
+	
+	#applyClientSelection{
+		background-color:#ce0f42;
+		color:white;
+		font-size:16px;
+		margin-left:50px;
+	}
+	#clientsTable{
+		border:0px;
+		font-size:12px;
+	}
+	
+	#clientsTable thead{
+		background-color:#555555;
+		color:white;
+	}
+	#clientSelectionModalCount{
+		color:#ce0f42;
+		font-size:16px;
+	}
+	#clientSelectionModalText{
+		padding-left:10px;
+		font-size:16px;
+	}
+	.modal-header .close img {
+		width:30px;
+	}
+	#topIconDiv img{
+		width:30px;
+	}
+	footer{
+		text-align:center;
+	}
+	#basic-addon{
+		background-color:white;
+		border-left:0px;
+	}
+	
+	#selectAllText{
+		line-height:40px;
+		font-size:16px;
+	}
+	#topIconDiv{
+		margin-right:30px;
+	}
+	#reportFormat{
+		margin-top:-20px;
+		height:40px;
+		font-size:16px;
+		background-color:#CCCCCC;
+		padding-left:20px;
+		line-height:40px;
+	}
+	.modal-title .chartTitle{
+		padding-left:30px;
+	}
+	.modal-title .chartSubTitle{
+		color:#FFF;
+		padding-left:0px;
+	
+	}
+	
+	#exportModal{
+		margin:auto;
+		margin-left:20px;
+	}
+	#exportAsXL, #exportAsPDF, #exportAsCSV{
+		width:75%;
+		margin-top:20px;
+	}
+	.modalImage{
+		width:20px;
+	}
+	#clientModalDiv{
+		padding:10px;
+		height:300px;
+		overflow:auto;
+	}
+}
+
+@media screen and (orientation:landscape) and (max-width:767px){
+	.topMenu{
+		min-height:42px;
+	}
+	.border-style-left {
+    	border-left: 0px solid #767676;
+	}	
+	.border-style-right {
+    	border-right: 0px solid #767676;
+	}
+	#brand div{
+		line-height:42px;
+	}
+	
+	#brand div img{
+		width:60%;
+	}
+	#hamburger{
+		padding: 0px 5px 0px 5px;
+	}
+	#rightMenu span{
+		line-height:42px;
+	}
+	#rightMenu div{
+		line-height:50px;
+	}		
+	#rightMenu > div > img{
+		width:30px;
+	}		
+	
+	#rightMenu ul
+	{
+	    line-height:42px;
+	}
+	.notificationBadge{
+		font-size:12px;
+		line-height:12px!important;	
+	}
+	#userName{
+		height:72px;
+		font-size:18px;
+	}
+	.dropdown-menu {
+		margin-top:-10px;
+		width:90%;
+	}
+	.sideMenuItem{
+		width:114px;
+		height:114px;
+	}	
+	#sidebar-wrapper{
+		width:114px;
+		float:left;
+	}
+	
+	#clientSelection{
+		margin-top:16px;
+		margin-left:0px;
+		height:134px;
+		padding-left:10px;
+	}
+		
+	#clientSelectionButtonSpan .btn-group{
+		margin-right:-15px;
+		margin-top:0px;
+	}
+		
+	#clientSelectionText{
+		line-height:67px;
+		font-size:20px;
+	}
+	
+	#clientSelectionTextDiv{
+		height:50px;
+		line-height:50px;
+		margin-top:8px;
+		padding-right:10px;
+	}
+	
+	#clientListButton{
+		font-size:20px;
+		margin-top:0px;
+		margin-right:10px;
+		height:40px;
+		line-height:30px;
+	}
+	#clientSelectionImage img{
+		width:30px;
+	}
+	
+	#clientSelectionDisplayText{
+		line-height:50px;
+		font-size:20px;
+	}
+	.vertically-centered {
+	 		line-height: 67px;
+	}
+	
+	#panelWrapper{
+		margin-top:10px;
+	}
+	
+	#earningsPanel{
+		padding:0px 0px 0px 0px;
+	}
+	
+	#paymentCyclePanel{
+		padding:0px 0px 0px 0px;
+		margin-top:10px;
+	}
+	#panelWrapper .glyphicon-euro{
+	font-size:20px;
+	}
+	
+	#pipelinePanel{
+		padding:0px 0px 0px 0px;
+		margin-top:10px;
+	}
+
+	#pipelinePanel img{
+		width: 50px;
+	}
+	
+	#earningsPanel img{
+		width:50px;
+	}
+	#paymentCyclePanel img{
+		width:50px;
+	}
+	
+	.panel-top-text{
+		font-size:14px;
+	}
+	
+	.panel-top-value{
+		font-size:18px;
+	}
+	
+	.panel-bottom-text{
+		font-size:20px;
+	}
+	.panel-bottom-value{
+		font-size:28px;
+	}
+	
+	.panel-gray .panel-bottom-div{
+		margin-top:60px;
+	}
+	.panel-bottom-div{
+		margin-top:40px;
+	}
+	
+	.panel{
+		padding:20px;
+		height:200px;
+		margin-bottom:0px;
+	}
+		
+	.bottom-text-value{
+		font-size:12px;
+	}
+	.bottom-pipeline-text-value{
+		font-size:12px;
+	}
+	#timeLine{
+		font-size:12px;
+		margin: 10px 0px 0px 0px;
+		line-height:40px;
+	}
+	.timeLineLink span{
+		margin-left:10px;
+	}
+	
+	.timeLineLink img{
+		width:20%;
+	}
+	
+	.chartWrapper{
+		margin-top:10px;
+		margin-left:0px;
+	}
+	
+	.chartTitle{
+		font-size:16px;
+	}
+	
+	.chartSubTitle{
+		font-size:10px;
+		padding-left:30px;
+	}
+	
+	#royaltiesChart{
+		height:300px;
+	}
+	
+	#royaltiesTable, #bestSongsTable, #topSourcesTable, #topCountriesTable  {
+		font-size:8px;
+	}
+	#royaltiesTable .tableValue , #bestSongsTable .tableValue, #topSourcesTable .tableValue,  #topCountriesTable .tableValue{
+		font-size:10px;
+	}
+	
+	#royaltiesTable .tableKey, #bestSongsTable .tableKey, #topSourcesTable .tableKey, #topCountriesTable .tableKey  {
+		font-size:10px;
+	}
+	
+	#royaltiesTable tbody td, #bestSongsTable tbody td,  #topSourcesTable tbody td,  #topCountriesTable tbody td{
+		font-size:10px;
+	}
+	
+	#royaltiesTable thead, #bestSongsTable thead, #topSourcesTable thead, #topCountriesTable thead{
+		font-size:12px;
+	}
+	
+	.chartDataLabel{
+		font-size:20px;
+	}	
+	
+	#royaltiesTable tfoot td, #bestSongsTable tfoot td, #topSourcesTable tfoot td, #topCountriesTable tfoot td{
+		font-size:12px;
+	}	
+	
+	#bestSongsChart{
+		height:300px;
+	}
+	
+	#topSourcesChart{
+		height:300px;
+	}
+	
+	
+	.bestSongsBarLabel{
+		font-size:10px;
+	}
+	
+	.chartButtons{
+		padding-right:30px;
+		text-align:right;
+	}
+	
+	.chartButtons img{
+		width:25px;
+	}
+	.exportText{
+		float:left;
+		padding-right:5px;
+		line-height:24px;
+	}
+	
+	.exportImage{
+		float:left;
+		padding:0px;
+		background-color:#939393;
+		text-align:center;
+	}
+	
+	.exportButtonClass img{
+		padding:5px;
+		width:25px;
+	}
+	
+	.xAxisLabel{
+		font-size:10px;
+	}
+	
+	.yAxisLabel{
+		font-size:10px;
+	}
+	
+	.stackLabel{
+		font-size:10px;
+		color:#777777;
+		visibility:hidden;
+	}
+	
+	.dataLabel{
+		font-size:10px;
+	}
+	
+	.donutDataLabelValue{
+		font-size:20px;
+	}
+	
+	.donutDataLabelKey{
+		font-size:10px;
+	}
+		
+	#topSourcesDiv{
+		padding-left:0px;
+		padding-right:0px;
+	}
+	#bestSongsDiv{
+		padding-right:0px;
+	}
+	footer{
+		text-align:center;
+		font-size:10px;
+	}
+	.copyrightBox{
+		height:150px;
+		font-size:12px;
+	}
+	.copyrightContact{
+		text-align:left;
+		padding-left:10px;
+	}
+	.modal-dialog{
+		width:500px;
+		height:300px;
+	}
+	.modal-body .row{
+		line-height:40px;
+	}
+	.modal-header{
+		color:white;
+		text-align:center;
+	}
+	.modal-header img{
+		 width:20px;
+	}
+	.modal-title{
+		font-size: 20px;
+	}
+	.modal-header .close img {
+		width:30px;
+	}
+	
+	.modal-body .row{
+		border-bottom: 1px solid #ccc;
+		padding-bottom:10px;
+		line-height:30px;
+	}
+	
+	#applyClientSelection{
+		background-color:#ce0f42;
+		color:white;
+		font-size:16px;
+	}
+	#clientsTable{
+		border:0px;
+		font-size:12px;
+	}
+	
+	#clientsTable thead{
+		background-color:#555555;
+		color:white;
+	}
+	#clientSelectionModalCount{
+		color:#ce0f42;
+		font-size:16px;
+	}
+	#clientSelectionModalText{
+		padding-left:10px;
+		font-size:16px;
+	}
+	
+	#basic-addon{
+		background-color:white;
+		border-left:0px;
+	}
+	
+	#selectAllText{
+		line-height:30px;
+		font-size:12px;
+		padding-bottom:10px;
+	}
+	#topIconDiv{
+		margin-right:30px;
+	}
+	#reportFormat{
+		margin-top:-20px;
+		height:40px;
+		background-color:#CCCCCC;
+		padding-left:20px;
+		line-height:40px;
+		font-size:16px;
+	}
+	
+	#exportAsXL, #exportAsPDF, #exportAsCSV{
+		width:75%;
+		margin-top:20px;
+	}
+	
+	.contactIcon{
+		padding-right:10px;
+	}
+	
+	.modalImage{
+		width:20px;
+	}
+	#clientModalDiv{
+		padding:10px;
+		height:300px;
+		overflow:auto;
+	}
+	.chartTitle{
+		font-size:16px;
+	}
+	
+	.chartSubTitle{
+		color:#ce0f42;
+		font-size:10px;
+	}
+
+}
+
+@media screen and (orientation:portrait) and (max-width:767px){
+	#container{
+		padding-left:10px;
+		margin-left:0px;
+	}
+	
+	#panelWrapper .glyphicon-euro{
+	font-size:18px;
+	}
+.topMenu{
+		min-height:42px;
+	}
+	.border-style-left {
+    	border-left: 0px solid #767676;
+	}	
+	.border-style-right {
+    	border-right: 0px solid #767676;
+	}
+	#brand div{
+		line-height:42px;
+	}
+	
+	#brand div img{
+		width:60%;
+	}
+	#hamburger{
+		padding: 0px 5px 0px 5px;
+	}
+	#rightMenu span{
+		line-height:42px;
+	}
+	#rightMenu div{
+		line-height:50px;
+	}		
+	#rightMenu > div > img{
+		width:25px;
+	}		
+	
+	#rightMenu ul
+	{
+	    line-height:42px;
+	}
+	.notificationBadge{
+		font-size:12px;
+		line-height:12px!important;	
+	}
+	#userName{
+		height:72px;
+		font-size:14px;
+	}
+	.dropdown-menu {
+		margin-top:-10px;
+		width:90%;
+	}
+	.sideMenuItem{
+		width:60px;
+		height:60px;
+	}	
+	.sideMenuItem img{
+		width:50%;	
+	}
+	#sidebar-wrapper{
+		width:60px;
+		float:left;
+	}
+	.menutext{
+		font-size:6px;
+	}
+	#clientSelection{
+		margin-top:10px;
+		margin-left:0px;
+		height:134px;
+		padding-left:10px;
+	}
+		
+	#clientSelectionButtonSpan .btn-group{
+		margin-right:-35px;
+		margin-top:0px;
+	}
+		
+	#clientSelectionText{
+		line-height:67px;
+		font-size:16px;
+	}
+	
+	#clientSelectionTextDiv{
+		height:50px;
+		line-height:50px;
+		margin-top:8px;
+		padding-right:30px;
+	}
+	
+	#clientListButton{
+		font-size:16px;
+		margin-top:0px;
+		margin-right:10px;
+		height:40px;
+		line-height:30px;
+	}
+	#clientSelectionImage img{
+		width:25px;
+	}
+	
+	#clientSelectionDisplayText{
+		line-height:50px;
+		font-size:16px;
+	}
+	.vertically-centered {
+	 		line-height: 67px;
+	}
+	
+	#panelWrapper{
+		margin-top:10px;
+	}
+	
+	#earningsPanel{
+		padding:0px 0px 0px 0px;
+	}
+	
+	#paymentCyclePanel{
+		padding:0px 0px 0px 0px;
+		margin-top:10px;
+	}
+	
+	#pipelinePanel{
+		padding:0px 0px 0px 0px;
+		margin-top:10px;
+	}
+
+	#pipelinePanel img{
+		width: 50px;
+	}
+	
+	#earningsPanel img{
+		width:50px;
+	}
+	#paymentCyclePanel img{
+		width:50px;
+	}
+	
+	.panel-top-text{
+		font-size:12px;
+	}
+	
+	.panel-top-value{
+		font-size:16px;
+	}
+	
+	.panel-bottom-text{
+		font-size:18px;
+	}
+	.panel-bottom-value{
+		font-size:24px;
+	}
+	
+	.panel-gray .panel-bottom-div{
+		margin-top:60px;
+	}
+	.panel-bottom-div{
+		margin-top:40px;
+	}
+	
+	.panel{
+		padding:20px;
+		height:200px;
+		margin-bottom:0px;
+	}
+		
+	.bottom-text-value{
+		font-size:12px;
+	}
+	.bottom-pipeline-text-value{
+		font-size:12px;
+	}
+	#timeLine{
+		font-size:12px;
+		margin: 10px 0px 0px 0px;
+		line-height:40px;
+	}
+	.timeLineLink span{
+		margin-left:10px;
+	}
+	.timeLineLink img{
+		width:30%;
+	}
+	.chartButtons img{
+		width:20%;
+	}
+	.chartWrapper{
+		margin-top:10px;
+		margin-left:0px;
+	}
+	
+	.chartTitle{
+		font-size:16px;
+	}
+	
+	.chartSubTitle{
+		color:#ce0f42;
+		font-size:8px;
+		padding-left:30px;
+	}
+	
+	#royaltiesChart{
+		height:300px;
+	}
+	
+	#royaltiesTable, #bestSongsTable, #topSourcesTable, #topCountriesTable  {
+		font-size:8px;
+	}
+	#royaltiesTable .tableValue , #bestSongsTable .tableValue, #topSourcesTable .tableValue,  #topCountriesTable .tableValue{
+		font-size:8px;
+	}
+	
+	#royaltiesTable .tableKey, #bestSongsTable .tableKey, #topSourcesTable .tableKey, #topCountriesTable .tableKey  {
+		font-size:8px;
+	}
+	
+	#royaltiesTable tbody td, #bestSongsTable tbody td,  #topSourcesTable tbody td,  #topCountriesTable tbody td{
+		font-size:8px;
+	}
+	
+	#royaltiesTable thead, #bestSongsTable thead, #topSourcesTable thead, #topCountriesTable thead{
+		font-size:10px;
+	}
+	
+	.chartDataLabel{
+		font-size:12px;
+	}	
+	
+	#royaltiesTable tfoot td, #bestSongsTable tfoot td, #topSourcesTable tfoot td, #topCountriesTable tfoot td{
+		font-size:12px;
+	}	
+	
+	#bestSongsChart{
+		height:300px;
+	}
+	
+	#topSourcesChart{
+		height:300px;
+	}
+	
+	
+	.bestSongsBarLabel{
+		font-size:10px;
+	}
+	
+	.chartButtons{
+		padding-right:30px;
+		text-align:right;
+	}
+	
+	.chartButtons img{
+		width:20px;
+	}
+	.exportText{
+		float:left;
+		padding-right:5px;
+		line-height:25px;
+	}
+	
+	.exportImage{
+		float:left;
+		padding:0px;
+		background-color:#939393;
+		text-align:center;
+	}
+	
+	.exportButtonClass img{
+		padding:5px;
+		width:25px;
+	}
+	
+	.xAxisLabel{
+		font-size:10px;
+	}
+	
+	.yAxisLabel{
+		font-size:10px;
+	}
+	
+	.stackLabel{
+		font-size:12px;
+		color:#777777;
+	}
+	
+	.dataLabel{
+		font-size:8px;
+	}
+	
+	.donutDataLabelValue{
+		font-size:14px;
+	}
+	
+	.donutDataLabelKey{
+		font-size:8px;
+	}
+		
+	.tooltipKey{
+		color:#ce0f42;
+		padding-right: 0px;
+	}
+	.tooltipValue{
+		padding-left: 10px;
+	}
+	
+	#topSourcesDiv{
+		padding-left:0px;
+		padding-right:0px;
+	}
+	#bestSongsDiv{
+		padding-right:0px;
+	}
+	footer{
+		text-align:center;
+		font-size:8px;
+	}
+	.copyrightBox{
+		height:150px;
+		font-size:10px;
+	}
+	
+
+	
+	.copyrightContact{
+		text-align:left;
+		padding-left:10px;
+	}
+	
+	.modal-header .close img {
+		width:30px;
+	}
+	#topIconDiv img{
+		width:30px;
+	}
+	
+	.modal-dialog{
+		width:300px;
+		height:200px;
+		margin:auto;
+		margin-top:50px;
+	}
+	.modal-header{
+		color:white;
+		text-align:center;
+	}
+	.modal-header img{
+		 width:20px;
+	}
+	.modal-title{
+		font-size: 20px;
+	}
+	
+	.modal-body .row{
+		border-bottom: 1px solid #ccc;
+		padding-bottom:10px;
+	}
+	.modal-footer{
+		line-height:50px;
+	}
+	#applyClientSelection{
+		background-color:#ce0f42;
+		color:white;
+		font-size:12px;
+	}
+	#clientsTable{
+		border:0px;
+		font-size:12px;
+	}
+	
+	#clientsTable thead{
+		background-color:#555555;
+		color:white;
+	}
+	#clientSelectionModalCount{
+		color:#ce0f42;
+		font-size:16px;
+	}
+	#clientSelectionModalText{
+		padding-left:10px;
+		font-size:16px;
+	}
+	
+	#basic-addon{
+		background-color:white;
+		border-left:0px;
+	}
+	.modal-body .row{
+		line-height:30px;
+	}
+	
+	#selectAllText{
+		line-height:30px;
+		font-size:10px;
+		padding-bottom:10px;
+	}
+	#topIconDiv{
+		margin-right:20px;
+	}
+	
+	#reportFormat{
+		margin-top:-20px;
+		height:40px;
+		background-color:#CCCCCC;
+		padding-left:20px;
+		line-height:40px;"
+	}
+	
+	#exportAsXL, #exportAsPDF, #exportAsCSV{
+		width:100%;
+		margin-top:20px;
+	}
+	.modalImage{
+		width:20px;
+	}
+	#clientModalDiv{
+		padding:10px;
+		height:300px;
+		overflow:auto;
+	}
+	.contactIcon{
+		padding-right:10px;
+	}
+	.modal-title .chartTitle{
+		padding-left:30px;
+	}
+	.modal-title .chartSubTitle{
+		color:#FFF;
+		font-size:10px;
+		padding-left:30px;
+	
+	}
+	
+}
+.menu-item.user-name{
+	height: 80px;
+}
+@media (max-width: 768px){
+
+.blank
+
+{
+display:none;
+}
+
+	#rightMenu .menu-item{
+		text-align: center;
+		width: 33.33%;
+		padding: 0;
+	}
+	.menu-item.user-name{
+		height: auto;
+	}	
+}
+
+
+
+
+
+
+
+
+
+.tick_cont {
+	margin-left: 10px;
+}
+.notification_cont {
+	padding: 10px;
+	background-color: #CE0F42;
+	color: #fff;
+	float: left;
+	line-height: 52px;
+	margin-right: 9px;
+	width: 44px;
+}
+
+.glyphicon {
+	position: relative;
+	top: 0px;
+}
+.drop_heading {
+	background: #ce0f42;
+	border-radius: 4px 4px 0px 0px;
+	text-align: center;
+	padding: 0px;
+	color: #fff;
+	font-size: 18px;
+	text-shadow: 2px 0px 2px rgba(0, 0, 0, 0.7);
+	font-family: 'Geogrotesque-Regular';
+	line-height: 55px!important;
+}
+.dropdown-menu:after {
+	border-bottom: 11px solid #FFF!important;
+	border-left: 11px solid rgba(0, 0, 0, 0);
+	border-right: 11px solid rgba(0, 0, 0, 0);
+	content: "";
+	display: inline-block;
+	position: absolute;
+	left: 100%;
+	margin-left: -60%;
+	top: -10px;
+}
+/* new css */
+
+
+.drop_heading {
+	background: #ce0f42;
+	border-radius: 4px 4px 0px 0px;
+	text-align: center;
+	padding: 0px;
+	color: #fff;
+	font-size: 18px;
+	text-shadow: 2px 0px 2px rgba(0, 0, 0, 0.7);
+	font-family: 'Geogrotesque-Regular';
+	line-height: 55px!important;
+}
+.red-text {
+	color: red;
+}
+.modal-dialog {
+	
+	margin: 30px auto;
+}
+.close_red {
+	margin-top: 0px;
+	position: absolute;
+	z-index: 99999;
+	right: 50%;
+	left: 100%;
+	width: 41px;
+	float: right;
+}
+.modal-body {
+	padding: 55px !important;
+}
+.bmg_img {
+	width: 165px;
+	margin-top: -18px;
+}
+
+ @media only screen and (max-width : 410px) {
+	 
+	 
+	 .modal-content
+	 
+	 {
+		width:250px;
+		    margin: 0 auto;
+		
+	 }
+
+.close_red {
+	margin-top: 0px;
+	position: absolute;
+	z-index: 99999;
+	right: 50%;
+	left: 91%;
+	width: 41px;
+	float: right;
+}
+.modal-body {
+	padding: 20px !important;
+}
+
+
+
+}
+
+
+.menu-item.user-name {
+    height: 80px;
+}
+
+
+@media (max-width: 768px){
+
+.menu-item.user-name {
+    height: auto;
+}
+}
+
+ul.notification_box li
+
+{
+	
+		margin: 12px;
+	
+	    font-family: 'Geogrotesque-Medium';
+		    border-bottom: 1px solid #adadad;
+	line-height:20px !important;
+	padding:0px;
+}
+
+
+ul.notification_box li:hover
+
+{
+	
+
+    background: #f4f4f4;
+}
+
+
+
+
+ul.notification_box li label
+
+{
+	
+	color:#ce0f42;
+	font-weight: bold;
+}
+
+.dash_text
+
+{
+	
+	color:#494949!important;
+	      font-family: Geogrotesque-Medium;
+}
+
+
+
+.warning1
+{
+    width: 400px;
+    height: 111px;
+    background-color: #FFFFFF;
+    border: solid 1px #CE0F63;
+}
+
+
+.warning1
+{
+ display:none;
+}
+
+
+.left_red_icon
+{
+	    text-align: center;
+	height:100%;
+	background:#ce0f42;
+}
+
+
+.left_red_icon img
+{
+	
+	margin-top:46px
+}
+
+.warning_head
+{
+    color: #ce0f42;
+    font-weight: bold;
+}
+
+
+.grey_cls
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+  
+    margin: 5px;
+}
+
+
+
+.setting_footer {
+    background-color: #555555;
+    color: white;
+    height: 50px;
+    font-size: 1.1em;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-right: 0px;
+	    font-family: 'Geogrotesque-Regular';
+}
+
+
+
+
+.link_color
+
+{
+	
+	   color: #ce0f42!important;
+
+}
+
+.one
+
+{
+	margin-right:-500px;
+}
+ #toggle {
+    width: 100px;
+    height: 100px;
+    background: #ccc;
+  }
+

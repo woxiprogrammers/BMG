@@ -1,0 +1,1331 @@
+#primary_nav_wrap
+{
+    margin-top:6px
+}
+
+#primary_nav_wrap ul
+{
+    list-style:none;
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0
+}
+
+#primary_nav_wrap ul a
+{
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    font-weight:700;
+    font-size:12px;
+    line-height:32px;
+    padding:0 21px;
+    font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+#primary_nav_wrap ul li
+{
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0;
+    margin-left:6%;
+}
+
+#primary_nav_wrap ul li.current-menu-item
+{
+    background:#ddd
+}
+
+#primary_nav_wrap ul li:hover
+{
+    background:#CE0F42;
+}
+
+#primary_nav_wrap ul ul
+{
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:#CE0F42;
+    padding:0;
+    z-index:99999;
+}
+
+#primary_nav_wrap ul ul li
+{
+    float:none;
+    width:200px
+}
+
+#primary_nav_wrap ul ul a
+{
+    line-height:120%;
+    padding:10px 15px
+}
+
+#primary_nav_wrap ul ul ul
+{
+    top:0;
+    left:100%
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+    display:block
+}
+.timeLineLink span{
+    margin-left: -20px !important;
+}
+
+.navbar-nav > li
+{
+    margin-left: 36px;
+    font-size: 16px;
+}
+.navbar-inverse
+{
+    background-color:#555;
+    border: none;
+}
+.songimg
+{
+    width:30px;
+    height:30px;
+    margin:0 5px 0 20px;
+}
+
+#myModal td
+{
+    padding-left: 20px;
+    text-align: left;
+    font-weight: 700;
+    border-bottom: 1px solid #eee;
+}
+#myModal td .delete-btn
+{
+    color: #CE0F42;
+    background: #fff;
+    border: 1px solid #CE0F42;
+    text-align: center;
+    line-height: 22px;
+    height: 25px;
+    width: 25px;
+    border-radius: 13px;
+    display: inline-block;
+}
+.align-center
+{
+    text-align: center;
+}
+.btn-danger
+{
+    background: #CE0F42 !important;
+}
+#popUpModel .delete-btn
+{
+    color: #fff;
+    background: #CE0F42;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 22px;
+    height: 25px;
+    width: 25px;
+    border-radius: 13px;
+    display: inline-block;
+    float: right;
+}
+#popUpModel table
+{
+    width: 100%;
+    color: #000;
+    font-size: 14px;
+}
+#popUpModel table th
+{
+    padding-left: 20px;
+    color: #fff;
+}
+
+#popUpModel table tr:nth-child(2n+1) td
+{
+    background: #E3E3E3;
+}
+#popUpModel table tr.selected td
+{
+    color: #fff;
+    background: #939393;
+}
+#popUpModel .header
+{
+    color: #000;
+    text-align: left;
+    font-weight: bold;
+}
+#popUpModel .header span
+{
+    color: #ce0f42
+}
+#popUpModel .modal-footer
+{
+    text-align: center;
+}
+#popUpModel .up-btn {
+    border-radius: 25px;
+    height: 40px;
+    float: right;
+}
+#timeLineSongs .song-selection
+{
+    line-height: 60px;
+}
+#timeLineSongs .song-selection.toggle-btns
+{
+    text-align: right;
+    padding-right: 10px;
+    padding: 0;
+}
+#timeLineSongs .toggle-btns .btn-group
+{
+    background: #fff;
+    width: 180px;
+    padding: 5px;
+    border-radius: 5px;
+    margin:9px 10px 9px 0;
+}
+#timeLineSongs .toggle-btns .btn
+{
+    background: #fff !important;
+    border: none;
+    border-radius: 3px;
+    color: #000;
+    width: 50%;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+#timeLineSongs .toggle-btns .btn:hover
+{
+    z-index: 0;
+}
+#timeLineSongs .toggle-btns .btn.active
+{
+    border: none;
+    background: #ce0f42 !important;
+    box-shadow: none;
+    color: #fff !important;
+;
+}
+#timeLineSongs .toggle-btns #SpecificsSongSelection
+{
+    margin-left: 0;
+}
+#timeLineSongs .song-selection p
+{
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.timelineWrap
+{
+    padding-right: 15px;
+}
+
+.song-selection-box.box {
+    display: none;
+    position: absolute;
+    background: #c5c5c5;
+    width: 611px;
+    max-height: 550px;
+    z-index: 1;
+    right: 10px;
+    box-shadow: 0 0 10px 0px #666;
+    border-radius: 5px;
+    top: 55px;
+    overflow: hidden;
+}
+
+.song-selection-box table
+{
+    width: 100%;
+    color: #000;
+    background: #ededed;
+}
+.song-selection-box table th
+{
+    color: #fff;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.song-selection-box table th:before
+{
+    content: "";
+    height: 40px;
+    background-color: #333;
+    width: 1px;
+    position: absolute;
+    left: -20px;
+}
+.song-selection-box table th,.song-selection-box table td
+{
+    padding: 5px 20px;
+    border-bottom: 1px solid #e1e1e1;
+}
+.song-selection-box table thead
+{
+    background: #555;
+}
+.song-selection-box .box-head
+{
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.song-selection-box .box-head .glyphicon.glyphicon-search
+{
+    position: absolute;
+    top: 22px;
+    color: #999;
+    font-size: 20px;
+    left: 20px;
+}
+.song-selection-box .box-head input
+{
+    width: 372px;
+    padding: 0 20px 0 40px;
+    height: 40px;
+    border:none;
+    border-radius: 5px;
+    color: #555;
+
+}
+
+
+.song-selection-box .box-head span{
+    display: inline-block;
+    margin: 0 25px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+}
+.song-selection-box .box-head .btn{
+    height: 40px;
+}
+.song-selection-box .box-head .btn i{
+    position: relative;
+    left: -2px;
+    top: 3px;
+}
+.song-selection-box .box-body{
+    max-height: 737px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.song-selection-box .btn-close {
+    color: #CE0F42;
+    border: 1px solid #CE0F42;
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    line-height: 22px;
+    border-radius: 13px;
+}
+#songSelectionModal{
+    background: rgba(0,0,0,.8);
+}
+#songSelectionModal table{
+    border-radius: 5px;
+    overflow: hidden;
+}
+#songSelectionModal table tr td,#songSelectionModal table tr th{
+    border: none;
+}
+#songSelectionModal table tr td{
+    background: #fff;
+}
+#songSelectionModal table tr:nth-child(2n+1) td{
+    background: #e3e3e3;
+}
+
+#songSelectionModal table tr.selected td{
+    background: #939393;
+    color: #fff;
+    font-weight: 400;
+}
+#songSelectionModal .modal-body{
+    color: #000;
+}
+#songSelectionModal .search-wrap{
+    overflow: hidden;
+    border-bottom: 1px dotted #999;
+    padding-bottom: 10px;
+}
+#songSelectionModal .search-wrap .input-wrap{
+    width: 50%;
+}
+#songSelectionModal .row{
+    margin: 0;
+    border: none;
+}
+#songSelectionModal .modal-content{
+    border-radius: 8px;
+    overflow: hidden;
+}
+#songSelectionModal #applyClientSelection{
+    width: 355px;
+    height: 60px;
+    border-radius: 3px;
+}
+#topIconDiv{
+    cursor: pointer;
+}
+#clientSelection.period-selection{
+    height: 216px;
+    overflow: hidden;
+}
+#slider-range{
+    margin-bottom: 10px;
+    height: 20px;
+    background-color: #252525;
+    border: none;
+}
+.slider-wrap{
+    padding: 0 125px;
+    margin: 30px;
+    background-color: #252525;
+    border-radius: 10px;
+    height: 20px;
+}
+.ui-slider-horizontal .ui-slider-range{
+    background-color: #ce0f42;
+}
+.ui-widget-content .ui-state-default{
+    background: no-repeat url(../../images/slider_pointer.png);
+    border: none;
+    height: 50px;
+    width: 40px;
+    top: -12px;
+    cursor: pointer;
+}
+.ui-widget-content .ui-state-default:focus{
+    outline: none;
+}
+.slider-data-wrap ul{
+    font-size: 16px;
+    color: #fff;
+    padding: 0;
+    margin: 0 155px;
+    position: relative;
+}
+.slider-data-wrap li:hover{
+    /*z-index: 2;*/
+}
+.slider-data-wrap li{
+    list-style: none;
+    position: absolute;
+    margin-left: -9px;
+    width: 40px;
+    text-align: center;
+    height: 25px;
+    padding-top: 50px;
+    top: -50px;
+    z-index: 1;
+}
+.slider-data-wrap li:before{
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 10px;
+    background: #909090;
+    top: 35px;
+    left: 18px;
+}
+.slider-tooltip{
+    position: relative;
+    top: -150px;
+    padding-bottom: 30px;
+    left: -125px;
+    z-index: 2;
+    display: none;
+    width: 288px;
+}
+
+.slider-data-wrap li:last-child .slider-tooltip{
+    left: -225px;
+}
+.slider-data-wrap li:last-child .slider-tooltip:after{
+    left: 85%;
+}
+.slider-data-wrap li:first-child .slider-tooltip{
+    left: -25px;
+}
+.slider-data-wrap li:first-child .slider-tooltip:after{
+    left: 15%;
+}
+
+.slider-tooltip:after {
+    top: 63%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(37, 37, 37, 0);
+    border-top-color: #252525;
+    border-width: 10px;
+    margin-left: -10px;
+}
+.slider-data-wrap li.active:hover .slider-tooltip{
+    display: block !important;
+}
+
+.slider-tooltip .inner{
+    overflow: hidden;
+    background: #252525;
+    border-radius: 5px;
+    padding: 0;
+    position: relative;
+}
+.slider-tooltip .item{
+    float: left;
+    list-style: none;
+    text-align: center;
+    border-left: 1px solid #3e3e3e;
+    color: #fff;
+    width: 72px;
+    line-height: 50px;
+    position: relative;
+    cursor: pointer;
+}
+.slider-tooltip .item.active:before {
+    content: "";
+    background-color: #ce0f42;
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.dropdown-toggle{
+    float: right;
+    position: relative;
+    z-index: 1;
+    margin-right: 10px;
+}
+#timeLine .navbar-nav{
+    line-height: 60px;
+    width: 100%;
+}
+.widget-menu{
+    overflow: visible !important;
+
+}
+.widget-menu .navbar-nav > li{
+    width: 20%;
+    margin: 0;
+    height: 60px;
+}
+
+.widget-menu .navbar-nav > li a{
+    border-bottom: 3px solid transparent;
+}
+.widget-menu .navbar-nav > li:first-child{
+    border-radius: 5px 0 0 5px;
+}
+.widget-menu .navbar-nav > li:last-child{
+    border-radius:0 5px 5px 0;
+}
+.widget-menu .navbar-nav > li.active{
+    border-bottom: 0 !important;
+}
+.widget-menu .navbar-nav > li.active > a{
+    border-bottom-color: #ce0f42;
+}
+.widget-menu .navbar-nav > li.active > a{
+    background: none;
+}
+.widget-menu .navbar-nav > li:hover{
+    background: #ce0f42;
+}
+.widget-menu .navbar-nav > li.active:hover a,
+.widget-menu .navbar-nav > li.active a:focus{
+    background: none;
+}
+
+.widget-menu .dotsImg{
+    float: right;
+    margin-right: 10px;
+    margin-top: 25px;
+    height: 15px;
+}
+.widget-menu .navbar-nav > li:hover .sub-menu{
+    display: block;
+}
+.widget-menu .navbar-nav > li > a{
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    height: 60px;
+    line-height: 64px;
+    box-sizing: border-box;
+}
+
+.widget-menu .navbar-nav > li > a:active{
+    background: #555;
+}
+
+.widget-menu .navbar-nav .sub-menu{
+    display: none;
+    position: absolute;
+    top: 50px;
+    background: #BBBBBB;
+    box-shadow: 0 0 3px 0 #000;
+    z-index: 1;
+    padding: 0;
+    width: 100%;
+    border-radius: 2px;
+    text-align: center;
+    overflow: hidden;
+}
+.widget-menu .navbar-nav .sub-menu li{
+    line-height: 36px;
+    height: 36px;
+    border-bottom: 3px solid transparent;
+    box-sizing: border-box;
+    color: #ce0f42;
+    list-style: none;
+}
+
+.widget-menu .navbar-nav .sub-menu li > a {
+    color: #ce0f42;
+}
+
+.widget-menu .navbar-nav .sub-menu li.active{
+    border-bottom-color: #ce0f42;
+}
+.widget-menu .navbar-nav .sub-menu:hover{
+    background: #A1A1A1;
+}
+
+.widget-menu .navbar-nav .sub-menu a:hover{
+    color: #111;
+}
+
+#navbarCollapse{
+    padding: 0;
+}
+
+.period-selection .expand-btn{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    background: no-repeat url(../../images/expand-arrow-down.png);
+    height: 12px;
+    width: 20px;
+}
+.period-selection .expand-btn.active{
+    background: no-repeat url(../../images/expand-arrow-up.png);
+}
+
+
+
+@media screen and (orientation:landscape) and (min-width:1920px){
+
+    .menu-item.user-name {
+        height: 108px;
+    }
+
+    .song-selection-box.box {
+        width: 925px;
+    }
+
+    .song-selection-box .box-head input
+    {
+        width: 680px;
+        line-height: normal;
+    }
+    .song-selection-box .box-head .glyphicon.glyphicon-search
+    {
+        top: 30px;
+    }
+
+    ::-moz-placeholder {
+        color: #555;
+        font-size: 20px;
+    }
+
+    #clientSelection.period-selection {
+        height : 250px;
+    }
+
+    .widget-menu .navbar-nav > li > a {
+        font-size: 19px;
+    }
+    .widget-menu .navbar-nav .sub-menu li > a {
+        font-size: 18px;
+    }
+
+    #timeLineSongs .toggle-btns .btn {
+        font-size: 15px;
+    }
+
+    .song-selection-box .box-body {
+        font-size: 16px;
+        line-height: 50px;
+    }
+    .song-selection-box table th::before {
+        height:50px;
+    }
+    .slider-data-wrap li {
+        font-size : 20px;
+    }
+
+    #selectAllText {
+        line-height: 60px;
+        font-size: 20px;
+    }
+
+    .modal-dialog {
+        width: 1070px;
+        height: 1109px;
+    }
+
+    #clientSelectionModalCount {
+        font-weight: 600;
+    }
+
+    #clientSelectionModalText {
+        font-weight: 600;
+    }
+
+    #songSelectionModal #applyClientSelection {
+        width: 355px;
+        height: 60px;
+        border-radius: 3px;
+    }
+
+}
+
+@media screen and (orientation:landscape) and (min-width:1360px) and (max-width:1919px){
+
+
+    #clientSelectionImage img{
+       width: 23%;
+    }
+
+    .song-selection-box.box {
+        width: 925px;
+    }
+
+    .song-selection-box .box-head input
+    {
+        width: 680px;
+    }
+
+    .song-selection-box .box-head .glyphicon.glyphicon-search
+    {
+        top: 19px;
+    }
+
+    ::-moz-placeholder {          /* Firefox 19+ */
+        color: #555;
+        font-size: 16px;
+    }
+
+    .widget-menu .navbar-nav > li > a {
+        font-size: 20px;
+    }
+    .widget-menu .navbar-nav .sub-menu li > a {
+        font-size: 18px;
+    }
+
+    #timeLineSongs .toggle-btns .btn {
+        font-size: 15px;
+    }
+
+    .song-selection-box .box-body {
+        font-size: 16px;
+    }
+    .song-selection-box table th::before {
+        height: 50px;
+    }
+
+    .slider-data-wrap li {
+        font-size:18px;
+    }
+    #timeLineSongs .toggle-btns .btn-group {
+        width : 170px;
+    }
+    .song-selection-box .box-body {
+        font-size: 16px;
+        line-height: 50px;
+    }
+
+    #selectAllText {
+        line-height: 60px;
+        font-size: 20px;
+    }
+
+    .modal-dialog {
+        width: 1070px;
+        height: 1109px;
+    }
+
+    #clientSelectionModalCount {
+        font-weight: 600;
+    }
+
+    #clientSelectionModalText {
+        font-weight: 600;
+    }
+
+    #songSelectionModal #applyClientSelection {
+        width: 300px;
+        height: 50px;
+        border-radius: 3px;
+    }
+
+    #timeLineSongs {
+        font-size:19px;
+    }
+
+}
+
+
+
+@media screen and (orientation:landscape) and (min-width:1280px) and (max-width:1359px){
+    .song-selection-box.box {
+        width: 645px;
+    }
+
+    .song-selection-box .box-head input
+    {
+        width: 409px;
+        font-size: 16px;
+    }
+    .song-selection-box .box-head .glyphicon.glyphicon-search
+    {
+        top: 18px;
+    }
+
+    ::-moz-placeholder {          /* Firefox 19+ */
+        color: #555;
+        font-size: 16px;
+    }
+
+    .widget-menu .navbar-nav > li > a {
+        font-size: 16px;
+    }
+    .widget-menu .navbar-nav .sub-menu li > a {
+        font-size: 14px;
+    }
+
+    #timeLineSongs .toggle-btns .btn {
+        font-size: 14px;
+    }
+
+    .song-selection-box .box-body {
+        font-size: 14px;
+    }
+    .song-selection-box table th::before {
+        height: 40px;
+    }
+
+    #timeLineSongs .toggle-btns .btn-group {
+        width : 165px;
+    }
+
+    .song-selection-box .box-body {
+        font-size: 16px;
+    }
+
+    #selectAllText {
+        font-size: 19px;
+    }
+
+    .modal-dialog {
+        width: 1070px;
+        height: 1109px;
+    }
+
+    #clientSelectionModalCount {
+        font-weight: 600;
+    }
+
+    #clientSelectionModalText {
+        font-weight: 600;
+    }
+
+    #songSelectionModal #applyClientSelection {
+        width: 300px;
+        height: 50px;
+        border-radius: 3px;
+    }
+
+    #timeLineSongs {
+        font-size:16px;
+    }
+
+}
+
+@media screen and (orientation:landscape) and (min-width:768px) and (max-width:1360px){
+    .song-selection-box.box {
+        width: 609px;
+    }
+
+    .song-selection-box .box-head input
+    {
+        width: 372px;
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (orientation: landscape) and (max-width: 1279px) and (min-width: 768px)  {
+    .song-selection-box.box {
+        width: 605px;
+    }
+
+    .song-selection-box .box-head input
+    {
+        width: 369px;
+        font-size: 16px;
+    }
+    .song-selection-box .box-head .glyphicon.glyphicon-search
+    {
+        top: 19px;
+    }
+
+    ::-moz-placeholder {          /* Firefox 19+ */
+        color: #555;
+        font-size: 16px;
+    }
+
+    .widget-menu .navbar-nav > li > a {
+        font-size: 16px;
+        text-align: center;
+    }
+    .widget-menu .navbar-nav .sub-menu li > a {
+        font-size: 14px;
+    }
+
+    #timeLineSongs .toggle-btns .btn {
+        font-size: 14px;
+    }
+
+    .song-selection-box .box-body {
+        font-size: 14px;
+    }
+    .song-selection-box table th::before {
+        height: 40px;
+    }
+
+    #timeLineSongs .toggle-btns .btn-group {
+        width : 165px;
+    }
+
+    .song-selection-box .box-body {
+        font-size: 16px;
+    }
+
+    #selectAllText {
+        font-size: 19px;
+    }
+
+    .modal-dialog {
+        width: 970px;
+        height: 1009px;
+    }
+
+    #clientSelectionModalCount {
+        font-weight: 600;
+    }
+
+    #clientSelectionModalText {
+        font-weight: 600;
+    }
+
+    #songSelectionModal #applyClientSelection {
+        width: 250px;
+        height: 40px;
+        border-radius: 3px;
+    }
+
+    #timeLineSongs {
+        font-size:16px;
+    }
+
+    #rightMenu span {
+        line-height: 76px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (orientation:portrait) and (min-width:768px) and (max-width:1279px){
+
+    #clientSelectionModalCount {
+        font-weight: 600;
+    }
+
+    .modal-dialog {
+        width: 85%;
+    }
+
+    #clientSelectionModalText {
+        font-weight: 600;
+    }
+
+    #songSelectionModal #applyClientSelection {
+        width: 150px;
+        height: 35px;
+        border-radius: 3px;
+    }
+
+    #rightMenu .dropdown{
+        left: 0;
+    }
+    .song-selection-box.box{
+        width: 96%;
+        right: 2%;
+    }
+    .song-selection-wrapp {
+        height: auto;
+    }
+    .navbar-inverse{
+        border-radius: 5px;
+    }
+    .widget-menu .navbar-nav > li{
+       /* width: 100%;
+        height: auto;
+        border-bottom: 1px solid #666 !important;
+        */
+    }
+    .widget-menu .navbar-nav > li > a{
+        text-align: left;
+        padding-left: 20px;
+    }
+    .widget-menu .navbar-nav .sub-menu{
+        width: 95%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    /*.widget-menu .navbar-nav .sub-menu li{
+        height: 60px;
+        line-height: 60px;
+        text-align: left;
+        padding-left: 40px;
+    }*/
+    #timeLine .navbar-nav{
+        margin: 0;
+    }
+    /*.navbar-nav > li > b .dropdown-menu{
+        top: 15px;
+        left: -140px;
+    }*/
+    .slider-wrap{
+        padding: 0 45px 0 25px;
+        margin: 30px 0;
+
+    }
+    .slider-data-wrap ul{
+        margin: 0 25px;
+    }
+
+    .song-selection-box .box-head input{
+        width: 50%;
+    }
+    .song-selection-box .box-head span{
+        width: 18%;
+        text-align: center;
+        margin: 0;
+        font-size: 16px;
+    }
+
+    .song-selection-box .box-head .btn{
+        width: 30%;
+        text-overflow: hidden;
+        overflow: hidden;
+        font-size: 14px;
+    }
+    .blank{
+        display: none;
+    }
+
+    .widget-menu {
+        display: block;
+    }
+    .widget-menu .dropdown  {
+        font-size: 14px;
+    }
+
+    .widget-menu .navbar-nav > li > a {
+        font-size: 14px;
+    }
+    .widget-menu .navbar-nav .sub-menu li > a {
+        font-size: 12px;
+    }
+
+    #timeLineSongs .toggle-btns .btn {
+        font-size: 14px;
+    }
+
+    #timeLineSongs .song-selection p {
+        font-size: 16px;
+    }
+
+    #timeLineSongs {
+        font-size: 16px;
+    }
+    .song-selection-box .box-head input
+    {
+        font-size: 16px;
+    }
+
+    .song-selection-box .box-head .glyphicon.glyphicon-search
+    {
+        top: 22px;
+        font-size: 16px;
+    }
+
+    ::-moz-placeholder {          /* Firefox 19+ */
+        color: #555;
+        font-size: 14px;
+    }
+
+    .song-selection-box .box-body {
+        font-size: 10px;
+    }
+    .song-selection-box table th::before {
+        height: 40px;
+    }
+    .slider-data-wrap li {
+        font-size:14px;
+    }
+
+    .song-selection-box table th, .song-selection-box table td {
+        font-size:14px;
+    }
+
+    .menu-item.user-name {
+        height: 50px;
+    }
+
+}
+
+@media screen and (orientation:landscape) and (max-width:767px){
+    #selectAllText {
+        line-height: 37px;
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+
+    .modal-body .row {
+        line-height: 38px;
+    }
+}
+
+@media screen and (orientation:portrait) and (max-width:767px){
+    #selectAllText {
+        line-height: 37px;
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+
+    .modal-body .row {
+        line-height: 38px;
+    }
+
+
+    .widget-menu .navbar-nav > li.border-style-left {
+        border-left-width: 1px;
+        border-left-style: solid;
+        border-left-color: #767676;
+    }
+    .widget-menu .navbar-nav > li.border-style-right {
+        border-right-width: 1px;
+        border-right-style: solid;
+        border-right-color: #2e2e2e;
+    }
+    .widget-menu .navbar-nav > li a{
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+@media (max-width: 991px){
+    .timelineWrap {
+        padding-right: 0px;
+    }
+}
+
+
+@media (max-width: 768px){
+
+    .widget-menu .navbar-nav > li.border-style-left {
+        border-left-width: 1px;
+        border-left-style: solid;
+        border-left-color: #767676;
+    }
+    .widget-menu .navbar-nav > li.border-style-right {
+        border-right-width: 1px;
+        border-right-style: solid;
+        border-right-color: #2e2e2e;
+    }
+    .widget-menu .navbar-nav > li a{
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    #clientSelectionModalCount {
+        font-weight: 600;
+    }
+
+    .modal-dialog {
+        width: 85%;
+    }
+
+    #clientSelectionModalText {
+        font-weight: 600;
+    }
+
+    #songSelectionModal #applyClientSelection {
+        width: 150px;
+        height: 35px;
+        border-radius: 3px;
+    }
+
+    #rightMenu .dropdown{
+        left: 0;
+    }
+    .song-selection-box.box{
+        width: 96%;
+        right: 2%;
+    }
+    .song-selection-wrapp {
+        height: auto;
+    }
+    .navbar-inverse{
+        border-radius: 5px;
+    }
+    .widget-menu .navbar-nav > li{
+        /*width: 100%;
+        height: auto;
+        border-bottom: 1px solid #666 !important;*/
+    }
+    .widget-menu .navbar-nav > li > a{
+        text-align: left;
+        padding-left: 20px;
+    }
+    .widget-menu .navbar-nav .sub-menu{
+        width: 95%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    /*.widget-menu .navbar-nav .sub-menu li{
+        height: 60px;
+        line-height: 60px;
+        text-align: left;
+        padding-left: 40px;
+    }*/
+    #timeLine .navbar-nav{
+        margin: 0;
+    }
+    /*.navbar-nav > li > b .dropdown-menu{
+        top: 15px;
+        left: -140px;
+    }*/
+    .slider-wrap{
+        padding: 0 45px 0 25px;
+        margin: 30px 0;
+
+    }
+    .slider-data-wrap ul{
+        margin: 0 25px;
+    }
+
+    .song-selection-box .box-head input{
+        width: 50%;
+    }
+    .song-selection-box .box-head span{
+        width: 18%;
+        text-align: center;
+        margin: 0;
+        font-size: 16px;
+    }
+
+    .song-selection-box .box-head .btn{
+        width: 30%;
+        text-overflow: hidden;
+        overflow: hidden;
+        font-size: 14px;
+    }
+    .blank{
+        display: none;
+    }
+
+    .widget-menu {
+        display: block;
+        border: none;
+    }
+    .widget-menu .dropdown  {
+        font-size: 14px;
+    }
+
+    .widget-menu .navbar-nav > li > a {
+        font-size: 14px;
+        text-align: center;
+    }
+    .widget-menu .navbar-nav .sub-menu li > a {
+        font-size: 12px;
+    }
+
+    #timeLineSongs .toggle-btns .btn {
+        font-size: 14px;
+    }
+
+    #timeLineSongs .song-selection p {
+        font-size: 16px;
+    }
+
+    #timeLineSongs {
+        font-size: 16px;
+    }
+    .song-selection-box .box-head input
+    {
+        font-size: 16px;
+    }
+
+    .song-selection-box .box-head .glyphicon.glyphicon-search
+    {
+        top: 22px;
+        font-size: 16px;
+    }
+
+    ::-moz-placeholder {          /* Firefox 19+ */
+        color: #555;
+        font-size: 14px;
+    }
+
+    .song-selection-box .box-body {
+        font-size: 10px;
+    }
+    .song-selection-box table th::before {
+        height: 40px;
+    }
+    .slider-data-wrap li {
+        font-size:14px;
+    }
+
+    .song-selection-box table th, .song-selection-box table td {
+        font-size:14px;
+    }
+
+}
