@@ -273,6 +273,10 @@ tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tb
 	width: 80%;
 }
 
+.menu-item.user-name {
+    height: 80px;
+}
+
 
 .panel-top-text{
 	font-size:20px;
@@ -495,7 +499,7 @@ footer {
 	font-size: 16px;
 	border: 1px solid #d4d4d4;
 	margin-bottom: 30px;
-	font-weight: 600;
+	font-weight: 400;
 }
 .btn-default{
 	background: #ce0f42;
@@ -524,7 +528,7 @@ footer {
 }
 .search-songs-wrap input[type="text"]{
 	width: 50%;
-	border: 2px solid #555;
+	border: 1px solid #555;
 	border-radius: 5px;
 	height: 52px;
 	font-size: 20px;
@@ -545,6 +549,7 @@ footer {
 }
 .selection-desc .songs-selected-count,.selection-desc .select-all{
 	line-height: 68px;
+    font-size: 22px;
 }
 .selection-desc .btn-default.copyright{
 	background:no-repeat #ce0f42 url(../../images/copyright.png);
@@ -566,6 +571,7 @@ footer {
 	color: #fff;
 	text-transform: uppercase;
 	padding: 15px;
+    font-size: 18px;
 }
 .songs-options-details table tr:nth-child(2n+1) td{
 	background: #e3e3e3;
@@ -680,6 +686,19 @@ footer {
 	background: no-repeat url(../../images/export-csv.png) center center;
 	background-size: auto 100%;
 }
+
+#songSelectionModalCount {
+    font-size: 16px;
+    color: #ce0f42;
+    font-weight: 600;
+}
+
+#songSelectionModalText {
+    font-size: 16px;
+    color: #111;
+    font-weight: 600;
+}
+
 @media screen and (orientation:landscape) and (min-width:1920px){
 	.topMenu{
 		min-height:108px;
@@ -726,7 +745,8 @@ footer {
 
 	#clientSelection{
 		margin-top:30px;
-		margin-left:10px;
+		margin-left:0px;
+        margin-bottom: 30px;
 	}
 
 	#clientSelectionText{
@@ -1052,7 +1072,6 @@ footer {
 }
 
 
-
 @media screen and (orientation:landscape) and (min-width:1280px) and (max-width:1919px){
 	.topMenu{
 		min-height:72px;
@@ -1102,6 +1121,7 @@ footer {
 		margin-top:20px;
 		margin-left:0px;
 		height:67px;
+        margin-bottom: 20px;
 	}
 
 	#clientSelectionText{
@@ -1466,6 +1486,7 @@ footer {
 }
 
 @media screen and (orientation:landscape) and (min-width:768px) and (max-width:1279px){
+
 	.topMenu{
 		min-height:42px;
 	}
@@ -1522,6 +1543,7 @@ footer {
 		margin-top:16px;
 		margin-left:0px;
 		height:67px;
+        margin-bottom: 16px;
 	}
 
 	#clientSelectionText{
@@ -1869,6 +1891,31 @@ footer {
 		height:300px;
 		overflow:auto;
 	}
+
+    /* songs page css*/
+    .selection-desc .songs-selected-count, .selection-desc .select-all {
+        font-size: 16px;
+    }
+
+    .selection-desc .btn-default.copyright {
+        background: url("../../images/copyright.png") no-repeat scroll 12px center #CE0F42;
+        width: 35%;
+        font-size: 12px;
+    }
+
+    .selection-desc .btn-default.analysis {
+        background: url("../../images/analytics_active.png") no-repeat scroll 12px center / 32px auto #CE0F42;
+        width: 35%;
+        font-size: 12px;
+    }
+
+    .songs-options-details table th {
+        font-size: 16px;
+    }
+
+    .songs-options-details table td {
+        font-size: 15px;
+    }
 }
 
 @media screen and (orientation:portrait) and (min-width:768px) and (max-width:1279px){
@@ -1921,6 +1968,7 @@ footer {
 		margin-top:16px;
 		margin-left:0px;
 		height:67px;
+        margin-bottom:16px;
 	}
 
 	#clientSelectionButtonSpan .btn-group{
@@ -2273,6 +2321,43 @@ footer {
 		height:300px;
 		overflow:auto;
 	}
+
+    /* songs page css*/
+    .selection-desc .songs-selected-count, .selection-desc .select-all {
+        font-size: 16px;
+    }
+
+    .selection-desc .btn-default.copyright {
+        background: url("../../images/copyright.png") no-repeat scroll 6px center / 20px auto #CE0F42;
+        width: 42%;
+        font-size: 12px;
+    }
+
+    .selection-desc .btn-default.analysis {
+        background: url("../../images/analytics_active.png") no-repeat scroll 6px center / 20px auto #CE0F42;
+        width: 42%;
+        font-size: 12px;
+    }
+
+    .songs-options-details table th {
+        font-size: 14px;
+    }
+
+    .songs-options-details table td {
+        font-size: 14px;
+    }
+
+    .selectionButton {
+        padding: 0%;
+    }
+
+    .copyrightBoxtablet {
+        height: 102px;
+    }
+
+    .border-style-right {
+        border-right: none;
+    }
 }
 
 @media screen and (orientation:landscape) and (max-width:767px){
@@ -2335,6 +2420,7 @@ footer {
 		margin-left:0px;
 		height:134px;
 		padding-left:10px;
+        margin-bottom: 16px;
 	}
 
 	#clientSelectionButtonSpan .btn-group{
@@ -2685,6 +2771,43 @@ footer {
 		font-size:10px;
 	}
 
+    /* songs page css*/
+    .selection-desc .songs-selected-count, .selection-desc .select-all {
+        font-size: 16px;
+    }
+
+    .selection-desc .btn-default.copyright {
+        background: url("../../images/copyright.png") no-repeat scroll 6px center / 20px auto #CE0F42;
+        width: 42%;
+        font-size: 12px;
+    }
+
+    .selection-desc .btn-default.analysis {
+        background: url("../../images/analytics_active.png") no-repeat scroll 6px center / 20px auto #CE0F42;
+        width: 42%;
+        font-size: 12px;
+    }
+
+    .songs-options-details table th {
+        font-size: 14px;
+    }
+
+    .songs-options-details table td {
+        font-size: 14px;
+    }
+
+    .selectionButton {
+        padding: 0%;
+    }
+
+    .copyrightBoxtablet {
+        height: 102px;
+    }
+
+    .border-style-right {
+        border-right: none;
+    }
+
 }
 
 @media screen and (orientation:portrait) and (max-width:767px){
@@ -2735,7 +2858,7 @@ footer {
 	}
 	#userName{
 		height:72px;
-		font-size:14px;
+		font-size:13px;
 	}
 	.dropdown-menu {
 		margin-top:-10px;
@@ -2758,6 +2881,7 @@ footer {
 	#clientSelection{
 		margin-top:10px;
 		margin-left:0px;
+        margin-bottom: 10px;
 		height:134px;
 		padding-left:10px;
 	}
@@ -3105,7 +3229,7 @@ footer {
 		width:20px;
 	}
 	#clientModalDiv{
-		padding:10px;
+*		padding:10px;
 		height:300px;
 		overflow:auto;
 	}
@@ -3122,10 +3246,94 @@ footer {
 
 	}
 
+    /* songs page css*/
+    .selection-desc .songs-selected-count, .selection-desc .select-all {
+        font-size: 16px;
+    }
+
+    .selection-desc .btn-default.copyright {
+        background: url("../../images/copyright.png") no-repeat scroll 6px center / 20px auto #CE0F42;
+        width: 42%;
+        font-size: 12px;
+    }
+
+    .selection-desc .btn-default.analysis {
+        background: url("../../images/analytics_active.png") no-repeat scroll 6px center / 20px auto #CE0F42;
+        width: 42%;
+        font-size: 12px;
+    }
+
+    .songs-options-details table th {
+        font-size: 14px;
+    }
+
+    .songs-options-details table td {
+        font-size: 14px;
+    }
+
+    .selectionButton {
+        padding: 0%;
+    }
+
+    .copyrightBoxtablet {
+        height: 102px;
+    }
+
+    .border-style-right {
+        border-right: none;
+    }
+
 }
-.menu-item.user-name{
-	height: 80px;
+
+@media screen and (max-width: 1024px) {
+    .copyrightBox {
+        height: 150px;
+        font-size: 10px;
+    }
 }
+
+@media screen and (max-width: 500px) {
+
+   /* songs page css*/
+    .selection-desc .songs-selected-count, .selection-desc .select-all {
+        font-size: 10px;
+    }
+
+    .selection-desc .btn-default.copyright {
+        background: url("../../images/copyright.png") no-repeat scroll 6px center / 20px auto #CE0F42;
+        width: 12%;
+        font-size: 12px;
+    }
+
+    .selection-desc .btn-default.analysis {
+        background: url("../../images/analytics_active.png") no-repeat scroll 6px center / 20px auto #CE0F42;
+        width: 12%;
+        font-size: 12px;
+    }
+
+    .songs-options-details table th {
+        font-size: 10px;
+        padding: 9px;
+    }
+
+    .songs-options-details table td {
+        font-size: 9px;
+        padding: 8px;
+    }
+
+    .selectionButton {
+        padding: 0%;
+    }
+
+    .copyrightBoxtablet {
+        height: 102px;
+    }
+
+    .border-style-right {
+        border-right: none;
+    }
+}
+
 @media (max-width: 768px){
 
 	#rightMenu .menu-item{
@@ -3285,9 +3493,5 @@ ul.notification_box li label
 	.search-songs-wrap input[type="text"]{
 		width: 100%;
 	}
-	.selection-desc .select-all a{
-		margin: 0 10px;
-		width: 80px;
-		background-size: 100% auto;
-	}
 }
+
