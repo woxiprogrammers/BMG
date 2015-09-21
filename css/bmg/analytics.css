@@ -326,13 +326,13 @@
     overflow-y: scroll;
 }
 .song-selection-box .btn-close {
-    color: #CE0F42;
-    border: 1px solid #CE0F42;
-    height: 25px;
-    width: 25px;
     display: inline-block;
     line-height: 22px;
-    border-radius: 13px;
+    background: no-repeat url(../../images/close_red_new.png);
+    border: none;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
 }
 #songSelectionModal{
     background: rgba(0,0,0,.8);
@@ -375,7 +375,7 @@
     border-radius: 8px;
     overflow: hidden;
 }
-#songSelectionModal #applyClientSelection{
+#songSelectionModal #applySongSelection{
     width: 355px;
     height: 60px;
     border-radius: 3px;
@@ -601,6 +601,7 @@
     box-sizing: border-box;
     color: #ce0f42;
     list-style: none;
+    background-color:#fff;
 }
 
 .widget-menu .navbar-nav .sub-menu li > a {
@@ -610,8 +611,9 @@
 .widget-menu .navbar-nav .sub-menu li.active{
     border-bottom-color: #ce0f42;
 }
-.widget-menu .navbar-nav .sub-menu:hover{
-    background: #A1A1A1;
+.widget-menu .navbar-nav .sub-menu li:hover{
+
+    background-color: #f5f5f5;
 }
 
 .widget-menu .navbar-nav .sub-menu a:hover{
@@ -635,6 +637,12 @@
 }
 
 
+#songSelectionModal #applySongSelection {
+    background-color: #CE0F42;
+    font-size: 16px;
+}
+
+
 
 @media screen and (orientation:landscape) and (min-width:1920px){
 
@@ -653,7 +661,7 @@
     }
     .song-selection-box .box-head .glyphicon.glyphicon-search
     {
-        top: 30px;
+        top: 22px;
     }
 
     ::-moz-placeholder {
@@ -688,10 +696,13 @@
     }
 
     #selectAllText {
-        line-height: 60px;
+        line-height: 45px;
         font-size: 20px;
     }
 
+    #timeLineSongs {
+        line-height: 44px;
+    }
     .modal-dialog {
         width: 1070px;
         height: 1109px;
@@ -703,12 +714,6 @@
 
     #clientSelectionModalText {
         font-weight: 600;
-    }
-
-    #songSelectionModal #applyClientSelection {
-        width: 355px;
-        height: 60px;
-        border-radius: 3px;
     }
 
 }
@@ -786,7 +791,7 @@
         font-weight: 600;
     }
 
-    #songSelectionModal #applyClientSelection {
+    #songSelectionModal #applySongSelection {
         width: 300px;
         height: 50px;
         border-radius: 3px;
@@ -863,7 +868,7 @@
         font-weight: 600;
     }
 
-    #songSelectionModal #applyClientSelection {
+    #songSelectionModal #applySongSelection {
         width: 300px;
         height: 50px;
         border-radius: 3px;
@@ -952,7 +957,7 @@
         font-weight: 600;
     }
 
-    #songSelectionModal #applyClientSelection {
+    #songSelectionModal #applySongSelection {
         width: 250px;
         height: 40px;
         border-radius: 3px;
@@ -982,7 +987,7 @@
         font-weight: 600;
     }
 
-    #songSelectionModal #applyClientSelection {
+    #songSelectionModal #applySongSelection {
         width: 150px;
         height: 35px;
         border-radius: 3px;
@@ -1120,6 +1125,87 @@
 
 }
 
+@media screen and (orientation:landscape) and (min-width:768px) and (max-width:1024px){
+    .timelineWrap {
+        padding-right: 0px;
+    }
+    #selectAllText {
+        line-height: 37px;
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+
+    .modal-body .row {
+        line-height: 38px;
+    }
+
+    .song-selection-box.box {
+        width: 477px;
+    }
+
+    .song-selection-box .box-head input
+    {
+        width: 245px;
+        font-size: 13px;
+    }
+
+    .songimg {
+        width: 20px;
+        height: 20px;
+    }
+
+    #timeLineSongs {
+        font-size: 13px;
+    }
+
+    #timeLineSongs .toggle-btns .btn-group {
+        width: 156px;
+    }
+    #timeLineSongs .toggle-btns .btn {
+        font-size: 13px;
+    }
+    ::-moz-placeholder {          /* Firefox 19+ */
+        color: #555;
+        font-size: 13px;
+    }
+
+    .song-selection-box .box-body {
+        font-size: 13px;
+    }
+
+    .song-selection-box table th, .song-selection-box table td {
+        padding: 2px 10px;
+    }
+
+    .widget-menu .dropdown  {
+        font-size: 13px;
+    }
+
+    .widget-menu .navbar-nav > li > a {
+        font-size: 14px;
+    }
+    .widget-menu .navbar-nav .sub-menu li > a {
+        font-size: 12px;
+    }
+
+    .slider-data-wrap li {
+        font-size:13px;
+    }
+
+    #rightMenu div {
+        line-height: 52px;
+    }
+
+    #rightMenu span {
+        line-height: 52px;
+        font-size: 14px;
+    }
+    .menu-item.user-name {
+        height: 52px;
+        text-overflow: ellipsis;
+    }
+}
+
 @media screen and (orientation:landscape) and (max-width:767px){
     #selectAllText {
         line-height: 37px;
@@ -1129,6 +1215,14 @@
 
     .modal-body .row {
         line-height: 38px;
+    }
+
+    .widget-menu .navbar-nav > li > a {
+        font-size: 10px;
+    }
+
+    .timelineWrap {
+        padding-right: 0px;
     }
 }
 
@@ -1158,14 +1252,11 @@
         overflow: hidden;
         text-overflow: ellipsis;
     }
-}
 
-@media (max-width: 991px){
     .timelineWrap {
         padding-right: 0px;
     }
 }
-
 
 @media (max-width: 768px){
 
@@ -1196,7 +1287,7 @@
         font-weight: 600;
     }
 
-    #songSelectionModal #applyClientSelection {
+    #songSelectionModal #applySongSelection {
         width: 150px;
         height: 35px;
         border-radius: 3px;
@@ -1328,5 +1419,98 @@
     .song-selection-box table th, .song-selection-box table td {
         font-size:14px;
     }
+    .timelineWrap {
+        padding-right: 0px;
+    }
 
+}
+
+@media screen and (max-width: 500px) {
+
+    #timeLineSongs .song-selection {
+        line-height: 50px;
+    }
+
+    .song-selection-box.box {
+        width: 320px;
+    }
+
+    .song-selection-box .box-head input
+    {
+        width: 152px;
+        font-size: 8px;
+    }
+
+    .song-selection-box .box-head .btn {
+        width: 30%;
+        overflow: hidden;
+        font-size: 9px;
+    }
+
+    .song-selection-box table th, .song-selection-box table td {
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    .song-selection-box .btn-close {
+        display: inline-block;
+        line-height: 22px;
+        background: url("../../images/close_red_new.png") no-repeat scroll 0% 0% transparent;
+        border: medium none;
+        height: 25px;
+        width: 25px;
+        cursor: pointer;
+        top:3px;
+    }
+
+    .songimg {
+        width: 13px;
+        height: 13px;
+    }
+
+    #timeLineSongs {
+        font-size: 9px;
+    }
+
+    .timelineWrap {
+        padding-right: 0px;
+    }
+
+    #timeLineSongs .song-selection p {
+        font-size: 9px;
+        text-overflow: ellipsis;
+    }
+
+    #timeLineSongs .toggle-btns .btn-group {
+        width: 105px;
+        padding: 2px;
+    }
+
+    #timeLineSongs .toggle-btns .btn {
+        font-size: 6.5px;
+    }
+
+    .slider-data-wrap li {
+        font-size: 10px;
+    }
+
+    .widget-menu .dotsImg {
+        float: right;
+        margin-right: 1px;
+        margin-top: 26px;
+        height: 11px;
+    }
+
+    .widget-menu .navbar-nav > li > a {
+        font-size: 10px;
+        text-align: left;
+    }
+
+    .widget-menu .navbar-nav > li > a {
+        padding-left: 4px;
+    }
+
+    .widget-menu .navbar-nav .sub-menu li > a {
+        font-size: 8px;
+    }
 }

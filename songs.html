@@ -54,38 +54,38 @@
     <a class="menuLink" href="#"><div class="sideMenuItem"><img  src="images/statement_normal.png"><div class="menutext">Statements</div></div></a>
 </div> <!-- sidebar-wrapper end -->
 <div id="container" class="container-fluid">
-    <div  id="clientSelection">
-        <div id="clientSelectionImage" class="col-md-1 col-sm-2 col-xs-3 vertically-centered clearpadding"><img src="images/all.png"/></div>
-        <div id="clientSelectionText" class="col-md-5 col-sm-4 col-xs-9 vertically-centered clearpadding">Clients/Payees Selection</div>
-        <div id="clientSelectionTextDiv" class="col-md-6  col-lg-6 col-sm-6 col-xs-12 vertically-centered clearpadding">
-            <div class="">
-                <span id="clientSelectionDisplayText" class="col-md-8 col-lg-8 col-sm-8 col-xs-8 clearpadding" >All 30 Clients Selected</span>
-                <div id="clientSelectionButtonSpan" class="col-md-4 col-lg-4 col-sm-4 col-xs-4 clearpadding">
-                    <div class="btn-group">
-                        <button id="clientListButton" type="button" class="btn btn-default dropdown-toggle col-lg-12" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Select <img src="images/arrow.png" alt="User"/>
-                        </button>
-                        <ul class="dropdown-menu clearpadding">
-                            <li class="clientSelectionLink"><a href="javascript:void(0)" class="select">All</a></li>
-                            <li class="clientSelectionLink"><a href="javascript:void(0)" class="select">Specific</a></li>
-                        </ul>
-                    </div>
+<div  id="clientSelection" class="col-md-12 col-sm-12 col-xs-12 clearfix clearpadding">
+    <div id="clientSelectionImage" class="col-md-1 col-sm-2 col-xs-3 vertically-centered clearpadding"><img src="images/all.png"/></div>
+    <div id="clientSelectionText" class="col-md-5 col-sm-4 col-xs-9 vertically-centered clearpadding">Clients/Payees Selection</div>
+    <div id="clientSelectionTextDiv" class="col-md-6  col-lg-6 col-sm-6 col-xs-12 vertically-centered clearpadding">
+        <div class="">
+            <span id="clientSelectionDisplayText" class="col-md-8 col-lg-8 col-sm-8 col-xs-8 clearpadding" >All 30 Clients Selected</span>
+            <div id="clientSelectionButtonSpan" class="col-md-4 col-lg-4 col-sm-4 col-xs-4 clearpadding">
+                <div class="btn-group">
+                    <button id="clientListButton" type="button" class="btn btn-default dropdown-toggle col-lg-12" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Select <img src="images/arrow.png" alt="User"/>
+                    </button>
+                    <ul class="dropdown-menu clearpadding">
+                        <li class="clientSelectionLink"><a href="javascript:void(0)" class="select">All</a></li>
+                        <li class="clientSelectionLink"><a href="javascript:void(0)" class="select">Specific</a></li>
+                    </ul>
                 </div>
             </div>
-        </div>  <!-- clientSelectionTextDiv end -->
-    </div> <!-- clientSelection end -->
+        </div>
+    </div>  <!-- clientSelectionTextDiv end -->
+</div> <!-- clientSelection end -->
 
 <div class="songs-option-wrap container-fluid">
     <div class="row selection-desc">
         <div class="col-md-4 col-sm-4 col-xs-4 select-all">
-           <a href="#"></a> Select All
+            <a href="#"></a> Select All
         </div>
 
         <div class="col-md-4 col-sm-4 col-xs-4 align-center songs-selected-count">
             <span>07/540 Songs Selected</span>
         </div>
 
-        <div class="col-md-4 col-sm-4 col-xs-4 align-right">
+        <div class="col-md-4 col-sm-4 col-xs-4 align-right selectionButton">
             <button class="btn btn-default copyright">Copyright</button>
             <button class="btn btn-default analysis">Analysis</button>
         </div>
@@ -98,9 +98,9 @@
         </div>
         <table>
             <tr>
-                <th>song id<a href="#"></a></th>
-                <th>Song Title<a href="#"></a></th>
-                <th>Composer<a href="#"></a></th>
+                <th>song id <a href="#"><img src="images/filter_up.png" /></a></th>
+                <th>Song Title <a href="#"><img src="images/filter_up.png" /></a></th>
+                <th>Composer <a href="#"><img src="images/filter_up.png" /></a></th>
             </tr>
             <tr  class="selected">
                 <td>20472</td>
@@ -275,10 +275,10 @@
     </div>
 </div>
 
-<div class="col-md-12 copyrightBox clearpadding">
+<div class="col-md-12 copyrightBoxtablet copyrightBox clearpadding">
     <div  class="copyrightContact border-style-right border-style-bottom col-md-6 col-sm-12 col-xs-12 clearpadding align-centered"  style="text-align:center;"><img class="contactIcon" src="images/contact.png"/>Contact Copyright: Peter Kremp (030 300133-133)</div>
     <div class="copyrightContact border-style-left border-style-right border-style-bottom border-style-top col-md-6 col-sm-12 col-xs-12 clearpadding align-centered"  style="text-align:center;"><img class="contactIcon" src="images/contact.png"/>Contact Royalties: Dirk Luthje (030 300133-414)</div>
-  <!--   <div class="copyrightContact border-style-left border-style-top col-md-4 col-sm-12 col-xs-12 clearpadding"><img class="contactIcon" src="images/contact.png"/>Contact Creative: Julian Romano (030 300133-254)</div> -->
+    <!--   <div class="copyrightContact border-style-left border-style-top col-md-4 col-sm-12 col-xs-12 clearpadding"><img class="contactIcon" src="images/contact.png"/>Contact Creative: Julian Romano (030 300133-254)</div> -->
 </div>
 <div class="clearfix"></div>
 <footer>
@@ -373,47 +373,47 @@
     </div>
 </div>
 </div>
-    <script src="js/jquery.js"></script>
-    <script src="js/highcharts_new.js"></script>
-    <script src="js/map.js"></script>
-    <script src="js/world.js"></script>
-    <script src="js/drilldown_new.js"></script>
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/bmg/homepage.js"></script>
-    <script src="js/bmg/backendFunctions.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function(){
-            var songs_selected_label = function(){
-                var selected_songs = $(".songs-options-details table tr.selected").length;
-                if($(".songs-options-details table tr").eq(0).hasClass("selected"))
-                    selected_songs=selected_songs-1;
-                $(".songs-selected-count span").html(""+ selected_songs +"/540 Songs Selected");
-            };
-            songs_selected_label();
-            $(".select-all a").click(function(){
-                if($(this).hasClass("active")){
-                    $(this).removeClass("active");    
-                    $(".songs-options-details table tr").removeClass("selected");
-                    $(".songs-selected-count span").html("0/540 Songs Selected");
-                }else{
-                    $(this).addClass("active");    
-                    $(".songs-options-details table tr").addClass("selected");
-                    $(".songs-selected-count span").html("540/540 Songs Selected");
-                }
-            });
-            $(".export-btn ").click(function(){
-                $(".export-songs-overlay").fadeIn();
-            });
-            $(".export-songs-overlay .close-btn").click(function(){
-                $(".export-songs-overlay").fadeOut();
-            });
-            
-            $(".songs-options-details table tr").click(function(){
-                $(this).toggleClass("selected");
-                songs_selected_label();
-            })
+<script src="js/jquery.js"></script>
+<script src="js/highcharts_new.js"></script>
+<script src="js/map.js"></script>
+<script src="js/world.js"></script>
+<script src="js/drilldown_new.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bmg/homepage.js"></script>
+<script src="js/bmg/backendFunctions.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        var songs_selected_label = function(){
+            var selected_songs = $(".songs-options-details table tr.selected").length;
+            if($(".songs-options-details table tr").eq(0).hasClass("selected"))
+                selected_songs=selected_songs-1;
+            $(".songs-selected-count span").html(""+ selected_songs +"/540 Songs Selected");
+        };
+        songs_selected_label();
+        $(".select-all a").click(function(){
+            if($(this).hasClass("active")){
+                $(this).removeClass("active");
+                $(".songs-options-details table tr").removeClass("selected");
+                $(".songs-selected-count span").html("0/540 Songs Selected");
+            }else{
+                $(this).addClass("active");
+                $(".songs-options-details table tr").addClass("selected");
+                $(".songs-selected-count span").html("540/540 Songs Selected");
+            }
         });
-    </script>
+        $(".export-btn ").click(function(){
+            $(".export-songs-overlay").fadeIn();
+        });
+        $(".export-songs-overlay .close-btn").click(function(){
+            $(".export-songs-overlay").fadeOut();
+        });
+
+        $(".songs-options-details table tr").click(function(){
+            $(this).toggleClass("selected");
+            songs_selected_label();
+        })
+    });
+</script>
 </body>
 </html>

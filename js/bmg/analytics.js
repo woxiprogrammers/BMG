@@ -373,11 +373,6 @@ $(".clientSelectionLink").click(function(e) {
     }
 });
 
-$("#applyClientSelection").click(function(e) {
-    $('#clientSelectionDisplayText').text('17 of 30 Clients Selected');
-    $('#clientListModal').modal('hide');
-});
-
 $("#applySongSelection").click(function(e) {
     selectedChartView = "selectedSongsChart";
     $(".widget-menu .navbar-nav li").removeClass("active");
@@ -387,6 +382,7 @@ $("#applySongSelection").click(function(e) {
     }else if(shownChartType=="line"){
         displayRoyaltiesLineChart();
     }
+    $('#clientSelectionDisplayText').text('17 of 30 Clients Selected');
     $('#songSelectionModal').modal('hide');
 });
 
