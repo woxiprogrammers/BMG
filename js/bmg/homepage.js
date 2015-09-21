@@ -152,7 +152,10 @@ $(function() {
         	$(this).parent().removeClass("active");
     	});
     	$("#allTimeLineLink").addClass("active");
-    	$('#royaltiesChart').highcharts().xAxis[0].removePlotBand('selectedYearBand');
+    	if($('#royaltiesChart').length){
+    		$('#royaltiesChart').highcharts().xAxis[0].removePlotBand('selectedYearBand');	
+    	}
+    	
     }
     
 	
