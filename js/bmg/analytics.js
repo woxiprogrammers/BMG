@@ -47,7 +47,7 @@ $(function() {
             min: 1,
             max: 7,
             range: true,
-            values: [ 1, 6 ],
+            values: [ 1, 7 ],
             stop: function( event, ui ) {
                 var len = $(".slider-data-wrap ul li").length;
                 var values = $("#slider-range").slider("values");
@@ -94,6 +94,12 @@ $(function() {
         var index = $(this).index();
         var values = $("#slider-range").slider("values");
         $(".slider-data-wrap ul li").eq(values[index-1]-1).children(".slider-tooltip").hide();
+        if ((values[index-1]-1) == 6) {
+            $(".slider-data-wrap ul li").eq(5).children(".slider-tooltip").hide();
+        } else if ((values[index-1]-1) == 1) {
+            $(".slider-data-wrap ul li").eq(0).children(".slider-tooltip").hide();
+        }
+
     });
     $(window).resize(function(){
         sliderDataAlign();

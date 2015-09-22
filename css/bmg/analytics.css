@@ -1000,7 +1000,7 @@
         width: 96%;
         right: 2%;
     }
-    .song-selection-wrapp {
+    .song-selection-wrap {
         height: auto;
     }
     .navbar-inverse{
@@ -1127,7 +1127,7 @@
 
 @media screen and (orientation:landscape) and (min-width:768px) and (max-width:1024px){
     .timelineWrap {
-        padding-right: 0px;
+        padding-right: 2px;
     }
     #selectAllText {
         line-height: 37px;
@@ -1300,7 +1300,7 @@
         width: 96%;
         right: 2%;
     }
-    .song-selection-wrapp {
+    .song-selection-wrap {
         height: auto;
     }
     .navbar-inverse{
@@ -1513,4 +1513,120 @@
     .widget-menu .navbar-nav .sub-menu li > a {
         font-size: 8px;
     }
+
+    .slider-tooltip .item {
+        float: left;
+        list-style: outside none none;
+        text-align: center;
+        border-left: 1px solid #3E3E3E;
+        color: #FFF;
+        width: 30px;
+        line-height: 50px;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .slider-tooltip {
+        position: relative;
+        top: -140px;
+        padding-bottom: 30px;
+        left: -40px;
+        z-index: 2;
+        display: none;
+        width: 120px;
+    }
+
+    .slider-data-wrap li {
+        width: 25px;
+    }
+
+    .slider-data-wrap li:last-child .slider-tooltip{
+        left: -80px;
+    }
+    .slider-data-wrap li:first-child .slider-tooltip {
+        left: 0px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    #timeLineSongs .song-selection {
+        line-height: 50px;
+    }
+
+    .song-selection-box.box {
+        width: 98%;
+    }
+
+    .song-selection-box .box-head input
+    {
+        width: 135px;
+        font-size: 8px;
+    }
+
+    .song-selection-box .box-head .btn {
+        width: 30%;
+        overflow: hidden;
+        font-size: 9px;
+    }
+
+    .song-selection-box table th, .song-selection-box table td {
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    .song-selection-box .btn-close {
+        display: inline-block;
+        background: url("../../images/close_red_new.png") no-repeat scroll 0% 0% transparent;
+        border: medium none;
+        height: 25px;
+        width: 25px;
+        cursor: pointer;
+        top:3px;
+    }
+
+    .songimg {
+        width: 13px;
+        height: 13px;
+    }
+
+    #timeLineSongs {
+        font-size: 9px;
+    }
+
+    .timelineWrap {
+        padding-right: 0px;
+    }
+
+    #timeLineSongs .toggle-btns .btn-group {
+        width: 94px;
+        padding: 1px;
+    }
+
+    .modal-dialog {
+        width: 98%;
+    }
+
+    .song-selection-box table th, .song-selection-box table td {
+        font-size: 10px;
+        padding: 4px;
+
+    }
+
+    #songSelectionModalCount {
+        font-size: 12px;
+    }
+
+    #songSelectionModalText {
+        font-size: 12px;
+    }
+
+    #selectAllText {
+        line-height: 32px;
+        font-size: 12px;
+    }
+    .widget-menu .navbar-nav .sub-menu li > a {
+        font-size: 7px;
+    }
+
 }
