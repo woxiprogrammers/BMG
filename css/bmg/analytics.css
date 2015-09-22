@@ -379,6 +379,7 @@
     width: 355px;
     height: 60px;
     border-radius: 3px;
+    margin-left: 102px;
 }
 #topIconDiv{
     cursor: pointer;
@@ -698,6 +699,7 @@
     .song-selection-box .box-body {
         font-size: 16px;
         line-height: 50px;
+        height: 600px;
     }
     .song-selection-box table th::before {
         height:50px;
@@ -777,6 +779,7 @@
 
     .song-selection-box .box-body {
         font-size: 16px;
+        height: 600px;
     }
     .song-selection-box table th::before {
         height: 50px;
@@ -791,6 +794,7 @@
     .song-selection-box .box-body {
         font-size: 16px;
         line-height: 50px;
+        height: 600px;
     }
 
     #selectAllText {
@@ -864,6 +868,7 @@
 
     .song-selection-box .box-body {
         font-size: 14px;
+        height: 600px;
     }
     .song-selection-box table th::before {
         height: 40px;
@@ -875,10 +880,11 @@
 
     .song-selection-box .box-body {
         font-size: 16px;
+        height: 600px;
     }
 
     #selectAllText {
-        font-size: 19px;
+        font-size: 17px;
     }
 
     .modal-dialog {
@@ -908,12 +914,12 @@
 
 @media screen and (orientation:landscape) and (min-width:768px) and (max-width:1360px){
     .song-selection-box.box {
-        width: 609px;
+        width: 605px;
     }
 
     .song-selection-box .box-head input
     {
-        width: 372px;
+        width: 369px;
         font-size: 16px;
     }
 
@@ -953,6 +959,7 @@
 
     .song-selection-box .box-body {
         font-size: 14px;
+        height: 600px;
     }
     .song-selection-box table th::before {
         height: 40px;
@@ -964,6 +971,7 @@
 
     .song-selection-box .box-body {
         font-size: 16px;
+        height: 600px;
     }
 
     #selectAllText {
@@ -1130,6 +1138,7 @@
 
     .song-selection-box .box-body {
         font-size: 10px;
+        height: 600px;
     }
     .song-selection-box table th::before {
         height: 40px;
@@ -1150,7 +1159,7 @@
 
 @media screen and (orientation:landscape) and (min-width:768px) and (max-width:1024px){
     .timelineWrap {
-        padding-right: 2px;
+        padding-right: 10px;
     }
     #selectAllText {
         line-height: 37px;
@@ -1168,7 +1177,7 @@
 
     .song-selection-box .box-head input
     {
-        width: 245px;
+        width: 260px;
         font-size: 13px;
     }
 
@@ -1178,22 +1187,37 @@
     }
 
     #timeLineSongs {
-        font-size: 13px;
+        font-size: 12px;
     }
 
     #timeLineSongs .toggle-btns .btn-group {
-        width: 156px;
+        width: 95%;
+        padding: 3px;
     }
     #timeLineSongs .toggle-btns .btn {
-        font-size: 13px;
+        font-size: 11px;
     }
+
+    .songimg {
+        margin: 0px 5px 0px 12px;
+    }
+
     ::-moz-placeholder {          /* Firefox 19+ */
         color: #555;
         font-size: 13px;
     }
 
+    .copyrightBox {
+        height: 52px !important;
+        font-size: 11px;
+    }
+
     .song-selection-box .box-body {
-        font-size: 13px;
+        font-size: 12px;
+        height: 600px;
+    }
+    .btn {
+        font-size:12px;
     }
 
     .song-selection-box table th, .song-selection-box table td {
@@ -1205,7 +1229,7 @@
     }
 
     .widget-menu .navbar-nav > li > a {
-        font-size: 14px;
+        font-size: 12px;
     }
     .widget-menu .navbar-nav .sub-menu li > a {
         font-size: 12px;
@@ -1311,17 +1335,18 @@
     }
 
     #songSelectionModal #applySongSelection {
-        width: 150px;
+        width: 90px;
         height: 35px;
         border-radius: 3px;
+        margin-left: 46px;
     }
 
     #rightMenu .dropdown{
         left: 0;
     }
     .song-selection-box.box{
-        width: 96%;
-        right: 2%;
+        width: 97%;
+        right: 1.5%;
     }
     .song-selection-wrap {
         height: auto;
@@ -1339,11 +1364,13 @@
         padding-left: 20px;
     }
     .widget-menu .navbar-nav .sub-menu{
-        width: 95%;
+        width: 100%;
         left: 0;
         right: 0;
         margin: auto;
     }
+
+
     /*.widget-menu .navbar-nav .sub-menu li{
         height: 60px;
         line-height: 60px;
@@ -1359,15 +1386,18 @@
     }*/
     .slider-wrap{
         padding: 0 45px 0 25px;
-        margin: 30px 0;
+        margin: 30px 0px;
 
+    }
+    .slider-data-wrap li:first-child .slider-tooltip {
+        left: -13px;
     }
     .slider-data-wrap ul{
         margin: 0 25px;
     }
 
     .song-selection-box .box-head input{
-        width: 50%;
+        width: 51%;
     }
     .song-selection-box .box-head span{
         width: 18%;
@@ -1399,7 +1429,7 @@
         text-align: center;
     }
     .widget-menu .navbar-nav .sub-menu li > a {
-        font-size: 12px;
+        font-size: 13px;
     }
 
     #timeLineSongs .toggle-btns .btn {
@@ -1407,15 +1437,15 @@
     }
 
     #timeLineSongs .song-selection p {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     #timeLineSongs {
-        font-size: 16px;
+        font-size: 14px;
     }
     .song-selection-box .box-head input
     {
-        font-size: 16px;
+        font-size: 12px;
     }
 
     .song-selection-box .box-head .glyphicon.glyphicon-search
@@ -1431,6 +1461,7 @@
 
     .song-selection-box .box-body {
         font-size: 10px;
+        height: 600px;
     }
     .song-selection-box table th::before {
         height: 40px;
@@ -1611,6 +1642,7 @@
     .songimg {
         width: 13px;
         height: 13px;
+        margin: 0px 1px 0px 5px;
     }
 
     #timeLineSongs {
