@@ -14,6 +14,8 @@
     <link href="css/MyFontsWebfontsOrderM3684884.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
     <link href="css/bmg/analytics.css" rel="stylesheet">
+    <link href="css/bmg/songs.css" rel="stylesheet">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -77,17 +79,17 @@
 
 <div class="songs-option-wrap container-fluid">
     <div class="row selection-desc">
-        <div class="col-md-4 col-sm-4 col-xs-4 select-all">
-            <a href="#"></a> Select All
+        <div class="col-md-4 col-sm-4 col-xs-4 select-all-songs-page ">
+            <a href="#"><img class="selectallImage" src="images/toggle_notselected.png" /></a> Select All
         </div>
 
-        <div class="col-md-4 col-sm-4 col-xs-4 align-center songs-selected-count">
+        <div class="col-md-4 col-sm-4 col-xs-3 align-center songs-selected-count clearpadding">
             <span>07/540 Songs Selected</span>
         </div>
 
-        <div class="col-md-4 col-sm-4 col-xs-4 align-right selectionButton">
-            <button class="btn btn-default copyright">Copyright</button>
-            <button class="btn btn-default analysis">Analysis</button>
+        <div class="col-md-4 col-sm-4 col-xs-5 align-right selectionButtonCopyAnalysis ">
+            <a href="#"><img class="copyrightBtnImage" src="images/copyright_btn.png" /></a> &nbsp;
+            <a href="#"><img class="analysisBtnImage" src="images/analysis_btn.png" /></a>
         </div>
 
     </div>
@@ -390,18 +392,22 @@
                 selected_songs=selected_songs-1;
             $(".songs-selected-count span").html(""+ selected_songs +"/540 Songs Selected");
         };
+
         songs_selected_label();
-        $(".select-all a").click(function(){
+        $(".select-all-songs-page a").click(function(){
             if($(this).hasClass("active")){
                 $(this).removeClass("active");
+                $(".selectallImage").attr('src', 'images/toggle_notselected.png');
                 $(".songs-options-details table tr").removeClass("selected");
                 $(".songs-selected-count span").html("0/540 Songs Selected");
             }else{
                 $(this).addClass("active");
+                $(".selectallImage").attr('src', 'images/toggle_selected.png');
                 $(".songs-options-details table tr").addClass("selected");
                 $(".songs-selected-count span").html("540/540 Songs Selected");
             }
         });
+
         $(".export-btn ").click(function(){
             $(".export-songs-overlay").fadeIn();
         });
