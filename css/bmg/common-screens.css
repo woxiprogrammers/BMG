@@ -694,12 +694,12 @@ textarea:focus {
 	border: 1px solid #555555;
 	border-left: 0;
 }
-.input-group select option {
+/* .input-group select option {
 	font-family: 'Geogrotesque-Medium';
 	font-size:16px;
 	background:#f4f4f4;
 	padding:20px;
-}
+} */
 .input-group input {
 	font-family: 'Geogrotesque-Medium';
 	font-size:15px;

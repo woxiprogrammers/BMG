@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>myBMG Dashboard</title>
+    <title>myBMG Songs</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bmg/styles.css" rel="stylesheet">
@@ -15,6 +15,7 @@
     <link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
     <link href="css/bmg/analytics.css" rel="stylesheet">
     <link href="css/bmg/songs.css" rel="stylesheet">
+	 <link href="css/bmg/ct-navbar.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -30,20 +31,51 @@
         <div id="hamburger" class="pull-left"><img src="images/hamburger_icon.png" alt="Side Menu"/></div>
         <div class="pull-left"><img src="images/BMG_logo.png" alt="BMG Logo"/></div>
     </div> <!-- brand end -->
-    <div id="rightMenu" class="col-lg-4 col-lg-offset-5 col-md-4 col-md-offset-5 col-sm-offset-2 col-sm-6 col-sm-offset-5 col-xs-12" >
+  <div id="rightMenu" class="col-lg-4 col-md-4  col-sm-6  col-xs-12 pull-right" >
         <div class="menu-item col-lg-2 col-md-2 col-sm-2 col-xs-2 border-style-right blank">&nbsp;</div>
         <div class="menu-item col-lg-3 col-md-3 col-sm-3 col-xs-3 border-style-left border-style-left border-style-right"><img src="images/Message_Envelope_Icon.png" alt="Messages"/></div>
-        <div class="menu-item col-lg-3 col-md-3 col-sm-3 col-xs-3 border-style-left border-style-right"><img  src="images/bell.png"  alt="Notification"/><span class="notificationBadge badge">3</span></div>
-        <div class="menu-item user-name col-lg-4 col-md-4 col-sm-4 col-xs-4 border-style-left">
-            <ul>
-                <li class="dropdown">
-                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span id="userName">Nick Drake</span><img  src="images/arrow.png" alt="User"/></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="javascript:void(0)"class="select">Profile</a></li>
-                        <li><a href="javascript:void(0)" class="select">Sign Out</a></li>
-                    </ul>
-                </li>
+        <div class="menu-item col-lg-3 col-md-3 col-sm-3 col-xs-3 border-style-left border-style-right">
+ <a href="#" class="dropdown-toggle dropdown-toggle1" data-toggle="dropdown">
+ <img src="images/bell.png" width="30px" alt="Notification"><span class="notificationBadge badge">3</span> </a>
+		
+		
+		
+		   <ul class=" dropdown-menu2 dropdown-menu  notification_box">
+    <div class="drop_heading">NOTIFICATION</div>
+               <li>
+              <label>Statement</label>
+              <br>
+              your statement for period 06/2015 is ready now check now</li>
+            <li>
+              <label>Warning</label>
+              <br>
+              There is a prediction of storm in Austin-Texas on 15th of September. Please be careful, if you are travelling in that region during this time.</li>
+            <li>
+              <label>Maintenance window</label>
+              <br>
+              There is a outage planned for myBMG on 31st Aug 2015. So the system won’t be available from 18:00 CEST to 21:00 CEST. Please plan your work accordingly.</li>
+            <li>
+              <label>VAT self billing</label>
+            
+              If you are VAT registered but haven’t completed VAT self billing agreement, please3 download it from <a href="#" class="link_color">http://my.bmg.com/mybmg/user  <br>/forms/5</a> here and return the completed and signed form to us.</li>
+            <li>
+              <label>New centralized e-mail account for song registration</label>
+             
+              Please send all new song deliveries to this new central email <a href="#" class="link_color">mySongs@bmg.com</a></li>
             </ul>
+		
+		
+		
+		</div>
+        <div class="menu-item user-name col-lg-4 col-md-4 col-sm-4 col-xs-4 border-style-left">
+       <ul>
+          <li class=""> <a href="#" class="dropdown-toggle dropdown-toggle1 " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span id="userName">Nick Drake</span><img src="images/arrow.png" alt="User"></a>
+            <ul class="dropdown-menu">
+              <li><a href="#" class="select">Profile</a></li>
+              <li><a href="#" class="select">Sign Out</a></li>
+            </ul>
+          </li>
+        </ul>
         </div>
     </div>
 </div>
@@ -277,7 +309,7 @@
     </div>
 </div>
 
-<div class="col-md-12 copyrightBoxtablet copyrightBox clearpadding">
+<div class="col-md-12 copyrightBoxtablet copyrightBox copyrightBox1 clearpadding">
     <div  class="copyrightContact border-style-right border-style-bottom col-md-6 col-sm-12 col-xs-12 clearpadding align-centered"  style="text-align:center;"><img class="contactIcon" src="images/contact.png"/>Contact Copyright: Peter Kremp (030 300133-133)</div>
     <div class="copyrightContact border-style-left border-style-right border-style-bottom border-style-top col-md-6 col-sm-12 col-xs-12 clearpadding align-centered"  style="text-align:center;"><img class="contactIcon" src="images/contact.png"/>Contact Royalties: Dirk Luthje (030 300133-414)</div>
     <!--   <div class="copyrightContact border-style-left border-style-top col-md-4 col-sm-12 col-xs-12 clearpadding"><img class="contactIcon" src="images/contact.png"/>Contact Creative: Julian Romano (030 300133-254)</div> -->

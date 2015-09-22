@@ -518,6 +518,17 @@
     z-index: 1;
     margin-right: 10px;
 }
+
+.dropdown-toggle1 {
+    float: none!important;
+	margin:0!important;
+   
+}
+	
+	
+	
+
+
 #timeLine .navbar-nav{
     line-height: 60px;
     width: 100%;
@@ -721,8 +732,17 @@
 @media screen and (orientation:landscape) and (min-width:1360px) and (max-width:1919px){
 
 
+
+
+
+	
+
+
+
+
+
     #clientSelectionImage img{
-       width: 23%;
+       width: 30%;
     }
 
     .song-selection-box.box {
@@ -806,6 +826,12 @@
 
 
 @media screen and (orientation:landscape) and (min-width:1280px) and (max-width:1359px){
+	
+	
+	#brand div{
+		margin-top:7px;
+	}
+
     .song-selection-box.box {
         width: 645px;
     }
@@ -967,10 +993,7 @@
         font-size:16px;
     }
 
-    #rightMenu span {
-        line-height: 76px;
-        font-size: 14px;
-    }
+   
 }
 
 @media screen and (orientation:portrait) and (min-width:768px) and (max-width:1279px){
@@ -1630,3 +1653,31 @@
     }
 
 }
+
+
+
+
+
+
+
+
+/* new */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

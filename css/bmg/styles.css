@@ -152,7 +152,7 @@ tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tb
 {
     list-style-type: none;
     padding:0px 0px 0px 0px;
-	position:relative;
+	/* position:relative; */
 }
 
 #rightMenu .dropdown{
@@ -249,10 +249,7 @@ tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tb
 #clientSelectionDisplayText{
 	text-align:center;
 }
-.dropdown-menu {
-	margin-top:-5px;
-	width:100%;
-}
+
 #panelWrapper{
 	margin-top:30px;
 }
@@ -887,10 +884,10 @@ footer {
 		width:35px;
 	}
 
-	#rightMenu ul
+	/* #rightMenu ul
 	{
 	    line-height:72px;
-	}
+	} */
 	.notificationBadge{
 		font-size:12px;
 		line-height:12px!important;
@@ -928,7 +925,7 @@ footer {
 
 	#clientListButton{
 		font-size:16px;
-		margin-top:4px;
+		margin-top:2px;
 		margin-right:0px;
 		height:40px;
 		line-height:30px;
@@ -1024,7 +1021,7 @@ footer {
 	#timeLine{
 		font-size:16px;
 		margin: 20px 0px 0px 0px;
-		line-height:40px;
+.		line-height:40px;
 	}
 
     #timeLineSongs{
@@ -1160,7 +1157,7 @@ footer {
 		font-size:14px;
 	}
 	.copyrightContact{
-		text-align:left;
+		text-align:center;
 		padding-left:10px;
 	}
 	.contactIcon{
@@ -1282,7 +1279,7 @@ footer {
 		min-height:42px;
 	}
 	#brand div{
-		line-height:42px;
+		margin-top:30px;
 	}
 	.menu-item{
 		padding: 0
@@ -1295,7 +1292,7 @@ footer {
 	}
 	#rightMenu span{
 		line-height:76px;
-		font-size: 16px;
+		font-size: 13px;
 	}
 	#rightMenu div{
 		line-height:80px;
@@ -1304,10 +1301,10 @@ footer {
 		width:25px;
 	}
 
-	#rightMenu ul
+	/* #rightMenu ul
 	{
 	    line-height:42px;
-	}
+	} */
 	.notificationBadge{
 		font-size:10px;
 		line-height:10px!important;
@@ -1572,9 +1569,14 @@ footer {
 		padding-right:10px;
 	}
 	.copyrightBox{
-		height:50px;
+		height:150px;
 		font-size:10px;
 	}
+	
+	.copyrightBox1 {
+    height: 104px;
+    font-size: 10px;
+}
 	.copyrightContact{
 		text-align:left;
 		padding-left:10px;
@@ -1584,10 +1586,15 @@ footer {
 	}
 
 	.border-style-bottom{
-		border-bottom-width:0px;
+		    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #767676;
 	}
 	.border-style-top{
-		border-top-width:0px;
+			    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #2e2e2e;
+		
 	}
 	.modal-dialog{
 		width:500px;
@@ -2142,7 +2149,7 @@ footer {
 	}
 	#userName{
 		height:72px;
-		font-size:18px;
+	
 	}
 	.dropdown-menu {
 		margin-top:-10px;
@@ -2578,10 +2585,7 @@ footer {
 		height:72px;
 		font-size:13px;
 	}
-	.dropdown-menu {
-		margin-top:-10px;
-		width:90%;
-	}
+
 	.sideMenuItem{
 		width:60px;
 		height:60px;
@@ -2978,12 +2982,7 @@ footer {
 
 }
 
-@media screen and (max-width: 1024px) {
-    .copyrightBox {
-        height: 150px;
-        font-size: 10px;
-    }
-}
+
 
 @media screen and (max-width: 500px) {
 
@@ -3010,6 +3009,13 @@ footer {
 	.menu-item.user-name{
 		height: auto;
 	}
+	
+	.blank
+	
+	{
+		display:none;
+		
+	}
 }
 
 @media (max-width: 768px){
@@ -3019,37 +3025,8 @@ footer {
     }
 }
 
-ul.notification_box li
-
-{
-	
-		margin: 12px;
-	
-	    font-family: 'Geogrotesque-Medium';
-		    border-bottom: 1px solid #adadad;
-	line-height:20px !important;
-	padding:0px;
-}
 
 
-ul.notification_box li:hover
-
-{
-	
-
-    background: #f4f4f4;
-}
-
-
-
-
-ul.notification_box li label
-
-{
-	
-	color:#ce0f42;
-	font-weight: bold;
-}
 
 .dash_text
 
@@ -3070,11 +3047,11 @@ ul.notification_box li label
 }
 
 
-.warning1
+/* .warning1
 {
  display:none;
 }
-
+ */
 
 .left_red_icon
 {
@@ -3160,4 +3137,238 @@ ul.notification_box li label
 		width: 100%;
 	}
 }
+
+
+@media (max-width: 768px){
+
+.menu-item.user-name {
+    height: auto;
+}
+}
+
+ul.notification_box li
+
+{
+	
+		
+	
+	    font-family: 'Geogrotesque-Medium';
+		    border-bottom: 1px solid #adadad;
+	line-height:20px !important;
+    padding: 3px 20px;
+	    font-size: 13px;
+
+}
+
+
+
+
+
+ul.notification_box li label
+
+{
+	    font-size: 13px;
+	color:#ce0f42;
+	font-weight: bold;
+}
+
+.dash_text
+
+{
+	
+	color:#494949!important;
+	      font-family: Geogrotesque-Medium;
+}
+
+
+
+.warning1
+{
+    width: 400px;
+    height: 111px;
+    background-color: #FFFFFF;
+    border: solid 1px #CE0F63;
+	position: fixed;
+	border-radius: 3px;
+	top: 69px;
+	right: 14px;
+
+   
+	    z-index: 99999;
+	
+	
+}
+.warning2
+{
+    width: 400px;
+    height: 111px;
+    background-color: #FFFFFF;
+    border: solid 1px #CE0F63;
+	position: fixed;
+	border-radius: 3px;
+	top: 190px;
+	right: 14px;
+
+
+   
+	    z-index: 99999;
+	
+	
+}
+
+
+
+
+
+
+/* .warning1
+{
+ display:none;
+}
+ */
+
+.left_red_icon
+{
+	    text-align: center;
+	height:100%;
+	background:#ce0f42;
+}
+
+
+.left_red_icon img
+{
+	
+	margin-top:46px
+}
+
+.warning_head
+{
+    color: #ce0f42;
+    font-weight: bold;
+}
+
+
+.grey_cls
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+  
+    margin: 5px;
+}
+
+
+
+.setting_footer {
+    background-color: #555555;
+    color: white;
+    height: 50px;
+
+    line-height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-right: 0px;
+	    font-family: 'Geogrotesque-Regular';
+}
+
+
+
+
+.link_color
+
+{
+	
+	   color: #ce0f42!important;
+	       display: inline;
+    padding:0px !important;
+    clear: both;
+    
+    white-space: nowrap;
+
+}
+
+.one
+
+{
+	margin-right:-500px;
+}
+ #toggle {
+    width: 100px;
+    height: 100px;
+    background: #ccc;
+  }
+
+.drop_heading {
+    background: #ce0f42;
+    border-radius: 4px 4px 0px 0px;
+    text-align: center;
+    padding: 0px;
+    color: #fff;
+    font-size: 18px;
+    text-shadow: 2px 0px 2px rgba(0, 0, 0, 0.7);
+    font-family: 'Geogrotesque-Regular';
+    line-height: 55px!important;
+}
+
+
+    .box{
+        float:right;
+        overflow: hidden;
+        background: #f0e68c;
+    }
+    /* Add padding and border to inner content
+    for better animation effect */
+    .box-inner{
+        width: 400px;
+		
+        padding: 10px;
+        border: 1px solid #a29415;
+    }
+	
+	
+	
+
+
+	
+	 @media only screen and (max-width : 1279px) {
+
+
+.copyrightBox {
+     height: 52px!important;
+    font-size: 12px;
+}
+
+
+}
+
+
+
+ @media only screen and (max-width : 991px) {
+
+
+.copyrightBox {
+     height: 150px!important;
+    font-size: 10px;
+}
+
+
+}
+	
+	
+	@media (max-width: 1024px){
+
+
+	#brand div{
+		margin-top:15px;
+	}
+
+
+
+
+
+}
+	
+
+ 
 

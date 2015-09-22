@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>myBMG Overview</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bmg/styles.css" rel="stylesheet">
+    <link href="css/MyFontsWebfontsOrderM3684884.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+    <link href="css/bmg/analytics.css" rel="stylesheet">
+	<link href="css/bmg/ct-navbar.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div id="wrapper" class="container col-md-12 col-sm-12 col-xs-12 nofloat clearpadding">
+<div class="topMenu navbar col-md-12 col-sm-12 col-xs-12 clearpadding">
+    <div id="brand" class="col-md-3 col-sm-4 col-xs-12 ">
+        <div id="hamburger" class="pull-left"><img src="images/hamburger_icon.png" alt="Side Menu"/>				            </div>
+        <div class="pull-left"><img src="images/BMG_logo.png" alt="BMG Logo"/></div>
+    </div> <!-- brand end -->
+    <div id="rightMenu" class="col-lg-4 col-md-4  col-sm-6  col-xs-12 pull-right" >
+        <div class="menu-item col-lg-2 col-md-2 col-sm-2 col-xs-2 border-style-right blank">&nbsp;</div>
+        <div class="menu-item col-lg-3 col-md-3 col-sm-3 col-xs-3 border-style-left border-style-left border-style-right">
+		<img src="images/Message_Envelope_Icon.png" alt="Messages"/></div>
+<div class="menu-item col-lg-3 col-md-3 col-sm-3 col-xs-3 border-style-left border-style-right">
+ <a href="#" class="dropdown-toggle dropdown-toggle1" data-toggle="dropdown"> <img src="images/bell.png" width="30px" alt="Notification"><span class="notificationBadge badge">3</span> </a>
+		
+		
+		
+		   <ul class=" dropdown-menu2 dropdown-menu  notification_box">
+    <div class="drop_heading">NOTIFICATION</div>
+               <li>
+              <label>Statement</label>
+              <br>
+              your statement for period 06/2015 is ready now check now</li>
+            <li>
+              <label>Warning</label>
+              <br>
+              There is a prediction of storm in Austin-Texas on 15th of September. Please be careful, if you are travelling in that region during this time.</li>
+            <li>
+              <label>Maintenance window</label>
+              <br>
+              There is a outage planned for myBMG on 31st Aug 2015. So the system won’t be available from 18:00 CEST to 21:00 CEST. Please plan your work accordingly.</li>
+            <li>
+              <label>VAT self billing</label>
+            
+              If you are VAT registered but haven’t completed VAT self billing agreement, please3 download it from <a href="#" class="link_color">http://my.bmg.com/mybmg/user  <br>/forms/5</a> here and return the completed and signed form to us.</li>
+            <li>
+              <label>New centralized e-mail account for song registration</label>
+             
+              Please send all new song deliveries to this new central email <a href="#" class="link_color">mySongs@bmg.com</a></li>
+            </ul>
+		
+		
+		
+		</div>
+		
+		
+        <div class="menu-item user-name col-lg-4 col-md-4 col-sm-4 col-xs-4 border-style-left">
+           <ul>
+          <li class="">
+		  <a href="#" class="dropdown-toggle dropdown-toggle1 " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span id="userName">Nick Drake</span><img src="images/arrow.png" alt="User"></a>
+            <ul class="dropdown-menu">
+              <li><a href="#" class="select">Profile</a></li>
+              <li><a href="#" class="select">Sign Out</a></li>
+            </ul>
+          </li>
+        </ul>
+		
+        </div>
+    </div>
+</div>
+<div id="mainContent"  class="col-md-12 col-sm-12 col-xs-12 nofloat clearpadding" >
+<div class="col-md-12 col-sm-12 col-xs-12 clearpadding">
+<div id="sidebar-wrapper">
+    <a class="menuLink" href="#"><div class="sideMenuItem active"><img src="images/home_active.png"><div class="menutext">Home</div></div></a>
+    <a class="menuLink" href="#"><div class="sideMenuItem"><img  src="images/analytics_normal.png"><div class="menutext">Financial Analytics</div></div></a>
+    <a class="menuLink" href="#"><div class="sideMenuItem"><img  src="images/my_work_normal.png"><div class="menutext">My Work</div></div></a>
+    <a class="menuLink" href="#"><div class="sideMenuItem"><img  src="images/statement_normal.png"><div class="menutext">Statements</div></div></a>
+</div> <!-- sidebar-wrapper end -->
+<div id="container" class="container-fluid">
+<div  id="clientSelection" class="col-md-12 col-sm-12 col-xs-12 clearfix clearpadding">
+    <div id="clientSelectionImage" class="col-md-1 col-sm-2 col-xs-3 vertically-centered clearpadding"><img src="images/all.png"/></div>
+    <div id="clientSelectionText" class="col-md-5 col-sm-4 col-xs-9 vertically-centered clearpadding">Clients/Payees Selection</div>
+    <div id="clientSelectionTextDiv" class="col-md-6  col-lg-6 col-sm-6 col-xs-12 vertically-centered clearpadding">
+        <div class="">
+            <span id="clientSelectionDisplayText" class="col-md-8 col-lg-8 col-sm-8 col-xs-8 clearpadding" >All 30 Clients Selected</span>
+            <div id="clientSelectionButtonSpan" class="col-md-4 col-lg-4 col-sm-4 col-xs-4 clearpadding">
+                <div class="btn-group">
+                    <button id="clientListButton" type="button" class="btn btn-default dropdown-toggle col-lg-12" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Select <img src="images/arrow.png" alt="User"/>
+                    </button>
+                    <ul class="dropdown-menu clearpadding">
+                        <li class="clientSelectionLink"><a href="javascript:void(0)" class="select">All</a></li>
+                        <li class="clientSelectionLink"><a href="javascript:void(0)" class="select">Specific</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>	<!-- clientSelectionTextDiv end -->
+</div> <!-- clientSelection end -->
+<!-- Timeline -->
+<!-- <div id="timeLine" class="col-md-12 col-xs-12 clearpadding clearfix">
+
+     <div id="allTimeLineLink" class="col-md-3 col-xs-3 clearpadding active border-style-right text-center"><a class="timeLineLink" href="#"><img src="images/time_all.png"/><span>All</span></a></div>
+     <div class="col-md-3 col-xs-3 clearpadding border-style-left border-style-right text-center"><a class="timeLineLink" href="#"><img src="images/time_2014.png"/><span>2014</span></a></div>
+     <div class="col-md-3 col-xs-3 clearpadding border-style-left border-style-right text-center"><a class="timeLineLink" href="#"><img src="images/time_2013.png" /><span>2013</span></a></div>
+     <div class="col-md-3 col-xs-3 clearpadding border-style-left text-center"><a class="timeLineLink" href="#"><img src="images/time_2012.png"/><span>2012</span></a></div>
+ </div>-->
+
+
+<div  id="clientSelection" class="col-md-12 col-sm-12 col-xs-12 clearfix clearpadding period-selection">
+    <div style="overflow:hidden; position:relative;">
+        <div id="clientSelectionImage" class="col-md-1 col-sm-2 col-xs-3 vertically-centered clearpadding"><img src="images/timeline.png"/></div>
+        <div id="clientSelectionText" class="col-md-5 col-sm-4 col-xs-9 vertically-centered clearpadding">Period Selection</div>	<a href="#" class="expand-btn active"></a>
+    </div>
+
+    <div class="slider-wrap">
+        <div id="slider-range"></div>
+    </div>
+    <!-- <div class="slider-tooltip">
+        <ul>
+            <li class="active">03</li>
+            <li class="active">06</li>
+            <li>09</li>
+            <li>12</li>
+        </ul>
+    </div> -->
+    <div class="slider-data-wrap">
+        <ul>
+            <li>
+                <div>2015</div>
+                <div class="slider-tooltip">
+                    <div class="inner">
+                        <div class="item">03</div>
+                        <div class="item">06</div>
+                        <div class="item">09</div>
+                        <div class="item">12</div>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div>2014</div>
+                <div class="slider-tooltip">
+                    <div class="inner">
+                        <div class="item">03</div>
+                        <div class="item">06</div>
+                        <div class="item">09</div>
+                        <div class="item">12</div>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div>2013</div>
+                <div class="slider-tooltip">
+                    <div class="inner">
+                        <div class="item">03</div>
+                        <div class="item">06</div>
+                        <div class="item">09</div>
+                        <div class="item">12</div>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div>2012</div>
+                <div class="slider-tooltip">
+                    <div class="inner">
+                        <div class="item">03</div>
+                        <div class="item">06</div>
+                        <div class="item">09</div>
+                        <div class="item">12</div>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div>2011</div>
+                <div class="slider-tooltip">
+                    <div class="inner">
+                        <div class="item">03</div>
+                        <div class="item">06</div>
+                        <div class="item">09</div>
+                        <div class="item">12</div>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div>2010</div>
+                <div class="slider-tooltip">
+                    <div class="inner">
+                        <div class="item">03</div>
+                        <div class="item">06</div>
+                        <div class="item">09</div>
+                        <div class="item">12</div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>2009</div>
+                <div class="slider-tooltip">
+                    <div class="inner">
+                        <div class="item">03</div>
+                        <div class="item">06</div>
+                        <div class="item">09</div>
+                        <div class="item">12</div>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+    <!--<div id="clientSelectionTextDiv" class="col-md-6  col-lg-6 col-sm-6 col-xs-12 vertically-centered clearpadding">
+        <!--<div class="">
+            <span id="clientSelectionDisplayText" class="col-md-8 col-lg-8 col-sm-8 col-xs-8 clearpadding" >All 30 Clients Selected</span>
+            <div id="clientSelectionButtonSpan" class="col-md-4 col-lg-4 col-sm-4 col-xs-4 clearpadding">
+                <div class="btn-group">
+                    <button id="clientListButton" type="button" class="btn btn-default dropdown-toggle col-lg-12" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Select <img src="images/arrow.png" alt="User"/>
+                    </button>
+                    <ul class="dropdown-menu clearpadding">
+                        <li class="clientSelectionLink"><a href="#">All</a></li>
+                        <li class="clientSelectionLink"><a href="#">Specific</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>	<!-- clientSelectionTextDiv end -->
+</div> <!-- clientSelection end -->
+
+
+<!-- Charts -->
+<div id="isMobileDevice" class="visible-xs hidden-sm hidden-md hidden-lg"></div>
+
+  
+
+   <div id="royaltiesChartDiv" class="col-md-12 col-xs-12 chartWrapper clearfix">
+          <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-6 pull-left">
+              <div class="col-md-12 col-sm-12 col-xs-12 chartTitle">OVERVIEW</div>
+            </div>
+			
+
+          
+          </div>
+          <div id="royaltiesTableDiv"  class="col-md-12">
+            <table id="royaltiesTable" class="table table-responsive">
+              <thead>
+                <tr>
+                  <td class="border-style-right">Period</td>
+                  <td class="border-style-right">Opening balance</td>
+                  <td class="border-style-left border-style-right">Advances</td>
+                  <td class="border-style-left border-style-right">Payments</td>
+                  <td class="border-style-left border-style-right">Transfers</td>
+                  <td class="border-style-left border-style-right">Royalties</td>
+                  <td class="border-style-left border-style-right">Closing balance</td>
+                
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="tableKey">12/2014</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+               
+                </tr>
+                <tr>
+                  <td class="tableKey">06/2014</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+               
+                </tr>
+                <tr>
+                  <td class="tableKey">12/2013</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  
+                </tr>
+                <tr>
+                  <td class="tableKey">06/2013</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+               
+                </tr>
+                <tr>
+                  <td class="tableKey">12/2012</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+         
+                </tr>
+				    <tr>
+                  <td class="tableKey">12/2012</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+         
+                </tr>
+				    <tr>
+                  <td class="tableKey">12/2012</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+         
+                </tr>
+				    <tr>
+                  <td class="tableKey">12/2012</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+         
+                </tr>
+				    <tr>
+                  <td class="tableKey">12/2012</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+                  <td class="tableValue">110.000 €</td>
+         
+                </tr>
+              </tbody>
+
+            </table>
+          </div>
+          <div id="royaltiesChart" class="clearfix" data-highcharts-chart="0" style="display: none;"><div class="highcharts-container" id="highcharts-0" style="position: relative; overflow: hidden; width: 600px; height: 418px; text-align: left; line-height: normal; z-index: 0; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); font-family: Geogrotesque-Regular; font-weight: normal; font-style: normal;"><svg version="1.1" style="font-family:Geogrotesque-Regular;font-size:12px;font-weight:normal;font-style:normal;" xmlns="http://www.w3.org/2000/svg" width="600" height="418"><desc>Created with Highcharts 4.1.7-modified</desc><defs><clipPath id="highcharts-1"><rect x="0" y="0" width="493" height="316"></rect></clipPath></defs><rect x="0" y="0" width="600" height="418" strokewidth="0" fill="#FFFFFF" class=" highcharts-background"></rect><g class="highcharts-grid" zindex="1"><path fill="none" d="M 166.5 10 L 166.5 326" stroke="#D8D8D8" stroke-width="1" zindex="1" opacity="1"></path><path fill="none" d="M 237.5 10 L 237.5 326" stroke="#D8D8D8" stroke-width="1" zindex="1" opacity="1"></path><path fill="none" d="M 307.5 10 L 307.5 326" stroke="#D8D8D8" stroke-width="1" zindex="1" opacity="1"></path><path fill="none" d="M 378.5 10 L 378.5 326" stroke="#D8D8D8" stroke-width="1" zindex="1" opacity="1"></path><path fill="none" d="M 448.5 10 L 448.5 326" stroke="#D8D8D8" stroke-width="1" zindex="1" opacity="1"></path><path fill="none" d="M 519.5 10 L 519.5 326" stroke="#D8D8D8" stroke-width="1" zindex="1" opacity="1"></path><path fill="none" d="M 590.5 10 L 590.5 326" stroke="#D8D8D8" stroke-width="1" zindex="1" opacity="1"></path><path fill="none" d="M 96.5 10 L 96.5 326" stroke="#D8D8D8" stroke-width="1" zindex="1" opacity="1"></path></g><g class="highcharts-grid" zindex="1"><path fill="none" d="M 97 326.5 L 590 326.5" stroke="#D8D8D8" stroke-width="1" zindex="1" opacity="1"></path><path fill="none" d="M 97 247.5 L 590 247.5" stroke="#D8D8D8" stroke-width="1" zindex="1" opacity="1"></path><path fill="none" d="M 97 168.5 L 590 168.5" stroke="#D8D8D8" stroke-width="1" zindex="1" opacity="1"></path><path fill="none" d="M 97 89.5 L 590 89.5" stroke="#D8D8D8" stroke-width="1" zindex="1" opacity="1"></path><path fill="none" d="M 97 9.5 L 590 9.5" stroke="#D8D8D8" stroke-width="1" zindex="1" opacity="1"></path></g><g class="highcharts-axis" zindex="2"><path fill="none" d="M 166.5 326 L 166.5 336" stroke="#C0D0E0" stroke-width="1" opacity="1"></path><path fill="none" d="M 237.5 326 L 237.5 336" stroke="#C0D0E0" stroke-width="1" opacity="1"></path><path fill="none" d="M 307.5 326 L 307.5 336" stroke="#C0D0E0" stroke-width="1" opacity="1"></path><path fill="none" d="M 378.5 326 L 378.5 336" stroke="#C0D0E0" stroke-width="1" opacity="1"></path><path fill="none" d="M 448.5 326 L 448.5 336" stroke="#C0D0E0" stroke-width="1" opacity="1"></path><path fill="none" d="M 519.5 326 L 519.5 336" stroke="#C0D0E0" stroke-width="1" opacity="1"></path><path fill="none" d="M 590.5 326 L 590.5 336" stroke="#C0D0E0" stroke-width="1" opacity="1"></path><path fill="none" d="M 96.5 326 L 96.5 336" stroke="#C0D0E0" stroke-width="1" opacity="1"></path><path fill="none" d="M 97 326.5 L 590 326.5" stroke="#C0D0E0" stroke-width="1" zindex="7" visibility="visible"></path></g><g class="highcharts-axis" zindex="2"><text x="19" zindex="7" text-anchor="middle" transform="translate(0,0)" class=" highcharts-yaxis-title" style="color:#707070;font-size:14px;fill:#707070;" visibility="visible" y="168">€</text></g><g class="highcharts-series-group" zindex="3"><g class="highcharts-series highcharts-tracker" visibility="visible" zindex="0.1" transform="translate(97,10) scale(1 1)" style="" clip-path="url(#highcharts-1)"><rect x="17.5" y="104.5" width="34" height="43" stroke="#FFFFFF" stroke-width="1" fill="#BBBBBB" rx="0" ry="0"></rect><rect x="88.5" y="212.5" width="34" height="21" stroke="#FFFFFF" stroke-width="1" fill="#BBBBBB" rx="0" ry="0"></rect><rect x="158.5" y="218.5" width="34" height="19" stroke="#FFFFFF" stroke-width="1" fill="#BBBBBB" rx="0" ry="0"></rect><rect x="229.5" y="66.5" width="34" height="50" stroke="#FFFFFF" stroke-width="1" fill="#BBBBBB" rx="0" ry="0"></rect><rect x="299.5" y="208.5" width="34" height="22" stroke="#FFFFFF" stroke-width="1" fill="#BBBBBB" rx="0" ry="0"></rect><rect x="369.5" y="234.5" width="34" height="17" stroke="#FFFFFF" stroke-width="1" fill="#BBBBBB" rx="0" ry="0"></rect><rect x="440.5" y="315.5" width="34" height="1" stroke="#FFFFFF" stroke-width="1" fill="#BBBBBB" rx="0" ry="0"></rect></g><g class="highcharts-markers" visibility="visible" zindex="0.1" transform="translate(97,10) scale(1 1)" clip-path="none"></g><g class="highcharts-series highcharts-tracker" visibility="visible" zindex="0.1" transform="translate(97,10) scale(1 1)" style="" clip-path="url(#highcharts-1)"><rect x="17.5" y="147.5" width="34" height="42" stroke="#FFFFFF" stroke-width="1" fill="#AAAAAA" rx="0" ry="0"></rect><rect x="88.5" y="233.5" width="34" height="20" stroke="#FFFFFF" stroke-width="1" fill="#AAAAAA" rx="0" ry="0"></rect><rect x="158.5" y="237.5" width="34" height="20" stroke="#FFFFFF" stroke-width="1" fill="#AAAAAA" rx="0" ry="0"></rect><rect x="229.5" y="116.5" width="34" height="50" stroke="#FFFFFF" stroke-width="1" fill="#AAAAAA" rx="0" ry="0"></rect><rect x="299.5" y="230.5" width="34" height="21" stroke="#FFFFFF" stroke-width="1" fill="#AAAAAA" rx="0" ry="0"></rect><rect x="369.5" y="251.5" width="34" height="16" stroke="#FFFFFF" stroke-width="1" fill="#AAAAAA" rx="0" ry="0"></rect><rect x="440.5" y="316.5" width="34" height="0" stroke="#FFFFFF" stroke-width="1" fill="#AAAAAA" rx="0" ry="0"></rect></g><g class="highcharts-markers" visibility="visible" zindex="0.1" transform="translate(97,10) scale(1 1)" clip-path="none"></g><g class="highcharts-series highcharts-tracker" visibility="visible" zindex="0.1" transform="translate(97,10) scale(1 1)" style="" clip-path="url(#highcharts-1)"><rect x="17.5" y="189.5" width="34" height="42" stroke="#FFFFFF" stroke-width="1" fill="#999999" rx="0" ry="0"></rect><rect x="88.5" y="253.5" width="34" height="21" stroke="#FFFFFF" stroke-width="1" fill="#999999" rx="0" ry="0"></rect><rect x="158.5" y="257.5" width="34" height="20" stroke="#FFFFFF" stroke-width="1" fill="#999999" rx="0" ry="0"></rect><rect x="229.5" y="166.5" width="34" height="50" stroke="#FFFFFF" stroke-width="1" fill="#999999" rx="0" ry="0"></rect><rect x="299.5" y="251.5" width="34" height="22" stroke="#FFFFFF" stroke-width="1" fill="#999999" rx="0" ry="0"></rect><rect x="369.5" y="267.5" width="34" height="16" stroke="#FFFFFF" stroke-width="1" fill="#999999" rx="0" ry="0"></rect><rect x="440.5" y="316.5" width="34" height="0" stroke="#FFFFFF" stroke-width="1" fill="#999999" rx="0" ry="0"></rect></g><g class="highcharts-markers" visibility="visible" zindex="0.1" transform="translate(97,10) scale(1 1)" clip-path="none"></g><g class="highcharts-series highcharts-tracker" visibility="visible" zindex="0.1" transform="translate(97,10) scale(1 1)" style="" clip-path="url(#highcharts-1)"><rect x="17.5" y="231.5" width="34" height="43" stroke="#FFFFFF" stroke-width="1" fill="#888888" rx="0" ry="0"></rect><rect x="88.5" y="274.5" width="34" height="21" stroke="#FFFFFF" stroke-width="1" fill="#888888" rx="0" ry="0"></rect><rect x="158.5" y="277.5" width="34" height="19" stroke="#FFFFFF" stroke-width="1" fill="#888888" rx="0" ry="0"></rect><rect x="229.5" y="216.5" width="34" height="50" stroke="#FFFFFF" stroke-width="1" fill="#888888" rx="0" ry="0"></rect><rect x="299.5" y="273.5" width="34" height="21" stroke="#FFFFFF" stroke-width="1" fill="#888888" rx="0" ry="0"></rect><rect x="369.5" y="283.5" width="34" height="17" stroke="#FFFFFF" stroke-width="1" fill="#888888" rx="0" ry="0"></rect><rect x="440.5" y="316.5" width="34" height="0" stroke="#FFFFFF" stroke-width="1" fill="#888888" rx="0" ry="0"></rect></g><g class="highcharts-markers" visibility="visible" zindex="0.1" transform="translate(97,10) scale(1 1)" clip-path="none"></g><g class="highcharts-series highcharts-tracker" visibility="visible" zindex="0.1" transform="translate(97,10) scale(1 1)" style="" clip-path="url(#highcharts-1)"><rect x="17.5" y="274.5" width="34" height="42" stroke="#FFFFFF" stroke-width="1" fill="#777777" rx="0" ry="0"></rect><rect x="88.5" y="295.5" width="34" height="21" stroke="#FFFFFF" stroke-width="1" fill="#777777" rx="0" ry="0"></rect><rect x="158.5" y="296.5" width="34" height="20" stroke="#FFFFFF" stroke-width="1" fill="#777777" rx="0" ry="0"></rect><rect x="229.5" y="266.5" width="34" height="50" stroke="#FFFFFF" stroke-width="1" fill="#777777" rx="0" ry="0"></rect><rect x="299.5" y="294.5" width="34" height="22" stroke="#FFFFFF" stroke-width="1" fill="#777777" rx="0" ry="0"></rect><rect x="369.5" y="300.5" width="34" height="16" stroke="#FFFFFF" stroke-width="1" fill="#777777" rx="0" ry="0"></rect><rect x="440.5" y="316.5" width="34" height="0" stroke="#FFFFFF" stroke-width="1" fill="#777777" rx="0" ry="0"></rect></g><g class="highcharts-markers" visibility="visible" zindex="0.1" transform="translate(97,10) scale(1 1)" clip-path="none"></g></g><g class="highcharts-stack-labels" visibility="visible" zindex="6" transform="translate(97,10)"></g><g class="highcharts-legend" zindex="7" transform="translate(55,364)"><g zindex="1"><g><g class="highcharts-legend-item" zindex="1" transform="translate(8,3)"><text x="21" style="color:#333333;font-size:12px;font-weight:bold;cursor:pointer;fill:#333333;" text-anchor="start" zindex="2" y="15"><tspan>Stage Performance</tspan></text><rect x="0" y="4" width="16" height="12" zindex="3" fill="#BBBBBB"></rect></g><g class="highcharts-legend-item" zindex="1" transform="translate(146,3)"><text x="21" y="15" style="color:#333333;font-size:12px;font-weight:bold;cursor:pointer;fill:#333333;" text-anchor="start" zindex="2"><tspan>Digital Sales</tspan></text><rect x="0" y="4" width="16" height="12" zindex="3" fill="#AAAAAA"></rect></g><g class="highcharts-legend-item" zindex="1" transform="translate(251,3)"><text x="21" y="15" style="color:#333333;font-size:12px;font-weight:bold;cursor:pointer;fill:#333333;" text-anchor="start" zindex="2"><tspan>Mechanical Royalties</tspan></text><rect x="0" y="4" width="16" height="12" zindex="3" fill="#999999"></rect></g><g class="highcharts-legend-item" zindex="1" transform="translate(401,3)"><text x="21" y="15" style="color:#333333;font-size:12px;font-weight:bold;cursor:pointer;fill:#333333;" text-anchor="start" zindex="2"><tspan>Retail Sales</tspan></text><rect x="0" y="4" width="16" height="12" zindex="3" fill="#888888"></rect></g><g class="highcharts-legend-item" zindex="1" transform="translate(8,17)"><text x="21" y="15" style="color:#333333;font-size:12px;font-weight:bold;cursor:pointer;fill:#333333;" text-anchor="start" zindex="2"><tspan>Albums Downloads</tspan></text><rect x="0" y="4" width="16" height="12" zindex="3" fill="#777777"></rect></g></g></g></g><g class="highcharts-axis-labels highcharts-xaxis-labels" zindex="7"></g><g class="highcharts-axis-labels highcharts-yaxis-labels" zindex="7"></g><g class="highcharts-tooltip" zindex="8" style="cursor:default;padding:0;white-space:nowrap;" transform="translate(0,-9999)"><path fill="none" d="M 10.5 0.5 L 6.5 0.5 C 16.5 0.5 16.5 0.5 16.5 10.5 L 16.5 6.5 C 16.5 16.5 16.5 16.5 6.5 16.5 L 10.5 16.5 C 0.5 16.5 0.5 16.5 0.5 6.5 L 0.5 10.5 C 0.5 0.5 0.5 0.5 10.5 0.5" isshadow="true" stroke="black" stroke-opacity="0.049999999999999996" stroke-width="5" transform="translate(1, 1)"></path><path fill="none" d="M 10.5 0.5 L 6.5 0.5 C 16.5 0.5 16.5 0.5 16.5 10.5 L 16.5 6.5 C 16.5 16.5 16.5 16.5 6.5 16.5 L 10.5 16.5 C 0.5 16.5 0.5 16.5 0.5 6.5 L 0.5 10.5 C 0.5 0.5 0.5 0.5 10.5 0.5" isshadow="true" stroke="black" stroke-opacity="0.09999999999999999" stroke-width="3" transform="translate(1, 1)"></path><path fill="none" d="M 10.5 0.5 L 6.5 0.5 C 16.5 0.5 16.5 0.5 16.5 10.5 L 16.5 6.5 C 16.5 16.5 16.5 16.5 6.5 16.5 L 10.5 16.5 C 0.5 16.5 0.5 16.5 0.5 6.5 L 0.5 10.5 C 0.5 0.5 0.5 0.5 10.5 0.5" isshadow="true" stroke="black" stroke-opacity="0.15" stroke-width="1" transform="translate(1, 1)"></path><path fill="#FFFFFF" d="M 10.5 0.5 L 6.5 0.5 C 16.5 0.5 16.5 0.5 16.5 10.5 L 16.5 6.5 C 16.5 16.5 16.5 16.5 6.5 16.5 L 10.5 16.5 C 0.5 16.5 0.5 16.5 0.5 6.5 L 0.5 10.5 C 0.5 0.5 0.5 0.5 10.5 0.5"></path></g><text x="590" text-anchor="end" zindex="8" style="cursor:pointer;color:#909090;font-size:9px;fill:#909090;" y="413">Highcharts.com<title>undefined</title></text></svg><div class="highcharts-tooltip" style="position: absolute; left: 0px; top: -9999px;"><span style="position: absolute; font-family: Geogrotesque-Regular; font-size: 12px; white-space: nowrap; color: rgb(51, 51, 51); margin-left: 0px; margin-top: 0px; left: 8px; top: 8px;" zindex="1"></span></div><div class="highcharts-axis-labels highcharts-xaxis-labels" style="position: absolute; left: 0px; top: 0px;"><span style="position: absolute; font-family: Geogrotesque-Regular; font-size: 11px; white-space: nowrap; color: rgb(96, 96, 96); cursor: default; margin-left: 0px; margin-top: 0px; left: 104.714px; top: 334px; text-overflow: clip;" transform="translate(0,0)" opacity="1"><span class="xAxisLabel">2012-06</span></span><span style="position: absolute; font-family: Geogrotesque-Regular; font-size: 11px; white-space: nowrap; color: rgb(96, 96, 96); cursor: default; margin-left: 0px; margin-top: 0px; left: 175.143px; top: 334px; text-overflow: clip;" transform="translate(0,0)" opacity="1"><span class="xAxisLabel">2012-12</span></span><span style="position: absolute; font-family: Geogrotesque-Regular; font-size: 11px; white-space: nowrap; color: rgb(96, 96, 96); cursor: default; margin-left: 0px; margin-top: 0px; left: 245.571px; top: 334px; text-overflow: clip;" transform="translate(0,0)" opacity="1"><span class="xAxisLabel">2013-06</span></span><span style="position: absolute; font-family: Geogrotesque-Regular; font-size: 11px; white-space: nowrap; color: rgb(96, 96, 96); cursor: default; margin-left: 0px; margin-top: 0px; left: 316px; top: 334px; text-overflow: clip;" transform="translate(0,0)" opacity="1"><span class="xAxisLabel">2013-12</span></span><span style="position: absolute; font-family: Geogrotesque-Regular; font-size: 11px; white-space: nowrap; color: rgb(96, 96, 96); cursor: default; margin-left: 0px; margin-top: 0px; left: 386.429px; top: 334px; text-overflow: clip;" transform="translate(0,0)" opacity="1"><span class="xAxisLabel">2014-06</span></span><span style="position: absolute; font-family: Geogrotesque-Regular; font-size: 11px; white-space: nowrap; color: rgb(96, 96, 96); cursor: default; margin-left: 0px; margin-top: 0px; left: 456.857px; top: 334px; text-overflow: clip;" transform="translate(0,0)" opacity="1"><span class="xAxisLabel">2014-12</span></span><span style="position: absolute; font-family: Geogrotesque-Regular; font-size: 11px; white-space: nowrap; color: rgb(96, 96, 96); cursor: default; margin-left: 0px; margin-top: 0px; left: 527.286px; top: 334px; text-overflow: clip;" transform="translate(0,0)" opacity="1"><span class="xAxisLabel">2015-06</span></span></div><div class="highcharts-axis-labels highcharts-yaxis-labels" style="position: absolute; left: 0px; top: 0px;"><span style="position: absolute; font-family: Geogrotesque-Regular; font-size: 11px; white-space: nowrap; color: rgb(96, 96, 96); cursor: default; margin-left: 0px; margin-top: 0px; left: 53px; top: 317px; text-overflow: clip;" transform="translate(0,0)" opacity="1"><span class="yAxisLabel">0K € </span></span><span style="position: absolute; font-family: Geogrotesque-Regular; font-size: 11px; white-space: nowrap; color: rgb(96, 96, 96); cursor: default; margin-left: 0px; margin-top: 0px; left: 29px; top: 238px; text-overflow: clip;" transform="translate(0,0)" opacity="1"><span class="yAxisLabel">1000K € </span></span><span style="position: absolute; font-family: Geogrotesque-Regular; font-size: 11px; white-space: nowrap; color: rgb(96, 96, 96); cursor: default; margin-left: 0px; margin-top: 0px; left: 29px; top: 159px; text-overflow: clip;" transform="translate(0,0)" opacity="1"><span class="yAxisLabel">2000K € </span></span><span style="position: absolute; font-family: Geogrotesque-Regular; font-size: 11px; white-space: nowrap; color: rgb(96, 96, 96); cursor: default; margin-left: 0px; margin-top: 0px; left: 29px; top: 80px; text-overflow: clip;" transform="translate(0,0)" opacity="1"><span class="yAxisLabel">3000K € </span></span><span style="position: absolute; font-family: Geogrotesque-Regular; font-size: 11px; white-space: nowrap; color: rgb(96, 96, 96); cursor: default; margin-left: 0px; margin-top: 0px; left: 82px; top: 10px; text-overflow: clip;" transform="translate(0,0)" opacity="1"><span class="yAxisLabel">4000K € </span></span></div><div class="highcharts-stack-labels" style="position: absolute; left: 97px; top: 10px;"><span style="position: absolute; font-family: Geogrotesque-Regular; font-size: 11px; white-space: nowrap; color: rgb(0, 0, 0); font-weight: bold; margin-left: 0px; margin-top: 0px; left: 0px; top: 87px;"><span class="stackLabel">2680K €</span></span><span style="position: absolute; font-family: Geogrotesque-Regular; font-size: 11px; white-space: nowrap; color: rgb(0, 0, 0); font-weight: bold; margin-left: 0px; margin-top: 0px; left: 71px; top: 195px;"><span class="stackLabel">1319K €</span></span><span style="position: absolute; font-family: Geogrotesque-Regular; font-size: 11px; white-space: nowrap; color: rgb(0, 0, 0); font-weight: bold; margin-left: 0px; margin-top: 0px; left: 141px; top: 201px;"><span class="stackLabel">1246K €</span></span><span style="position: absolute; font-family: Geogrotesque-Regular; font-size: 11px; white-space: nowrap; color: rgb(0, 0, 0); font-weight: bold; margin-left: 0px; margin-top: 0px; left: 212px; top: 49px;"><span class="stackLabel">3158K €</span></span><span style="position: absolute; font-family: Geogrotesque-Regular; font-size: 11px; white-space: nowrap; color: rgb(0, 0, 0); font-weight: bold; margin-left: 0px; margin-top: 0px; left: 282px; top: 191px;"><span class="stackLabel">1367K €</span></span><span style="position: absolute; font-family: Geogrotesque-Regular; font-size: 11px; white-space: nowrap; color: rgb(0, 0, 0); font-weight: bold; margin-left: 0px; margin-top: 0px; left: 352px; top: 217px;"><span class="stackLabel">1034K €</span></span><span style="position: absolute; font-family: Geogrotesque-Regular; font-size: 11px; white-space: nowrap; color: rgb(0, 0, 0); font-weight: bold; margin-left: 0px; margin-top: 0px; left: 439px; top: 298px;"><span class="stackLabel">7K €</span></span></div></div></div>
+          
+        </div>
+
+
+<div class="clearfix"></div>
+<div class="col-md-12 setting_footer clearpadding">
+          
+		  <img class="contactIcon" src="images/contact.png">Contact Copyright: Peter Kremp (030 300133-133)
+        </div>
+<div class="clearfix"></div>
+<footer>
+    <div class="row clearpadding">
+        <span>Request &amp; Contact</span> | <span>Terms of Use</span> | <span style="color:#ce0f42">Privacy Policy</span> | <span>Disclaimer</span> | <span>Help</span> | <span>Copyright BMG</span>
+    </div>
+</footer>
+
+</div>	<!-- container -->
+</div>
+</div> <!-- main Content -->
+
+<!-- Client List Modal -->
+<div class="modal fade col-md-12 col-sm-12 col-xs-12" id="clientListModal" tabindex="-1" role="dialog" aria-labelledby="clientListModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><img  src="images/close.png"/></span></button>
+                <h4 class="modal-title" id="myModalLabel">Clients/Payees Selection</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-1 col-sm-1 col-xs-1"><span></span><img class="modalImage" src="images/reduce.png"></div>
+                    <div id="selectAllText" class="col-md-4 col-sm-4 col-xs-10">SELECT ALL</div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 pull-right">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search Clients/Payees"  aria-describedby="basic-addon1">
+                            <span class="input-group-addon" id="basic-addon1" ><span class="glyphicon glyphicon-search" aria-hidden="true"></span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="padding:10px">
+                    <span id="clientSelectionModalCount">17/30</span><span id="clientSelectionModalText">Clients / Payees selected </span>
+                </div>
+                <div id="clientModalDiv" class="row">
+                    <table id="clientsTable" class="table table-condensed table-striped">
+                        <thead>
+                        <tr><td class="col-md-2 col-sm-2 align-centered">ID</td><td class="col-md-1 col-sm-1 hidden-xs" >NAME</td><td class="col-md-8 hidden-xs"></td><td class="col-md-1 align-centered">CURRENCY</td></tr>
+                        </thead>
+                        <tbody>
+                        <tr class="dark"><td class="col-md-2 align-centered">20472</td><td class="col-md-1 align-centered  hidden-xs" ><img src="images/currency.png"/></td><td class="col-md-8  hidden-xs">"A" Slide Music LLC d/b/a Modern Works Music Publ.</td><td class="col-md-1 align-centered"><span class="glyphicon glyphicon-euro" aria-hidden="true"></span></td></tr>
+                        <tr class="dark"><td class="col-md-2 align-centered">29185</td><td class="col-md-1 align-right  hidden-xs" ><img src="images/man_white.png"/></td><td class="col-md-8  hidden-xs">"A" Slide Music LLC "Max Hart" (exp.31.12.2014)</td><td class="col-md-1 align-centered"><span class="glyphicon glyphicon-euro" aria-hidden="true"></span></td></tr>
+                        <tr class="dark"><td class="col-md-2 align-centered">30254</td><td class="col-md-1 align-right  hidden-xs" ><img src="images/man_white.png"/></td><td class="col-md-8  hidden-xs">"A" Slide Music LLC d/b/a Modern Works Music Publ.</td><td class="col-md-1 align-centered"><span class="glyphicon glyphicon-euro" aria-hidden="true"></span></td></tr>
+                        <tr class="dark"><td class="col-md-2 align-centered">45874</td><td class="col-md-1 align-right  hidden-xs" ><img src="images/man_white.png"/></td><td class="col-md-8  hidden-xs">A Side Music Bootsy Collins Titles (exp.31.12.2014)</td><td class="col-md-1 align-centered"><span class="glyphicon glyphicon-euro" aria-hidden="true"></span></td></tr>
+                        <tr class="dark"><td class="col-md-2 align-centered">25417</td><td class="col-md-1 align-right  hidden-xs" ><img src="images/man_white.png"/></td><td class="col-md-8  hidden-xs">Bridge Of Singhs</td><td class="col-md-1 align-centered"><span class="glyphicon glyphicon-euro" aria-hidden="true"></span></td></tr>
+                        <tr class="dark"><td class="col-md-2 align-centered">12548</td><td class="col-md-1 align-right  hidden-xs" ><img src="images/man_white.png"/></td><td class="col-md-8  hidden-xs">Jazz Eyes Publishing Company</td><td class="col-md-1 align-centered"><span class="glyphicon glyphicon-euro" aria-hidden="true"></span></td></tr>
+                        <tr class="dark"><td class="col-md-2 align-centered">99874</td><td class="col-md-1 align-right  hidden-xs" ><img src="images/man_white.png"/></td><td class="col-md-8  hidden-xs">"A" Slide Music LLC "Max Hart" (exp.31.12.2014)</td><td class="col-md-1 align-centered"><span class="glyphicon glyphicon-euro" aria-hidden="true"></span></td></tr>
+                        <tr><td class="col-md-2 align-centered">25414</td><td class="col-md-1 align-right  hidden-xs"><img src="images/man_gray.png"/></td><td class="col-md-8  hidden-xs">More Cut Music</td><td class="col-md-1 align-centered"><span class="glyphicon glyphicon-euro" aria-hidden="true"></span></td></tr>
+                        <tr class="dark"><td class="col-md-2 align-centered">33254</td><td class="col-md-1 align-centered  hidden-xs"><img src="images/currency.png"/></td><td class="col-md-8  hidden-xs">"C" Vic Music (Writer Shares)</td><td class="col-md-1 align-centered"><span class="glyphicon glyphicon-euro" aria-hidden="true"></span></td></tr>
+                        <tr><td class="col-md-2 align-centered">32547</td><td class="col-md-1 align-right  hidden-xs"><img src="images/man_gray.png"/></td><td class="col-md-8  hidden-xs">"C" Vic Music (Writer Shares)</td><td class="col-md-1 align-centered"><span class="glyphicon glyphicon-euro" aria-hidden="true"></span></td></tr>
+                        <tr><td class="col-md-2 align-centered">35695</td><td class="col-md-1 align-right  hidden-xs"><img src="images/man_gray.png"/></td><td class="col-md-8  hidden-xs">Sharon Moore ("C" Vic Music)</td><td class="col-md-1 align-centered"><span class="glyphicon glyphicon-usd" aria-hidden="true"></span></td></tr>
+                        <tr><td class="col-md-2 align-centered">11445</td><td class="col-md-1 align-right  hidden-xs"><img src="images/man_gray.png"/></td><td class="col-md-8  hidden-xs">"A" Slide Music LLC "Max Hart" (exp.31.12.2014)</td><td class="col-md-1 align-centered"><span class="glyphicon glyphicon-usd" aria-hidden="true"></span></td></tr>
+                        <tr><td class="col-md-2 align-centered">58743</td><td class="col-md-1 align-right  hidden-xs"><img src="images/man_gray.png"/></td><td class="col-md-8  hidden-xs">"A" Slide Music LLC "Max Hart" (exp.31.12.2014)</td><td class="col-md-1 align-centered"><span class="glyphicon glyphicon-usd" aria-hidden="true"></span></td></tr>
+                        <tr><td class="col-md-2 align-centered">66584</td><td class="col-md-1 align-right  hidden-xs"><img src="images/man_gray.png"/></td><td class="col-md-8  hidden-xs">"A" Slide Music LLC "Max Hart" (exp.31.12.2014)</td><td class="col-md-1 align-centered"><span class="glyphicon glyphicon-usd" aria-hidden="true"></span></td></tr>
+                        <tr><td class="col-md-2 align-centered">99685</td><td class="col-md-1 align-right  hidden-xs"><img src="images/man_gray.png"/></td><td class="col-md-8  hidden-xs">"A" Slide Music LLC "Max Hart" (exp.31.12.2014)</td><td class="col-md-1 align-centered"><span class="glyphicon glyphicon-usd" aria-hidden="true"></span></td></tr>
+                        </tbody>
+
+                    </table>
+                </div>
+            </div>
+            <div class="modal-footer" style="text-align:center">
+                <div id="topIconDiv" class="col-md-1 col-xs-1 pull-right clearfix"><img src="images/top.png"/></div>
+                <button id="applyClientSelection" type="button" class="btn btn-lg btn-sm" >Apply Clients/Payees Selection</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Export Modal -->
+<div class="modal fade col-sm-12 col-md-12 col-xs-12" id="exportModal" tabindex="-1" role="dialog" aria-labelledby="exportModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><img src="images/close.png"/></span></button>
+                <div class="modal-title">
+                    <div class="chartTitle">CHART TITLE</div>
+                    <div class="chartSubTitle">Chart SubTitle</div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div id="reportFormat" class="row" >Report Format</div>
+                <div class="row" style="text-align:center">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img id="exportAsXL" src="images/xlsx_normal.png"/></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img id="exportAsPDF" src="images/pdf_normal.png"/></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img id="exportAsCSV" src="images/csv_normal.png"/></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/highcharts_new.js"></script>
+<script src="js/map.js"></script>
+<script src="js/world.js"></script>
+<script src="js/drilldown_new.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bmg/analytics.js"></script>
+<script src="js/bmg/analytics_backendFunctions.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#royaltiesTableDiv").css("display","block");
+});
+</script>
+
+</body>
+</html>
